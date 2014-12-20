@@ -57886,6 +57886,7 @@
 				<title>चाटुचणकः १९२ - दिग्वासा यदि तत्किमस्य वपुषा सास्त्रश्च......</title>
 				<feature>चाटुचणकः</feature>
 				<page>0009-0009</page>
+                <allauthors />
 			</entry>
 			<entry>
 				<title>सज्जनशतकम्-डा।। एच्. वि. नागराजरावः, प्रयोगचन्द्रिका-एन्. एस्. रामानुजताताचार्यः, कालार्कः-रोहिणीराजः तिमिल्सिना</title>
@@ -58037,6 +58038,7 @@
 				<title>एहि हसामः !</title>
 				<feature>एहि हसामः</feature>
 				<page>0029-0029</page>
+                <allauthors />
 			</entry>
 			<entry>
 				<title>वार्ताः</title>
@@ -58052,6 +58054,222 @@
 			</entry>
 			<entry>
 				<title>Aksharam - विजयदशमीविशेषाङ्कः - २०१४</title>
+				<feature>Advertisement</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
+	</volume>
+    <volume vnum="020">
+		<issue inum="01" month="10" year="2014">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>काश्मीरे जलाप्लावः.....</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पुण्यश्लोकः खलु श्लोकः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0009</page>
+				<allauthors>
+					<author type="1" sal="विद्वान्">श्रीरमणशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २४०</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चाटुचणकः १९३ - कस्त्वं भारतदेशीयः तत्त्वशास्त्रविशारदः ।......</title>
+				<feature>चाटुचणकः</feature>
+				<page>0010-0010</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>कनकावरणम् - भागः-२६</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0014</page>
+				<allauthors>
+					<author type="1" sal="डा।।">गणेशय्यः, के. एन्.</author>
+					<author type="2" sal="">उपेन्द्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भाषापाकः - २१३</title>
+				<feature>भाषापाकः</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गर्वः अनुचितः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="3" sal="">नारायणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>श्रूयतां घण्टानादः (मराठीमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0015-0016</page>
+				<allauthors>
+					<author type="1" sal="श्री">रत्नाकर मतकरी</author>
+					<author type="2" sal="">अलका भा. रानडे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भवभावना (श्री हेमचन्द्रसूरिसन्दृब्धा)-श्रावणशुक्लचतुर्थी, भौमीपरिणयचम्पूः-श्री रत्नखेटदीक्षितः, श्री नरसिंहनखकौमुदी-के. सुधाकररावः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">विजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतीयगणितप्रियः मञ्जुलभार्गवः</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="3" sal="">देवकीनन्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>रक्षणीयः कार्योत्साहः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="3" sal="">प्रह्लादशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भवता कति प्रहाराः प्राप्येरन्?</title>
+				<feature>बालमोदिनी</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="3" sal="">मनोजदासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पुण्यस्य फलम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0022-0022</page>
+				<allauthors>
+					<author type="3" sal="">आनन्दकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ८६</title>
+				<feature>कुतुककुटी</feature>
+				<page>0023-0023</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मूर्खः राजा - ५</title>
+				<feature>चित्रकथा</feature>
+				<page>0023-0023</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>लघुपरीक्षा आधुनिकताविषये....</title>
+				<feature>लेखनम्</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">श्यामला</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २४२</title>
+				<feature>निकषोपलः</feature>
+				<page>0025-0026</page>
+				<allauthors>
+					<author type="1" sal="">गुण्डमि गणपय्य होळ्ळः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दीपोत्सव रे</title>
+				<feature>गीतम्</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ८६</title>
+				<feature>सुयोगः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मुस्लिम् महिला संस्कृतविभागस्य प्रमुखा</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">गजाननः, अ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सिद्धपुरुषशापात् भग्नं शिवलिङ्गम्</title>
+				<feature>लेखनम्</feature>
+				<page>0027-0028</page>
+				<allauthors>
+					<author type="1" sal="">बालाजी भारद्वजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वाग् ब्रवीति.....</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="3" sal="">श्रवणकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>एहि हसामः !</title>
+				<feature>एहि हसामः</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="1" sal="">सदानन्दः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0030-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ताः - सप्ताहवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - Samskrita Bharati</title>
 				<feature>Advertisement</feature>
 				<page>0036-0036</page>
 				<allauthors />
