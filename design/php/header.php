@@ -9,6 +9,7 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.dropotron.min.js"></script>
 	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/devanagari_kbd.js"></script>
 	<script src="js/jquery.scrollgress.min.js"></script>
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-layers.min.js"></script>

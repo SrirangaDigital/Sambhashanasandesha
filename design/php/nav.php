@@ -11,7 +11,7 @@
 						<li><a href="about_sb.php">Samskrita Bharati</a></li>
 					</ul>
 				</li>
-				<li class="current"><a href="subscribe.php">Subscribe</a>
+				<li><a href="subscribe.php">Subscribe</a>
 					<ul>
 						<li><a href="subscribe.php">India</a></li>
 						<li><a href="subscribe_us.php">US & Canada</a></li>
