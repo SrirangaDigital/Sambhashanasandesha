@@ -1188,6 +1188,9 @@
 			box-shadow:10px 10px 10px #EEE;
 */
 		}
+		.volumes p {
+			font-size:0.85em;
+		}
 		
 		/* Hollow */
 		.box-shadow-outset {
@@ -1203,6 +1206,8 @@
 		.box-shadow-outset:hover, .box-shadow-outset:focus, .box-shadow-outset:active {
 		  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 		}d: none;
-		
+		.inum  {
+				border: 1px solid red;
+			}
 		
 

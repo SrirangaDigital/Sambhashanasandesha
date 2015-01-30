@@ -20,9 +20,9 @@
 				</li>
 				<li><a href="">Archives</a>
 					<ul>
-						<li><a href="#">Volumes</a></li>
-						<li><a href="#">Articles</a></li>
-						<li><a href="#">Authors</a></li>
+						<li><a href="volumes.php">Volumes</a></li>
+						<li><a href="articles.php">Articles</a></li>
+						<li><a href="authors.php">Authors</a></li>
 						<li><a href="search.php">Search</a></li>
 					</ul>
 				</li>

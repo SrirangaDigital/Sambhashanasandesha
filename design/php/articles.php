@@ -71,13 +71,22 @@
 		
 	</div>
 	
-			<tr>
   
-			<ul class="dot">
-			 <li><a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...</span><span class="featurespan">|&nbsp; इतिहासः </span><br /><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a></li>
-			 <li><a href="#"><span class="titlespan">निकषोपलः - १३</span><span class="featurespan">|&nbsp;|  स्थिरशीर्षिकाः </span><br /><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a></li>
-			 <li><a href="#"><span class="titlespan">दिने दृश्यते अन्धकारः </span><span class="featurespan">|&nbsp; ग्रहणम् </span><br /><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a></li>
-			</ul>   
+				<div class="box">
+					<div class="inside">
+						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...</span><span class="featurespan">|&nbsp; इतिहासः </span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inside">
+						<a href="#"><span class="titlespan">निकषोपलः - १३</span><span class="featurespan">|&nbsp;|  स्थिरशीर्षिकाः </span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inside">
+						<a href="#"><span class="titlespan">दिने दृश्यते अन्धकारः </span><span class="featurespan">|&nbsp; ग्रहणम् </span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a>
+					</div>
+				</div>
 
 <?php
 //actual PHP code goes here (for suresh)
