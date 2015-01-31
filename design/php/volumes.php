@@ -2,9 +2,9 @@
 <?php include("nav.php"); ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon fa-newspaper-o"></span>
+		<span class="icon fa-book"></span>
 		<h2><strong>Volumes</strong></h2>
-		<p>Lists all the volumes of Sambhashana Sandesha.</p>
+		<p>Click on the year to see the issues.</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

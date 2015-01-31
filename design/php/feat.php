@@ -4,8 +4,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-newspaper-o"></span>
-		<h2><strong>Articles</strong></h2>
-		<p>Lists of article in <?php echo $_GET["featname"];?> feature Sambhashana Sandesha</p>
+		<h2><strong>Features</strong></h2>
+		<p>Feature :<?php echo $_GET["featname"];?></p>
 	</header>
 	<section class="wrapper style4 container">
 		<?php 

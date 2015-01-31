@@ -5,7 +5,7 @@
 	<header class="special container">
 		<span class="icon fa-newspaper-o"></span>
 		<h2><strong>Features</strong></h2>
-		<p>Lists of features in Sambhashana Sandesha.</p>
+		<p>Lists of features.</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

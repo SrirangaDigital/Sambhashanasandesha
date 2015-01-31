@@ -3,7 +3,7 @@
 <?php require("common.php"); ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon fa-newspaper-o"></span>
+		<span class="icon fa-pencil"></span>
 		<h2><strong>Articles</strong></h2>
 		<p>Lists all the articles of Sambhashana Sandesha.</p>
 	</header>
@@ -116,7 +116,7 @@
 					
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year <a href=\"toc.php?volume=$volume&issue=$inum\">(Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a><br/>";
+			echo		"<a href=\"#\"><span class=\"titlespan .sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?volume=$volume&issue=$inum\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a></span><br/>";
 			$sumne = preg_split("/;/",$authorid);
 			for($k = 0; $k < count($sumne); $k++)
 			{

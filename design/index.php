@@ -31,7 +31,7 @@
 		<nav id="nav">
 			<ul>
 				<li class="current"><a href="index.php">Home</a></li>
-				<li><a href="php/about.php">About Vishwas</a>
+				<li><a href="php/about.php">About</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
@@ -65,13 +65,13 @@
 				<h2>सम्भाषण संदेश:</h2>
 				</header>
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
-				<?php 
-					include("php/connect.php");
-				?>
+				<?php include("php/connect.php");?>
 				<footer>
-					<ul class="buttons vertical">
-						<li><a href="php/toc.php?volume=<?php echo $volume;?>&issue=<?php echo $issue;?>" class="button fit scrolly">Click to view the latest issue</a></li>
-					</ul>
+					<?php $vol=$volume;$iss=$issue; 
+						echo '<ul class="buttons vertical">';
+						echo '<li><a class="button fit scrolly" href="php/toc.php?volume=$vol&amp;issue=$iss"> Click to view the latest issue</a></li>';
+						echo '</ul>';
+					?>
 				</footer>
 		</div>
 	</section>
@@ -108,8 +108,7 @@
 				</div>
 			</div>
 		</section>
-	<!-- Two -->
-		<section class="wrapper style1 container special">
+		<section id="temp" class="wrapper style1 container special">
 			<div class="row">
 				<div class="6u 12u(narrower)">
 					<section>
@@ -132,7 +131,7 @@
 			</div>
 			<footer class="major">
 				<ul class="buttons">
-					<li><a href="#" class="button">See More</a></li>
+					<li><a href="php/about.php" class="button">See More</a></li>
 				</ul>
 			</footer>
 		</section>
@@ -140,12 +139,11 @@
 	<!-- CTA -->
 	<section id="cta">
 		<header>
-			<h2>Ready to do <strong>something</strong>?</h2>
-				<p>Subscribe for "Sambhashana Sandesha"</p>
+				<h2>Subscribe for <strong>Sambhashana Sandesha</strong></h2>
 		</header>
 		<footer>
 			<ul class="buttons">
-				<li><a href="#" class="button special">Click here to subscribe</a></li>
+				<li><a href="php/subscribe.php" class="button special">Click here to subscribe</a></li>
 			</ul>
 		</footer>
 	</section>

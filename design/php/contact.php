@@ -8,6 +8,13 @@
 	</header>
 	<section class="wrapper style4 special container 75%">
 		<div class="content">
+			<header>
+				<p>SAMBHASHANA SANDESHA,<br />
+					“Aksharam”, 8th cross, Girinagar- 2nd phase<br />
+					Bangalore - 560 085<br />
+					<span class="icon fa-phone">&nbsp;&nbsp;[080]- 2672 1052 / 2672 2576<br />
+					<span class="icon fa-envelope"></span> samskritam@gmail.com </p>
+			</header><br /><br />
 			<form>
 				<div class="row 50%">
 					<div class="6u 12u(mobile)">
@@ -35,6 +42,7 @@
 					</div>
 				</div>
 			</form>
+			
 		</div>
 	</section>
 </article>
