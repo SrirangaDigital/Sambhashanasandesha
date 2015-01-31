@@ -15,9 +15,9 @@ include("connect.php");
 $volume = $_GET['volume'];
 $year = $_GET['year'];
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
+$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
-
+mysql_set_charset("utf8",$db);
 
 $month_eng=array('','January','February','March','April','May','June','July','August','September','October','November','December');
 

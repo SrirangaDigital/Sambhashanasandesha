@@ -54,6 +54,7 @@ include("connect.php");
 
 $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
+mysql_set_charset("utf8",$db);
 $query1 = "select * from feature order by featurename";
 $result1 = mysql_query($query1);
 $num_rows1 = mysql_num_rows($result1);

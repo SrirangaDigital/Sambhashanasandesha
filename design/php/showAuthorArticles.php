@@ -1,6 +1,5 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
-<?php require("common.php"); ?>
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-newspaper-o"></span>
@@ -72,17 +71,17 @@
 	</div>
 	
 <?php 
-	if(isset($_GET['letter']) && $_GET['letter'] != '')
+	
+	if(isset($_GET['authid']) && $_GET['authid'] != '')
 	{
-		$letter = $_GET['letter'];
-		$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
+		$authid = $_GET['authid'];
+		$query = "select * from article where authid  = $authid order by volume, issue, title, page";
 	}
 	else
 	{
 		$query = "select * from article order by volume, issue, title, page";
 	}
 	include("connect.php");
-
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
 	mysql_set_charset("utf8",$db);
@@ -97,17 +96,15 @@
 		{
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
-			$sumne = preg_split("/;/",$row['authorname']);
-			$authorname = $sumne[1];
+			$authname = $row['authorname'];
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
 			$title = $row['title'];
-			$month = $row['month']; 
+			$month = $row['month'];
 			$year = $row['year'];
 			$featureid = $row['featid'];
-			/*$type = $row['type'];*/
-		
+				
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
@@ -116,7 +113,7 @@
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")<br/><a href=\"showAuthorArticles.php?authid=$authorid\"><span class=\"authorspan\">".$authorname."</span> </a>";
+					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span><span class=\"featurespan\">|&nbsp;&nbsp; ".$featurename." </span><span class=\"authorspan\">".$authname."</span></a>";
 					echo	"</div>";
 					echo"</div>";
 		}

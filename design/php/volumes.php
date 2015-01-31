@@ -11,8 +11,10 @@
 			<div class="volumes">
 <?php
 	include("connect.php");
-	$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
+	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
+	mysql_set_charset("utf8",$db);
+	
 	$row_count = 4;
 	$query = "select distinct volume from article order by volume";
 	$result = mysql_query($query);

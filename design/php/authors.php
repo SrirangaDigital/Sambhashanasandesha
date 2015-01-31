@@ -4,105 +4,85 @@
 	<header class="special container">
 		<span class="icon fa-newspaper-o"></span>
 		<h2><strong>Authors</strong></h2>
-		<p>Lists all the authors of Sambhashana Sandesha.</p>
+		<p>Lists of authors by letter <?php echo '"'.$_GET['letter'].'"';?> in Sambhashana Sandesha.</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
 			<div class="letters">	
-		<a href="show_author.php?letter=अ">अ</a>
-		<a href="show_author.php?letter=आ">आ</a>
-		<a href="show_author.php?letter=इ">इ</a>
-		<a href="show_author.php?letter=ई">ई</a>
-		<a href="show_author.php?letter=उ">उ</a>
-		<a href="show_author.php?letter=ए">ए</a>
-		<a href="show_author.php?letter=ओ">ओ</a>
+		<a href="authors.php?letter=अ">अ</a>
+		<a href="authors.php?letter=आ">आ</a>
+		<a href="authors.php?letter=इ">इ</a>
+		<a href="authors.php?letter=ई">ई</a>
+		<a href="authors.php?letter=उ">उ</a>
+		<a href="authors.php?letter=ए">ए</a>
+		<a href="authors.php?letter=ओ">ओ</a>
 
-		<a href="show_author.php?letter=क">क</a>
-		<a href="show_author.php?letter=ख">ख</a>
-		<a href="show_author.php?letter=ग">ग</a>
-		<a href="show_author.php?letter=घ">घ</a>
+		<a href="authors.php?letter=क">क</a>
+		<a href="authors.php?letter=ख">ख</a>
+		<a href="authors.php?letter=ग">ग</a>
+		<a href="authors.php?letter=घ">घ</a>
 	
-		<a href="show_author.php?letter=च">च</a>
-		<a href="show_author.php?letter=ज">ज</a>
+		<a href="authors.php?letter=च">च</a>
+		<a href="authors.php?letter=ज">ज</a>
 		
-		<a href="show_author.php?letter=ट">ट</a>
-		<a href="show_author.php?letter=ड">ड</a>
+		<a href="authors.php?letter=ट">ट</a>
+		<a href="authors.php?letter=ड">ड</a>
 		
-		<a href="show_author.php?letter=त">त</a>
-		<a href="show_author.php?letter=द">द</a>
-		<a href="show_author.php?letter=ध">ध</a>
-		<a href="show_author.php?letter=न">न</a><br />
+		<a href="authors.php?letter=त">त</a>
+		<a href="authors.php?letter=द">द</a>
+		<a href="authors.php?letter=ध">ध</a>
+		<a href="authors.php?letter=न">न</a><br />
 	
-		<a href="show_author.php?letter=प">प</a>
-		<a href="show_author.php?letter=फ">फ</a>
-		<a href="show_author.php?letter=ब">ब</a>
-		<a href="show_author.php?letter=भ">भ</a>
-		<a href="show_author.php?letter=म">म</a><br />
+		<a href="authors.php?letter=प">प</a>
+		<a href="authors.php?letter=फ">फ</a>
+		<a href="authors.php?letter=ब">ब</a>
+		<a href="authors.php?letter=भ">भ</a>
+		<a href="authors.php?letter=म">म</a><br />
 
 
-		<a href="show_author.php?letter=य">य</a>
-		<a href="show_author.php?letter=र">र</a>
-		<a href="show_author.php?letter=ल">ल</a>
-		<a href="show_author.php?letter=व">व</a>
-		<a href="show_author.php?letter=श">श</a>
-		<a href="show_author.php?letter=ष">ष</a>
-		<a href="show_author.php?letter=स">स</a>
-		<a href="show_author.php?letter=ह">ह</a>
+		<a href="authors.php?letter=य">य</a>
+		<a href="authors.php?letter=र">र</a>
+		<a href="authors.php?letter=ल">ल</a>
+		<a href="authors.php?letter=व">व</a>
+		<a href="authors.php?letter=श">श</a>
+		<a href="authors.php?letter=ष">ष</a>
+		<a href="authors.php?letter=स">स</a>
+		<a href="authors.php?letter=ह">ह</a>
 		
 	</div>
-				<div class="box">
-					<div class="inside">
-						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...|</span><span class="featurespan">&nbsp; इतिहासः |&nbsp;</span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a>
-					</div>
-				</div>
-				 <div class="box">
-					<div class="inside">
-							<a href="#"><span class="titlespan">निकषोपलः - १३|</span><span class="featurespan">&nbsp;|  स्थिरशीर्षिकाः |&nbsp;</span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a>
-					</div>
-				</div>
-				<div class="box">
-						<div class="inside">
-							<a href="#"><span class="titlespan">दिने दृश्यते अन्धकारः |</span><span class="featurespan">&nbsp; ग्रहणम् |&nbsp;</span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a>
-					</div>
-				</div>
-						</div>
-					</div>
-				<div class="box">
-					<div class="inside">
-						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...|</span><span class="featurespan">&nbsp; इतिहासः |&nbsp;</span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a></div></div>
-					 <div class="box">
-						<div class="inside">
-							<a href="#"><span class="titlespan">निकषोपलः - १३|</span><span class="featurespan">&nbsp;|  स्थिरशीर्षिकाः |&nbsp;</span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a></div></div>
-					 <div class="box">
-						<div class="inside">
-							<a href="#"><span class="titlespan">दिने दृश्यते अन्धकारः |</span><span class="featurespan">&nbsp; ग्रहणम् |&nbsp;</span><span class="authorspan">जि. महाबलेश्र्वर भट्टः</span></a></div></div>
-						</div>
-					</div>
-					<div class="box">
-					<div class="inside">
-						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...|</span><span class="featurespan">&nbsp; इतिहासः |&nbsp;</span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a>
-					</div>
-				</div>
-				<div class="box">
-					<div class="inside">
-						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...|</span><span class="featurespan">&nbsp; इतिहासः |&nbsp;</span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a>
-					</div>
-				</div>
-				<div class="box">
-					<div class="inside">
-							<a href="#"><span class="titlespan">निकषोपलः - १३|</span><span class="featurespan">&nbsp;|  स्थिरशीर्षिकाः |&nbsp;</a>
-					</div>
-				</div>
-				<div class="box">
-					<div class="inside">
-						<a href="#"><span class="titlespan">भारतीयम् इतिहासम् अधिकृत्य इदमत्र किञ्चित् ...|</span><span class="featurespan">&nbsp; इतिहासः |&nbsp;</span><span class="authorspan">नवरत्नम् एस्. राजाराम् (मूलम्) ;</span></a>
-					</div>
-				</div>
-				
 <?php
-//actual PHP code goes here (for suresh)
-?>      
-			</div>
+	//actual PHP code goes here (for suresh)
+	include("connect.php");
+	if(isset($_GET['letter']) && $_GET['letter'] != '')
+	{
+		$letter = $_GET['letter'];
+		$query1 = "select * from author where authorname like '$letter%' order by authorname";
+	}
+	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
+	$rs = mysql_select_db($database,$db) or die("No Database");
+	mysql_set_charset("utf8",$db);
+	
+	$result1 = mysql_query($query1);
+	$num_rows1 = mysql_num_rows($result1);
+
+	if($num_rows1)
+	{
+	
+		for($a=1;$a<=$num_rows1;$a++)
+		{
+			$row1=mysql_fetch_assoc($result1);
+			$authorname = $row1['authorname'];
+			$sal = $row1['sal'];
+			$authorid = $row1['authid'];
+			echo "<div class=\"box\">";
+			echo	"<div class=\"inside\">";
+			echo		"<a href=\"showAuthorArticles.php?authid=$authorid\"><span class=\"authorspan\">".$authorname."</span></a>";
+			echo	"</div>";
+			echo"</div>";
+		}
+	}
+?>	
+		</div>
 	</section>
 </article>
 <?php include("footer.php"); ?>

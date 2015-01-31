@@ -76,10 +76,8 @@ while($line)
 	{
 		$type = $1;
         $sal = $2;
-		#print $type."->";
 		$auth = $3;
-		$authname = $authname . ";" . $sal . " " . $auth . "|" . $type;
-		#print $authname . "\n";
+		$authname = $authname . ";" . $type . ";" . $auth . ";" . $sal;
 		$authid = $authid . ";" . get_author($auth);
 	}
 	elsif($line =~ /<allauthors\/>/)

@@ -15,6 +15,7 @@ $dbh->{'mysql_enable_utf8'} = 1;
 $dbh->do('SET NAMES utf8');
 
 $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400),
+type varchar(10),
 sal varchar(100),
 authid int(10) NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (authid))AUTO_INCREMENT=1001");
@@ -31,8 +32,7 @@ while($line)
 		$type = $1;
         $sal = $2;
 		$authorname = $3;
-
-		insert_author($authorname,$sal);
+		insert_author($authorname,$sal,$type);
 	}
 	$line = <IN>;
 }
@@ -41,7 +41,7 @@ $dbh->disconnect();
 
 sub insert_author()
 {
-	my($authorname,$sal) = @_;
+	my($authorname,$sal,$type) = @_;
 
 	$authorname =~ s/'/\\'/g;
 	my($sth1,$sth);
@@ -50,7 +50,7 @@ sub insert_author()
 	$sth->execute();
 	if($sth->rows() == 0)
 	{
-		$sth1=$dbh->prepare("insert into author values('$authorname','$sal','')");
+		$sth1=$dbh->prepare("insert into author values('$authorname','$type','$sal','')");
 		$sth1->execute();
 		$sth1->finish();
 	}

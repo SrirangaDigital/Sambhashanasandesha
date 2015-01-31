@@ -42,6 +42,8 @@ include("connect.php");
 
 $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
+mysql_set_charset("utf8",$db);
+
 echo "<div class=\"alphabet\"><h2>List of Features</h2></div>";
 $query1 = "select * from feature order by featurename";
 

@@ -21,9 +21,9 @@
 				<li><a href="">Archives</a>
 					<ul>
 						<li><a href="volumes.php">Volumes</a></li>
-						<li><a href="articles.php">Articles</a></li>
-						<li><a href="authors.php">Authors</a></li>
-						<li><a href="search.php">Search</a></li>
+						<li><a href="articles.php?letter=अ">Articles</a></li>
+						<li><a href="authors.php?letter=अ">Authors</a></li>
+						<li><a href="search.php?letter=अ">Search</a></li>
 					</ul>
 				</li>
 				<li><a href="contact.php">Contact</a></li>

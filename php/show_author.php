@@ -99,7 +99,7 @@ include("connect.php");
 
 $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
-
+mysql_set_charset("utf8",$db);
 
 $query1 = "select * from author where authorname like '$letter%' order by authorname";
 $result1 = mysql_query($query1);
