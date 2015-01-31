@@ -116,7 +116,20 @@
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")<br/><a href=\"showAuthorArticles.php?authid=$authorid\"><span class=\"authorspan\">".$authorname."</span> </a>";
+					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year <a href=\"toc.php?volume=$volume&issue=$inum\">(Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a><br/>";
+					$sumne = preg_split("/;/",$authorid);
+					for($k = 0; $k < count($sumne); $k++)
+					{
+						$query1 = "select * from author where authid = '$sumne[$k]'";
+						$result1 = mysql_query($query1);
+						$row1=mysql_fetch_assoc($result1);
+						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+						if(count($sumne) > 1 && $k < count($sumne)-1)
+						{
+							echo "|&nbsp;";
+						}
+					}
+					
 					echo	"</div>";
 					echo"</div>";
 		}
@@ -128,7 +141,6 @@
 	}
 	mysql_close($db);
 ?>
-			</div>
 	</section>
 </article>
 <?php include("footer.php"); ?>
