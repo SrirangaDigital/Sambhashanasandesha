@@ -126,7 +126,7 @@
 				echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 				if(count($sumne) > 1 && $k < count($sumne)-1)
 				{
-					echo "|&nbsp;";
+					echo "&nbsp;|&nbsp;";
 				}
 			}
 			
