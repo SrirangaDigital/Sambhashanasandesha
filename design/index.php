@@ -31,7 +31,7 @@
 		<nav id="nav">
 			<ul>
 				<li class="current"><a href="index.php">Home</a></li>
-				<li><a href="php/about.php">About</a>
+				<li><a href="php/about.php">About Vishwas</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
