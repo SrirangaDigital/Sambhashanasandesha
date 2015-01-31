@@ -100,7 +100,7 @@
 					<ul class="featured-icons">
 						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
 						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>
-						<li><a href="php/articles.php.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
+						<li><a href="php/articles.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
 						<li><a href="php/authors.php"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
 						<li><a href="php/search.php"><span class="icon fa-search"><span class="label">Search</span></span></a></li>
 						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
