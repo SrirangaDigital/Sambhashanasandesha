@@ -1,5 +1,6 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
+<?php include("common.php"); ?>
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-newspaper-o"></span>
@@ -96,7 +97,8 @@
 		{
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
-			$authname = $row['authorname'];
+			$sumne = preg_split("/;/",$row['authorname']);
+			$authname = $sumne[1];
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
@@ -113,7 +115,7 @@
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span><span class=\"featurespan\">|&nbsp;&nbsp; ".$featurename." </span><span class=\"authorspan\">".$authname."</span></a>";
+					echo		"<a href=\"#\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year <a href=\"toc.php?volume=$volume&issue=$inum\">(Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a>";
 					echo	"</div>";
 					echo"</div>";
 		}
