@@ -1175,6 +1175,7 @@
 		.box			{ display:block; }
 		.box .inside	{ display:inline-block;border: 1px dotted #D3D3D3;padding: 20px; border-radius:10px;background: #f2f5f6;  position: relative; margin: 10px 0;}
 		.letters {
+			border:1px solid red;
 		width: 600px;
 		}
 		.volumes {

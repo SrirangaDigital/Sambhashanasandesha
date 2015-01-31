@@ -33,31 +33,31 @@
 		<a href="articles.php?letter=ख">ख</a>
 		<a href="articles.php?letter=ग">ग</a>
 		<a href="articles.php?letter=घ">घ</a>
-		<a href="articles.php?letter=ङ">ङ</a><br />
+		<a href="articles.php?letter=ङ">ङ</a>
 	
 		<a href="articles.php?letter=च">च</a>
 		<a href="articles.php?letter=छ">छ</a>
 		<a href="articles.php?letter=ज">ज</a>
 		<a href="articles.php?letter=झ">झ</a>
-		<a href="articles.php?letter=ञ">ञ</a><br />
+		<a href="articles.php?letter=ञ">ञ</a>
 		
 		<a href="articles.php?letter=ट">ट</a>
 		<a href="articles.php?letter=ठ">ठ</a>
 		<a href="articles.php?letter=ड">ड</a>
 		<a href="articles.php?letter=ढ़">ढ़</a>
-		<a href="articles.php?letter=ण">ण</a><br />
+		<a href="articles.php?letter=ण">ण</a>
 		
 		<a href="articles.php?letter=त">त</a>
 		<a href="articles.php?letter=थ">थ</a>
 		<a href="articles.php?letter=द">द</a>
 		<a href="articles.php?letter=ध">ध</a>
-		<a href="articles.php?letter=न">न</a><br />
+		<a href="articles.php?letter=न">न</a>
 	
 		<a href="articles.php?letter=प">प</a>
 		<a href="articles.php?letter=फ">फ</a>
 		<a href="articles.php?letter=ब">ब</a>
 		<a href="articles.php?letter=भ">भ</a>
-		<a href="articles.php?letter=म">म</a><br />
+		<a href="articles.php?letter=म">म</a>
 
 
 		<a href="articles.php?letter=य">य</a>

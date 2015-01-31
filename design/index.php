@@ -44,11 +44,12 @@
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="">Archives</a>
+				<li><a href="php/volumes.php">Archives</a>
 					<ul>
 						<li><a href="php/volumes.php">Volumes</a></li>
 						<li><a href="php/articles.php">Articles</a></li>
 						<li><a href="php/authors.php">Authors</a></li>
+						<li><a href="php/feature.php">Features</a></li>
 						<li><a href="php/search.php">Search</a></li>
 					</ul>
 				</li>
@@ -88,18 +89,18 @@
 					<p>The language is very simple. Anyone with a basic knowledge of Sanskrit can easily understand. This is a project of "Sanskrit Bharati", which conducts the famous 10 day Sanskrit conversation classes.</p>
 					<footer>
 						<ul class="buttons">
-							<li><a href="#" class="button">Find Out More</a></li>
+							<li><a href="php/volumes.php" class="button">Find Out More</a></li>
 						</ul>
 					</footer>
 				</div>
 				<div class="4u 8u(narrower) important(narrower)">
 					<ul class="featured-icons">
-						<li><span class="icon fa-home"><span class="label">Home</span></span></li>
-						<li><span class="icon fa-book"><span class="label">Volumes</span></span></li>
-						<li><span class="icon fa-pencil"><span class="label">Articles</span></span></li>
-						<li><span class="icon fa-user"><span class="label">Authors</span></span></li>
-						<li><span class="icon fa-search"><span class="label">Search</span></span></li>
-						<li><span class="icon fa-tags"><span class="label">Categories</span></span></li>
+						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
+						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>
+						<li><a href="php/articles.php.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
+						<li><a href="php/authors.php"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
+						<li><a href="php/search.php"><span class="icon fa-search"><span class="label">Search</span></span></a></li>
+						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
 					</ul>
 				</div>
 			</div>

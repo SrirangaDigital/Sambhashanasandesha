@@ -30,29 +30,30 @@
 		<h1><a href="index.php">सम्भाषण संदेश:</a></h1>
 		<nav id="nav">
 			<ul>
-				<li class="current"><a href="index.php">उपक्रमः</a></li>
-				<li><a href="#">परिचयः</a>
+				<li class="current"><a href="index_sanskrit.php">उपक्रमः</a></li>
+				<li><a href="php/about.php">परिचयः</a>
 					<ul>
-						<li><a href="#">सम्भाषण संदेश:</a></li>
-						<li><a href="#">संस्कृतभारती</a></li>
+						<li><a href="php/about.php">सम्भाषण संदेश:</a></li>
+						<li><a href="php/about_sb.php">संस्कृतभारती</a></li>
 					</ul>
 				</li>
-				<li><a href="subscribe.php">Subscribe</a>
+				<li><a href="php/subscribe.php">ग्राहकता</a>
 					<ul>
-						<li><a href="#">India</a></li>
-						<li><a href="#">US & Canada</a></li>
-						<li><a href="#">Other Nations</a></li>
+						<li><a href="php/subscribe.php">India</a></li>
+						<li><a href="php/subscribe_us.php">US &amp;Canada</a></li>
+						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="">संगृह</a>
+				<li><a href="php/volumes.php">संगृह</a>
 					<ul>
-						<li><a href="#">Volumes</a></li>
-						<li><a href="#">Articles</a></li>
-						<li><a href="#">Authors</a></li>
+						<li><a href="php/volumes.php">Volumes</a></li>
+						<li><a href="php/articles.php">Articles</a></li>
+						<li><a href="php/authors.php">Authors</a></li>
+						<li><a href="php/feature.php">Features</a></li>
 						<li><a href="search.php">Search</a></li>
 					</ul>
 				</li>
-				<li><a href="contact.php">सम्पर्कः</a></li>
+				<li><a href="php/contact.php">सम्पर्कः</a></li>
 			</ul>
 		</nav>
 	</header>
