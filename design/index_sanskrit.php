@@ -65,11 +65,15 @@
 				<h2>सम्भाषण संदेश:</h2>
 				</header>
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
+				<?php 
+					include("php/connect.php");
+				?>
 				<footer>
 					<ul class="buttons vertical">
-						<li><a href="#" class="button fit scrolly">Click to view the latest issue</a></li>
+						<li><a href="php/toc.php?volume=<?php echo $volume;?>&issue=<?php echo $issue;?>" class="button fit scrolly">Click to view the latest issue</a></li>
 					</ul>
 				</footer>
+
 		</div>
 	</section>
 	<!-- Main -->
