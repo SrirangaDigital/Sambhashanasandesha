@@ -1186,12 +1186,14 @@
 			color:#8b0000;
 		}
 		.volumes {
-			width:100%;
+			width:75%;
 			text-align:center;
+			margin-left:10%;
+			margin-right:10%;
 		}
 		.volumes a {
 			display:inline-block;
-			padding:1em 1em;
+			padding:1.5em 1.5em;
 			height:190px;
 /*
 			box-shadow:10px 10px 10px #EEE;
