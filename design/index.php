@@ -67,10 +67,10 @@
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
 				<?php include("php/connect.php");?>
 				<footer>
-					<?php $vol=$volume;$iss=$issue; 
-						echo '<ul class="buttons vertical">';
-						echo '<li><a class="button fit scrolly" href="php/toc.php?volume=$vol&amp;issue=$iss"> Click to view the latest issue</a></li>';
-						echo '</ul>';
+					<?php 
+						echo "<ul class=\"buttons vertical\">";
+						echo "<li><a class=\"button fit scrolly\" href=\"php/toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"> Click to view the latest issue</a></li>";
+						echo "</ul>";
 					?>
 				</footer>
 		</div>

@@ -3,9 +3,9 @@
 <?php include("common.php"); ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon fa-newspaper-o"></span>
-		<h2><strong>Features</strong></h2>
-		<p>Feature :<?php echo $_GET["featname"];?></p>
+		<span class="icon fa-tags"></span>
+		<h2><strong>Feature</strong></h2>
+		<p><?php echo $_GET["featname"];?></p>
 	</header>
 	<section class="wrapper style4 container">
 		<?php 
@@ -34,7 +34,14 @@
 					$row=mysql_fetch_assoc($result);
 					$authorid = $row['authid'];
 					$sumne = preg_split("/;/",$row['authorname']);
-					$authorname = $sumne[1];
+					if(count($sumne)>1)
+					{
+						$authorname = $sumne[1];
+					}
+					else
+					{
+						$authorname = $sumne[0];
+					}
 					$volume = $row['volume'];
 					$inum = $row['issue'];
 					$page = $row['page'];
@@ -49,17 +56,17 @@
 					$row1=mysql_fetch_assoc($result1);
 					$featurename = $row1['featurename'];
 					$featureid = $row1['featid'];
-							
+					$authorname1 = preg_replace("/ /","%20",$authorname);	
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&month=$month&year=$year&page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year <a href=\"toc.php?volume=$volume&issue=$inum\">(Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a><br/>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?volume=$volume&amp;issue=$inum&amp;year=$year&amp;month=$month\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a><br/>";
 					$sumne = preg_split("/;/",$authorid);
 					for($k = 0; $k < count($sumne); $k++)
 					{
 						$query1 = "select * from author where authid = '$sumne[$k]'";
 						$result1 = mysql_query($query1);
 						$row1=mysql_fetch_assoc($result1);
-						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 						if(count($sumne) > 1 && $k < count($sumne)-1)
 						{
 							echo "&nbsp;|&nbsp;";

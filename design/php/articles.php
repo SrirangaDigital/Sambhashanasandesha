@@ -9,67 +9,54 @@
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
-<!--
-			<div class="alphabet">
--->
 		<div class="letters">	
-		<a href="articles.php?letter=अ">अ</a>
-		<a href="articles.php?letter=आ">आ</a>
-		<a href="articles.php?letter=इ">इ</a>
-		<a href="articles.php?letter=ई">ई</a>
-		<a href="articles.php?letter=उ">उ</a>
-		<a href="articles.php?letter=ऊ">ऊ</a>
-		<a href="articles.php?letter=ऋ">ऋ</a>
-		<a href="articles.php?letter=ए">ए</a>
-		<a href="articles.php?letter=ऐ">ऐ</a>
-		<a href="articles.php?letter=ओ">ओ</a>
-		<a href="articles.php?letter=औ">औ</a>
-		<a href="articles.php?letter=अं">अं</a>
-		<a href="articles.php?letter=अः">अः</a><br />
+			<a href="articles.php?letter=अ">अ</a>
+			<a href="articles.php?letter=आ">आ</a>
+			<a href="articles.php?letter=इ">इ</a>
+			<a href="articles.php?letter=ई">ई</a>
+			<a href="articles.php?letter=उ">उ</a>
+			<a href="articles.php?letter=ऊ">ऊ</a>
+			<a href="articles.php?letter=ऋ">ऋ</a>
+			<a href="articles.php?letter=ए">ए</a>
+			<a href="articles.php?letter=ऐ">ऐ</a>
+			<a href="articles.php?letter=ओ">ओ</a>
+			<a href="articles.php?letter=औ">औ</a>
 		
+			<a href="articles.php?letter=क">क</a>
+			<a href="articles.php?letter=ख">ख</a>
+			<a href="articles.php?letter=ग">ग</a>
+			<a href="articles.php?letter=घ">घ</a>
 		
+			<a href="articles.php?letter=च">च</a>
+			<a href="articles.php?letter=छ">छ</a>
+			<a href="articles.php?letter=ज">ज</a>
+			<a href="articles.php?letter=झ">झ</a>
+			
+			<a href="articles.php?letter=ट">ट</a>
+			<a href="articles.php?letter=ड">ड</a>
+			
+			<a href="articles.php?letter=त">त</a>
+			<a href="articles.php?letter=थ">थ</a>
+			<a href="articles.php?letter=द">द</a>
+			<a href="articles.php?letter=ध">ध</a>
+			<a href="articles.php?letter=न">न</a>
 		
-		<a href="articles.php?letter=क">क</a>
-		<a href="articles.php?letter=ख">ख</a>
-		<a href="articles.php?letter=ग">ग</a>
-		<a href="articles.php?letter=घ">घ</a>
-		<a href="articles.php?letter=ङ">ङ</a>
-	
-		<a href="articles.php?letter=च">च</a>
-		<a href="articles.php?letter=छ">छ</a>
-		<a href="articles.php?letter=ज">ज</a>
-		<a href="articles.php?letter=झ">झ</a>
-		<a href="articles.php?letter=ञ">ञ</a>
-		
-		<a href="articles.php?letter=ट">ट</a>
-		<a href="articles.php?letter=ठ">ठ</a>
-		<a href="articles.php?letter=ड">ड</a>
-		<a href="articles.php?letter=ढ़">ढ़</a>
-		<a href="articles.php?letter=ण">ण</a>
-		
-		<a href="articles.php?letter=त">त</a>
-		<a href="articles.php?letter=थ">थ</a>
-		<a href="articles.php?letter=द">द</a>
-		<a href="articles.php?letter=ध">ध</a>
-		<a href="articles.php?letter=न">न</a>
-	
-		<a href="articles.php?letter=प">प</a>
-		<a href="articles.php?letter=फ">फ</a>
-		<a href="articles.php?letter=ब">ब</a>
-		<a href="articles.php?letter=भ">भ</a>
-		<a href="articles.php?letter=म">म</a>
+			<a href="articles.php?letter=प">प</a>
+			<a href="articles.php?letter=फ">फ</a>
+			<a href="articles.php?letter=ब">ब</a>
+			<a href="articles.php?letter=भ">भ</a>
+			<a href="articles.php?letter=म">म</a>
 
 
-		<a href="articles.php?letter=य">य</a>
-		<a href="articles.php?letter=र">र</a>
-		<a href="articles.php?letter=ल">ल</a>
-		<a href="articles.php?letter=व">व</a>
-		<a href="articles.php?letter=श">श</a>
-		<a href="articles.php?letter=ष">ष</a>
-		<a href="articles.php?letter=स">स</a>
-		<a href="articles.php?letter=ह">ह</a>
-		<a href="articles.php?letter=ळ">ळ</a>
-	</div>
+			<a href="articles.php?letter=य">य</a>
+			<a href="articles.php?letter=र">र</a>
+			<a href="articles.php?letter=ल">ल</a>
+			<a href="articles.php?letter=व">व</a>
+			<a href="articles.php?letter=श">श</a>
+			<a href="articles.php?letter=ष">ष</a>
+			<a href="articles.php?letter=स">स</a>
+			<a href="articles.php?letter=ह">ह</a>
+		</div>
 	
 <?php 
 	if(isset($_GET['letter']) && $_GET['letter'] != '')
@@ -98,7 +85,15 @@
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
 			$sumne = preg_split("/;/",$row['authorname']);
-			$authorname = $sumne[1];
+			if(count($sumne)>1)
+			{
+				$authorname = $sumne[1];
+			}
+			else
+			{
+				$authorname = $sumne[0];
+			}
+			$authorname1 = preg_replace("/ /","%20",$authorname);
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
@@ -111,19 +106,20 @@
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
-			$featurename = $row1['featurename'];
+			$featurename = preg_replace("/ /","%20",$row1['featurename']);
+			
 			$featureid = $row1['featid'];
 					
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"#\"><span class=\"titlespan .sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?volume=$volume&issue=$inum\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a></span><br/>";
+			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan .sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a></span><br/>";
 			$sumne = preg_split("/;/",$authorid);
 			for($k = 0; $k < count($sumne); $k++)
 			{
 				$query1 = "select * from author where authid = '$sumne[$k]'";
 				$result1 = mysql_query($query1);
 				$row1=mysql_fetch_assoc($result1);
-				echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+				echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
 				if(count($sumne) > 1 && $k < count($sumne)-1)
 				{
 					echo "&nbsp;|&nbsp;";
@@ -141,6 +137,7 @@
 	}
 	mysql_close($db);
 ?>
+		</div>
 	</section>
 </article>
 <?php include("footer.php"); ?>

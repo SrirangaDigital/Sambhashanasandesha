@@ -157,6 +157,7 @@ function getMonth_part($month)
 	
 	return $month;
 }
+
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */

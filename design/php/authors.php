@@ -4,7 +4,7 @@
 	<header class="special container">
 		<span class="icon fa-user"></span>
 		<h2><strong>Authors</strong></h2>
-		<p>Author names starting with letter<strong>&nbsp;<?php echo '"'.$_GET['letter'].'"';?></strong></p>
+		<p>Author names starting with the letter<strong>&nbsp;<?php echo '"'.$_GET['letter'].'"';?></strong></p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -70,11 +70,12 @@
 		{
 			$row1=mysql_fetch_assoc($result1);
 			$authorname = $row1['authorname'];
+			$authorname1 = preg_replace("/ /","%20",$authorname);
 			$sal = $row1['sal'];
 			$authorid = $row1['authid'];
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"showAuthorArticles.php?authid=$authorid\"><span class=\"authorspan\">".$authorname."</span></a>";
+			echo		"<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
 			echo	"</div>";
 			echo "</div>";
 		}

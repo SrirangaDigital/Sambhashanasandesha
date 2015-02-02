@@ -18,7 +18,7 @@
 		$volume = $_GET['volume'];
 		$month = $_GET['month'];
 		$year = $_GET['year'];
-		//~ $page = $_GET['pagenum'].".jpg";
+		$page = $_GET['pagenum'].".jpg";
 		//~ $search = $_GET['search'];
 		$djvurl = "../../../Volumes/djvu/".$year."/".$month;
 		$imgurl = "../../../Volumes/jpg/2/".$year."/".$month;

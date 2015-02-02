@@ -1,26 +1,32 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
 <?php include("common.php"); ?>
-<article id="main">
-	<header class="special container">
-		<span class="icon fa-newspaper-o"></span>
-		<h2><strong>Articles</strong></h2>
-		<p>Lists all the articles of Sambhashana Sandesha.</p>
-	</header>
-	<section class="wrapper style4 container">
-<?php 
-	if((isset($_GET['volume']) && $_GET['volume'] != '') && isset($_GET['issue']) && $_GET['issue'] != '')
+<?php
+	
+	if((isset($_GET['month']) && $_GET['month'] != '') && isset($_GET['year']) && $_GET['year'] != '')
 	{
+		$month = $_GET['month'];
+		$year = $_GET['year'];
 		$volume = $_GET['volume'];
 		$issue = $_GET['issue'];
-		$query = "select * from article where volume = $volume and issue = $issue order by volume, issue, title, page";
+		$query = "select * from article where year = $year and month = $month order by volume, issue, title, page";
 	}
 	else
 	{
-		$query = "select * from article order by volume, issue, title, page";
+		$query = "select * from article order by year, month, title, page";
 	}
+	
+?>
+<article id="main">
+	<header class="special container">
+		<span class="icon fa-pencil"></span>
+		<h2><strong><?php echo getMonth($month)." ".$year; ?></strong></h2>
+		<p><?php echo "Volume ".intval($volume).", Issue ".$issue?></p>
+	</header>
+	
+	<section class="wrapper style4 container">
+<?php 
 	include("connect.php");
-
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
 	mysql_set_charset("utf8",$db);
@@ -36,7 +42,15 @@
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
 			$sumne = preg_split("/;/",$row['authorname']);
-			$authorname = $sumne[1];
+			if(count($sumne)>1)
+			{
+				$authorname = $sumne[1];
+			}
+			else
+			{
+				$authorname = $sumne[0];
+			}
+			$authorname1 = preg_replace("/ /","%20",$authorname);
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
@@ -49,12 +63,13 @@
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
-			$featurename = $row1['featurename'];
+			$featurename = preg_replace("/ /","%20",$row1['featurename']);
+			
 			$featureid = $row1['featid'];
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&month=$month&year=$year&page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;".getMonth($month)." $year<br/><a href=\"showAuthorArticles.php?authid=$authorid\"><span class=\"authorspan\">".$authorname."</span> </a>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>"; if($authorname != "")echo "&nbsp;|&nbsp;"; echo "<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
 					echo	"</div>";
 					echo"</div>";
 		}

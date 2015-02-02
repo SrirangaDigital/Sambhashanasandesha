@@ -3,15 +3,14 @@
 <?php include("common.php"); ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon fa-newspaper-o"></span>
+		<span class="icon fa-tags"></span>
 		<h2><strong>Features</strong></h2>
-		<p>Lists of features.</p>
+		<p>Lists of features</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
 			
 <?php
-	//actual PHP code goes here (for suresh)
 	include("connect.php");
 	$query1 = "select * from feature where featid != '' order by featurename";
 	
@@ -33,7 +32,7 @@
 			
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"feat.php?feat=$featid\"><span class=\"authorspan\">".$featurename."</span></a>";
+			echo		"<a href=\"feat.php?featid=$featid&amp;featname=$featurename\"><span class=\"authorspan\">".$featurename."</span></a>";
 			echo	"</div>";
 			echo"</div>";
 		}

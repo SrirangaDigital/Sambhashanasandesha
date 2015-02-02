@@ -58,7 +58,7 @@
 					$count = 1;
 				}
 				$vnum = preg_replace("/^[0]+/", "", $volume);
-				echo "<a class=\"box-shadow-outset\" href=\"issue.php?volume=$volume&year=$year\"><img src=\"images/cover/$vnum.png\" alt=\"Issue $vnum cover page\" /><p class=\"inum\"> $year</p></a>";
+				echo "<a class=\"box-shadow-outset\" href=\"issue.php?volume=$volume&amp;year=$year\"><img src=\"images/cover/$vnum.png\" alt=\"Issue $vnum cover page\" /><p class=\"inum\"> $year</p></a>";
 				
 			}
 		}

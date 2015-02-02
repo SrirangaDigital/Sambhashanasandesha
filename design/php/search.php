@@ -25,23 +25,53 @@
 						<input type="text" name="author" id="author" onfocus="SetId('author')" value="" placeholder="Author" />
 					</div>
 				</div>
+				<div class="row uniform 50%">
+					<div class="3u 12u(3)">
+						<input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="Feature" />
+					</div>
+				</div>
 					<div class="row uniform 50%">
-						<div class="2u 12u(3)">
+						<span class="clr1">Year</span>
+						<div class="1u 6u">
 							<select name="year1" style="cursor:context-menu;">
 								<option value="">&nbsp;</option>
-										<?php
-										?>
+									<?php
+										include("connect.php");
+										$db = mysql_connect($server,$user,$password) or die("Not connected to database");
+										$rs = mysql_select_db($database,$db) or die("No Database");
+										mysql_set_charset("utf8",$db);
+									
+										$query = "select distinct year from article order by year";
+										$result = mysql_query($query);
+										$num_rows = $result ? mysql_num_rows($result) : 0;
+										if($num_rows > 0)
+										{
+											for($i=1;$i<=$num_rows;$i++)
+											{
+												$row = mysql_fetch_assoc($result);
+												$year=$row['year'];
+												echo "<option value=\"$year\">" . $year . "</option>";
+											}
+										}
+									?>
 							</select>
 						</div>
-						<span class="clr1">Year</span>
-		<!--
-						<span class="clr1">&nbsp;to&nbsp;</span>
-		-->
-						<div class="2u 12u(3)">
+						<p>To</p>
+						<div class="1u 6u">
 							<select name="year2" style="cursor:context-menu;">
 								<option value="">&nbsp;</option>
 									<?php
-										
+										$result = mysql_query($query);
+										$num_rows = $result ? mysql_num_rows($result) : 0;
+										if($num_rows > 0)
+										{
+											for($i=1;$i<=$num_rows;$i++)
+											{
+												$row = mysql_fetch_assoc($result);
+												$year=$row['year'];
+												echo "<option value=\"$year\">" . $year . "</option>";
+											}
+										}
 									?>
 							</select>
 						</div>
