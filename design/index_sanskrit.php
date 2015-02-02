@@ -65,15 +65,14 @@
 				<h2>सम्भाषण संदेश:</h2>
 				</header>
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
-				<?php 
-					include("php/connect.php");
-				?>
+				<?php include("php/connect.php");?>
 				<footer>
-					<ul class="buttons vertical">
-						<li><a href="php/toc.php?volume=<?php echo $volume;?>&issue=<?php echo $issue;?>" class="button fit scrolly">Click to view the latest issue</a></li>
-					</ul>
+					<?php 
+						echo "<ul class=\"buttons vertical\">";
+						echo "<li><a class=\"button fit scrolly\" href=\"php/toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"> Click to view the latest issue</a></li>";
+						echo "</ul>";
+					?>
 				</footer>
-
 		</div>
 	</section>
 	<!-- Main -->
@@ -133,7 +132,7 @@
 			</div>
 			<footer class="major">
 				<ul class="buttons">
-					<li><a href="#" class="button">See More</a></li>
+					<li><a href="php/about.php" class="button">See More</a></li>
 				</ul>
 			</footer>
 		</section>
@@ -146,7 +145,7 @@
 		</header>
 		<footer>
 			<ul class="buttons">
-				<li><a href="#" class="button special">Click here to subscribe</a></li>
+				<li><a href="php/subscribe.php" class="button special">Click here to subscribe</a></li>
 			</ul>
 		</footer>
 	</section>
@@ -157,7 +156,7 @@
 			<li>9900223344</li>
 		</ol>
 		<ol class="copyright">
-			<li>&copy;&nbsp;www.samskrita.in All Rights Reserved</li><li>Digitization & Design : <a href="http://srirangadigital.com/">Sriranga Digital Software Technologies</a></li>
+			<li>©&nbsp;www.samskrita.in All Rights Reserved</li><li>Digitization & Design : <a href="http://srirangadigital.com/">Sriranga Digital Software Technologies</a></li>
 		</ol>
 	</footer>
 </body>
