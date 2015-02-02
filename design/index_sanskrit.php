@@ -30,21 +30,21 @@
 		<h1><a href="index.php">सम्भाषण संदेश:</a></h1>
 		<nav id="nav">
 			<ul>
-				<li class="current"><a href="index.php">Home</a></li>
-				<li><a href="php/about.php">About</a>
+				<li class="current"><a href="index.php">उपक्रमः</a></li>
+				<li><a href="php/about.php">परिचयः</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
 					</ul>
 				</li>
-				<li><a href="php/subscribe.php">Subscribe</a>
+				<li><a href="php/subscribe.php">ग्राहकता</a>
 					<ul>
 						<li><a href="php/subscribe.php">India</a></li>
 						<li><a href="php/subscribe_us.php">US & Canada</a></li>
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="php/volumes.php">Archives</a>
+				<li><a href="javascript:void(0);">संग्रह</a>
 					<ul>
 						<li><a href="php/volumes.php">Volumes</a></li>
 						<li><a href="php/articles.php">Articles</a></li>
@@ -53,7 +53,7 @@
 						<li><a href="php/search.php">Search</a></li>
 					</ul>
 				</li>
-				<li><a href="php/contact.php">Contact</a></li>
+				<li><a href="php/contact.php">सम्पर्कः</a></li>
 			</ul>
 		</nav>
 	</header>

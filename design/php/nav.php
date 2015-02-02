@@ -18,7 +18,7 @@
 						<li><a href="subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="">Archives</a>
+				<li><a href="javascript:void(0);">Archives</a>
 					<ul>
 						<li><a href="volumes.php">Volumes</a></li>
 						<li><a href="articles.php?letter=अ">Articles</a></li>

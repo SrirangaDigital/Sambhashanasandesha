@@ -184,7 +184,7 @@
 									}
 									mysql_close($db);
 							?>
-						</section>
-					</div>
+						</div>
+					</section>	
                </article>
 				<?php include("footer.php");?>

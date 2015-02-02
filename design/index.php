@@ -44,7 +44,7 @@
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="php/volumes.php">Archives</a>
+				<li><a href="javascript:void(0);">Archives</a>
 					<ul>
 						<li><a href="php/volumes.php">Volumes</a></li>
 						<li><a href="php/articles.php">Articles</a></li>
