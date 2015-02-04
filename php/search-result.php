@@ -1,208 +1,190 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>​सम्भाषण सन्देशः</title>
-<link href="style/reset.css" rel="stylesheet" />
-<link href="style/style.css" rel="stylesheet" />
-</head>
-<body>
-<div class="container">
-	<div class="page">
-		<div class="header">
-			<div class="image">
-				<img src="images/SS.png" alt="sambhashana sandesha Logo" style="width:350px">
-			</div>
-				<ul id="menu">
-					<li><a href="../index.html">HOME</a></li>
-					<li><a href="about.php">ABOUT</a></li>
-					<li><a href="subscribe.php">SUBSCRIBE</a></li>
-					<li><a href="contact.php">CONTACT</a></li>
-					<li><a href="volume.php">ARCHIVE</a></li>
-				</ul>
-            </div>
-            <div class="display_content">
-                <div class="nav_archive sticky">
-                    <ul class="nav_archive_eng" style="float: left;">
-                        <li><a href="volume.php">Volumes</a></li>
-                        <li><a href="show_article.php?letter=अ">Articles</a></li>
-                        <li><a href="show_author.php?letter=अ">Authors</a></li>
-                        <li><a href="feature.php">Category</a></li>
-                        <li><a href="search.php">Search</a></li>
-                    </ul>
-                </div>
-                <div class="widget12">
-                    <div class="col2 largeSpace">
-                        <div class="alphabet"><h2>Search Result(s)</h2></div><br><br><br><br>
+<!--
 <?php
-
-include("connect.php");
-
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-mysql_set_charset("utf8",$db);
-$author=$_POST['author'];
-$title=$_POST['title'];
-$feature=$_POST['feature'];
-
-$author = preg_replace("/[\t]+/", " ", $author);
-$author = preg_replace("/[ ]+/", " ", $author);
-$author = preg_replace("/^ /", "", $author);
-
-$title = preg_replace("/[\t]+/", " ", $title);
-$title = preg_replace("/[ ]+/", " ", $title);
-$title = preg_replace("/^ /", "", $title);
-
-if($author=='')
-{
-	$author='[a-z]*';
-}
-if($title=='')
-{
-	$title='[a-z]*';
-}
-if($feature=='')
-{
-	$feature='[0-9]*';
-}
-
-$month_name = array("1"=>"जनवरी","2"=>"फेब्रवरी","3"=>"मार्च्","4"=>"एप्रिल्","5"=>"मे","6"=>"जून्","7"=>"जुलै","8"=>"अगस्ट्","9"=>"सप्टम्बर्","10"=>"अक्टोबर्","11"=>"नवम्बर्","12"=>"डिसेम्बर्");
-$month_eng=array('','January','February','March','April','May','June','July','August','September','October','November','December');
-
-$query="SELECT * FROM
-					(SELECT * FROM
-						(SELECT * FROM
-							(SELECT * FROM article WHERE authorname REGEXP '$author') AS tb1
-					WHERE title REGEXP '$title') AS tb2
-					WHERE featid REGEXP '$feature') AS tb3
-					ORDER BY volume, issue, page";
-#echo $query;
-$result = mysql_query($query);
-$num_rows = mysql_num_rows($result);
-if($num_rows)
-{
-	for($a=1;$a<=$num_rows;$a++)
-	{
-		$row=mysql_fetch_assoc($result);
-		$authorid = $row['authid'];
-		$authname = $row['authorname'];
-		$volume = $row['volume'];
-		$inum = $row['issue'];
-		$page = $row['page'];
-		$title = $row['title'];
-		$month = $row['month'];
-		$year = $row['year'];
-		$featureid = $row['featid'];
-	
-		$query1 = "select * from feature where featid = '$featureid'";
-		$result1 = mysql_query($query1);
-		$num_rows1 = mysql_num_rows($result1);
-	
-		if($num_rows1)
-		{
-            echo "\n<ul>";
-            for($k=1;$k<=$num_rows1;$k++)
-			{
-				$row1=mysql_fetch_assoc($result1);
-				$featurename = $row1['featurename'];
-				$featureid = $row1['featid'];
-				echo "<li class=\"topic\"><a href=\"../Volumes/$year/$month/index.djvu?djvuopts&amp;page=$page.djvu&amp;zoom=page\" target=\"_blank\">$title</a>";
-				
-				if($featurename != "")
-				{
-					echo "&nbsp;&nbsp;|&nbsp;&nbsp;";
-					echo "<a href=\"show_feature.php?featureid=$featureid&amp;featurename=".replace_space($featurename)."\">$featurename</a>";
-				}
-			}
-			$issue = preg_replace("/^[0]+/", "", $inum);
-			$vnum = preg_replace("/^[0]+/", "", $volume);
-			echo "&nbsp;&nbsp;|&nbsp;&nbsp;";
-			echo "<span class=\"month\"><a href=\"toc.php?volume=$volume&amp;issue=$inum\">".$month_eng{intval($month)}."&nbsp;$year";
-			echo ",&nbsp;$vnum($issue)</a></span>";
-			echo "</li>";
-            echo "</ul>\n";
-		}
-        
-		$type = array("1"=>"मूलम्","2"=>"अनु.","3"=>"सं","4"=>"चित्रम् ","5"=>"प्रायोजकः","6"=>"पद्याण","7"=>"कथा");
-        if($authorid != 0)
-		{
-			$authors_list = preg_split("/;/",$authname);
-			$author_ids_list = preg_split("/;/", $authorid);
-
-			$i = 0;
-			$count = sizeof($authors_list);
-			if($count == 1)
-			{
-				$authorname = preg_split("/\|/",$authors_list[$i]);
-				if($authorname[1] == 1)
-				{
-					echo "<span class=\"auth\"><a href=\"author.php?authorname=".replace_space($authorname[0])."&amp;authorid=$author_ids_list[$i]\">$authorname[0]</a></span>";
-				}
-				else
-				{
-					echo "<span class=\"auth\"><a href=\"author.php?authorname=".replace_space($authorname[0])."&amp;authorid=$author_ids_list[$i]\">$authorname[0]&nbsp;(".$type{intval($authorname[1])}.")</a></span>";
-				}
-			}
-			elseif($count > 1)
-			{
-				$list_n = array();
-				$list_t = array();
-			
-				for($i=0;$i<sizeof($authors_list);$i++)
-				{
-					$temp = array();
-					$temp = preg_split("/\|/",$authors_list[$i]);
-					$list_n[$i] = $temp[0];
-					$list_t[$i] = $temp[1];
-				}
-				$flag = 0;
-				for($i=0;$i<sizeof($list_n);$i++)
-				{
-					if($flag == 0)
-                    {
-                        echo "<span class=\"auth\"><a href=\"author.php?authorname=".replace_space($list_n[$i])."&amp;authorid=$author_ids_list[$i]\">$list_n[$i]&nbsp;(".$type{$list_t[$i]}.")</a></span>";
-                        $flag = 1;
-                    }
-                    else
-                    {
-                        echo "<span class=\"auth\"><span style=font-weight:bold>;</span></span><span class=\"auth\"><a href=\"author.php?authorname=".replace_space($list_n[$i])."&amp;authorid=$author_ids_list[$i]\">$list_n[$i]&nbsp;(".$type{$list_t[$i]}.")</a></span>";
-                    }
-                }
-            }
-		}
+	// If nothing is GETed, redirect to search page
+	if(empty($_GET['author']) && empty($_GET['title']) && empty($_GET['year1']) && empty($_GET['year2'])) {
+		header('Location: search.php');
+		exit(1);
 	}
-}
-else
-{
-	echo "<div class=\"empty topic\">No results</div>";
-	echo "<div class=\"empty topic\"><a href=\"search.php\">Go back and Search again</a></div>";
+?>
+-->
 
-}
-mysql_close($db);
+    <?php include("header.php");?>
+	<?php include("nav.php"); ?>
+	<?php include("common.php"); ?>
+			<article id="main">
+					<?php
+							include("connect.php");
+							$db = mysql_connect($server,$user,$password) or die("Not connected to database");
+							$rs = mysql_select_db($database,$db) or die("No Database");
+							mysql_set_charset("utf8",$db);
+							
+							if(mysql_error() > 0)
+							{
+								echo '<span class="aFeature clr2">Not connected to the Database</span>';
+								echo '</div> <!-- cd-container -->';
+								echo '</div> <!-- cd-scrolling-bg -->';
+								echo '</main> <!-- cd-main-content -->';
+								//~ include("include_footer.php");
+								exit(1);
+							}
+							if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
+							//~ if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
+							if(isset($_GET['title'])){$title = $_GET['title'];}else{$title = '';}
+							if(isset($_GET['featid'])){$featid = $_GET['featid'];}else{$featid = '';}
+							if(isset($_GET['year1'])){$year1 = $_GET['year1'];}else{$year1 = '';}
+							if(isset($_GET['year2'])){$year2 = $_GET['year2'];}else{$year2 = '';}
+							//~ $text = entityReferenceReplace($text);
+							$author = entityReferenceReplace($author);
+							$title = entityReferenceReplace($title);
+							$featid = entityReferenceReplace($featid);
+							$year1 = entityReferenceReplace($year1);
+							$year2 = entityReferenceReplace($year2);
+							$author = preg_replace("/[,\-]+/", " ", $author);
+							$author = preg_replace("/[\t]+/", " ", $author);
+							$author = preg_replace("/[ ]+/", " ", $author);
+							$author = preg_replace("/^ +/", "", $author);
+							$author = preg_replace("/ +$/", "", $author);
+							$author = preg_replace("/  /", " ", $author);
+							$author = preg_replace("/  /", " ", $author);
+							$title = preg_replace("/[,\-]+/", " ", $title);
+							$title = preg_replace("/[\t]+/", " ", $title);
+							$title = preg_replace("/[ ]+/", " ", $title);
+							$title = preg_replace("/^ +/", "", $title);
+							$title = preg_replace("/ +$/", "", $title);
+							$title = preg_replace("/  /", " ", $title);
+							$title = preg_replace("/  /", " ", $title);
+							//~ $text = preg_replace("/[,\-]+/", " ", $text);
+							//~ $text = preg_replace("/[\t]+/", " ", $text);
+							//~ $text = preg_replace("/[ ]+/", " ", $text);
+							//~ $text = preg_replace("/^ +/", "", $text);
+							//~ $text = preg_replace("/ +$/", "", $text);
+							//~ $text = preg_replace("/  /", " ", $text);
+							//~ $text = preg_replace("/  /", " ", $text);
+							if($title=='')
+							{
+								$title='[a-z]*';
+							}
+							if($author=='')
+							{
+								$author='[a-z]*';
+							}
+							if($featid=='')
+							{
+								$featid='[a-z]*';
+							}
+							($year1 == '') ? $year1 = 1994 : $year1 = $year1;
+							($year2 == '') ? $year2 = date('Y') : $year2 = $year2;
+							if($year2 < $year1)
+							{
+								$tmp = $year1;
+								$year1 = $year2;
+								$year2 = $tmp;
+							}
+							$authorFilter = '';
+							$titleFilter = '';
+							$authors = preg_split("/ /", $author);
+							$titles = preg_split("/ /", $title);
+							for($ic=0;$ic<sizeof($authors);$ic++)
+							{
+								$authorFilter .= "and authorname REGEXP '" . $authors[$ic] . "' ";
+							}
+							for($ic=0;$ic<sizeof($titles);$ic++)
+							{
+								$titleFilter .= "and title REGEXP '" . $titles[$ic] . "' ";
+							}
+							$authorFilter = preg_replace("/^and /", "", $authorFilter);
+							$titleFilter = preg_replace("/^and /", "", $titleFilter);
+							$titleFilter = preg_replace("/ $/", "", $titleFilter);
+							
+							$query="SELECT * FROM
+										(SELECT * FROM
+											(SELECT * FROM
+												(SELECT * FROM article WHERE $authorFilter) AS tb1
+											WHERE $titleFilter) AS tb2
+										WHERE featid REGEXP '$featid') AS tb3
+									WHERE year between $year1 and $year2 ORDER BY volume, issue, page";
+							
+							$result = mysql_query($query); 
+							$num_results = $result ? mysql_num_rows($result) : 0;
+							echo '<header class="special container">';
+							echo '<span class="icon fa-search"></span>';
+								echo'<h2>Search Results</h2>';
+								if($num_results > 0)
+								{
+									echo ($num_results > 1) ? '<p>'.$num_results.'&nbsp;Results</p>' : '<p>'.$num_results.'&nbsp;Result</p>';
+								}
+								else
+								{
+									echo '<p>No Results</p>';
+								}
+							echo '</header>';
+					?>
+				<section class="wrapper style4 container">
+						<div class="content">
+								<?php
+									$result = mysql_query($query);
+									$num_rows = mysql_num_rows($result);
+									
+									if($num_rows)
+									{
+										for($a=1;$a<=$num_rows;$a++)
+										{
+											$row=mysql_fetch_assoc($result);
+											$authorid = $row['authid'];
+											$sumne = preg_split("/;/",$row['authorname']);
+											if(count($sumne)>1)
+											{
+												$authorname = $sumne[1];
+											}
+											else
+											{
+												$authorname = $sumne[0];
+											}
+											$authorname1 = preg_replace("/ /","%20",$authorname);
+											$volume = $row['volume'];
+											$inum = $row['issue'];
+											$page = $row['page'];
+											$title = $row['title'];
+											$month = $row['month']; 
+											$year = $row['year'];
+											$featureid = $row['featid'];
+											/*$type = $row['type'];*/
+										
+											$query1 = "select * from feature where featid = '$featureid'";
+											$result1 = mysql_query($query1);
+											$row1=mysql_fetch_assoc($result1);
+											$featurename = preg_replace("/ /","%20",$row1['featurename']);
+											
+											$featureid = $row1['featid'];
+													
+											echo "<div class=\"box\">";
+											echo	"<div class=\"inside\">";
+											echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan .sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$featurename."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a></span><br/>";
+											$sumne = preg_split("/;/",$authorid);
+											for($k = 0; $k < count($sumne); $k++)
+											{
+												$query1 = "select * from author where authid = '$sumne[$k]'";
+												$result1 = mysql_query($query1);
+												$row1=mysql_fetch_assoc($result1);
+												echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
+												if(count($sumne) > 1 && $k < count($sumne)-1)
+												{
+													echo "&nbsp;|&nbsp;";
+												}
+											}
+											
+											echo	"</div>";
+											echo"</div>";
+										}
+									}
+									else
+									{
+										echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
 
-function replace_space($str)
-{
-   $str = preg_replace('/ /', "%20", $str);
-   return $str;
-}
-?>  
-                    </div> 
-                </div>     
-            </div>
-        </div>
-    </div>
-    <div class="footer_top">&nbsp;</div>
-   	<div class="footer">
-		<div class="footer_inside">
-			<p>
-				<span class="bld">SAMBHASHANA SANDESHA,</span><br />
-				“Aksharam”, 8th cross,<br> Girinagar 2nd phase<br />
-				Bangalore - 560 085<br />
-				INDIA<br />
-			</p>
-			<p>Tel. : +91 80 2672 1052 / 2672 2576</p>
-			<p class="bld">samskritam@gmail.com</p>
-		</div>
-	</div>
-</body>
-</html> 
+									}
+									mysql_close($db);
+							?>
+						</div>
+					</section>	
+               </article>
+				<?php include("footer.php");?>

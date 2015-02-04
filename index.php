@@ -1,110 +1,161 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sambhashana Sandesha</title>
-<link href="php/style/reset.css" rel="stylesheet" />
-<link href="php/style/Style.css" rel="stylesheet" />
+	<title>Sambhashana Sandesha</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="php/js/jquery.min.js"></script>
+	<script src="php/js/jquery.dropotron.min.js"></script>
+	<script src="php/js/jquery.scrolly.min.js"></script>
+	<script src="php/js/jquery.scrollgress.min.js"></script>
+	<script src="php/js/skel.min.js"></script>
+	<script src="php/js/skel-layers.min.js"></script>
+	<script src="php/js/init.js"></script>
+<!--
+	<noscript>
+-->
+		<link rel="stylesheet" href="php/css/skel.css" />
+		<link rel="stylesheet" href="php/css/style.css" />
+		<link rel="stylesheet" href="php/css/style-wide.css" />
+		<link rel="stylesheet" href="php/css/style-noscript.css" />
+<!--
+	</noscript>
+-->
 </head>
-<body>
-<div id="container">
-  <div id="header">
-    <div id="ctct"> Email : samskritam@gmail.com<br/>
-      Phone : 9900223344
-     </div>
-    <div id="head1"></div>
-    <div id="menu">
-      <div id="navcontainer">
-        <ul id="navlist">
-          <li id="active"><a href="index.php">HOME(उपक्रमः)</a></li>
-          <li><a href="php/about.php">ABOUT US(परिचयः)</a></li>
-          <li><a href="php/subscribe.php">SUBSCRIBE(ग्राहकता)</a></li>
-          <li><a href="php/feedback.php">FEEDBACK(प्रतिपुष्टिः)</a></li>
-          <li><a href="php/contact.php">CONTACT US(सम्पर्कः)</a></li>
-          <li><a href="php/advertise.php">ADVERTISE(विज्ञापना)</a></li>
-          <li><a href="php/volume.php">ARCHIVE(संग्रह)</a>
-			<ul id="nav">
-				<li><a href="php/volume.php">VOLUMES</a></li>
-				<li><a href="php/show_article.php?letter=अ">ARTICLES</a></li>
-				<li><a href="php/show_author.php">AUTHORS</a></li>
-				<li><a href="php/feature.php">FEATURES</a></li>
-				<li><a href="">SEARCH</a></li>
-				<li><a href="admin/login.html">UPLOAD</a></li>
+<body class="index">
+	<!-- Header -->
+	<header id="header" class="alt">
+		<h1><a href="index.php">सम्भाषण संदेश:</a></h1>
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="index.php">Home</a></li>
+				<li><a href="php/about.php">About</a>
+					<ul>
+						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
+						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
+					</ul>
+				</li>
+				<li><a href="php/subscribe.php">Subscribe</a>
+					<ul>
+						<li><a href="php/subscribe.php">India</a></li>
+						<li><a href="php/subscribe_us.php">US & Canada</a></li>
+						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:void(0);">Archives</a>
+					<ul>
+						<li><a href="php/volumes.php">Volumes</a></li>
+						<li><a href="php/articles.php">Articles</a></li>
+						<li><a href="php/authors.php">Authors</a></li>
+						<li><a href="php/feature.php">Features</a></li>
+						<li><a href="php/search.php">Search</a></li>
+					</ul>
+				</li>
+				<li><a href="php/contact.php">Contact</a></li>
 			</ul>
-		</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="cnt">
-    <div id="hcnt1"> </div>
-    <div id="hcnt2">
-      <div id="hcontent">
-        <div id="wel"> Be it globalization or global warming, Sandesha is always at the forefront of burning issues. Not to mention articles that unearth the hidden treasures in Samskritam texts. There are sections suited for beginners, children, adult and advanced students. Comics, short stories, serials, puzzles and thought-provoking articles are some of the highlights of this wonderful monthly magazine.
-          <div id="rdmr"><a class="one" href="php/about.php">Read More>></a></div>
-        </div>
-        <div id="sub1"> <a href="php/advertise.php"><img src="php/images/donate.gif" /></a> <a href="php/subscribe.php"><img src="php/images/news.gif" /></a></div>
-        <div id="sub2">
-          <li class="list1"> <a href="http://www.samskritabharati.in/" target="_blank">Samskritabharati</a> </li>
-        </div>
-      </div>
-      <div id="iss">
-        <div id="hcnt7">
-			<div id="latest">
-				<a href="php/lat_issue.php"><img src="php/images/current_issue.jpg" alt="Latest Issue" width="150px" height="200px"/></a>
-<?php
-include("php/connect.php");
-include("admin/current_issue.php");
-
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
-$month_name = array("1"=>"जनवरी","2"=>"फेब्रवरी","3"=>"मार्च्","4"=>"एप्रिल्","5"=>"मे","6"=>"जून्","7"=>"जुलै","8"=>"अगस्ट्","9"=>"सप्टम्बर्","10"=>"अक्टोबर्","11"=>"नवम्बर्","12"=>"डिसेम्बर्");
-
-$query = "select distinct month,year,volume,issue from article where year='$year' and month='$month'";
-$result = mysql_query($query);
-
-$num_rows = mysql_num_rows($result);
-
-if($num_rows)
-{
-	$row=mysql_fetch_assoc($result);
-
-	$year=$row['year'];
-	$month=$row['month'];
-	$volume=$row['volume'];
-	$issue=$row['issue'];
-
-	echo "<span class=\"title\"><br />&nbsp;&nbsp;<a href=\"php/lat_issue.php\">सम्पुट:&nbsp;".intval($volume).",  सञ्चिका:&nbsp;".intval($issue)."<br />
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$month_name{intval($month)}."&nbsp;$year</a><br /><br />
-				</span><br /><br />";
-}
-
-?>
-			<table border="0">
-            <tr>
-              <td><form id="form1" name="form1" method="post" action="">
-                  <label></label>
-                </form></td>
-              <td>&nbsp;</td>
-              <td><form id="form2" name="form2" method="post" action="">
-                  <label></label>
-                </form></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td><div align="right"></div></td>
-            </tr>
-          </table>
-          </div>
-          </p>
-        </div>
-      </div>
-      <p align="center"> <img src="php/images/Img.jpg" width="728" height="70" /></p><br />
-    </div>
-    <div id="hcnt3"><img src="php/images/2.gif" /></div>
-    <div id="footer">Copyright &copy; 2010 <a class="two" href="">www.samskrita.in</a> All Rights Reserved. Powered By <a href="http://dhyeyatech.com" target="_blank" class="two">DhyeyaTech</a> and <a href="http://www.vyomalabs.in/" target="_blank" class="two">Vyoma Linguistic Labs Foundation</a></div>
-  </div>
+		</nav>
+	</header>
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<p class="lang_sel"><a href="index_sanskrit.php">संस्कृतं</a> | <a href="index.php">english</a></p>
+			<header>
+				<h2>सम्भाषण संदेश:</h2>
+				</header>
+				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
+				<?php include("php/connect.php");?>
+				<footer>
+					<?php 
+						echo "<ul class=\"buttons vertical\">";
+						echo "<li><a class=\"button fit scrolly\" href=\"php/toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"> Click to view the latest issue</a></li>";
+						echo "</ul>";
+					?>
+				</footer>
+		</div>
+	</section>
+	<!-- Main -->
+	<article id="main">
+		<header class="special container">
+			<span class="icon fa-newspaper-o"></span>
+			<h2>Welcome to our web portal</h2>
+			<p>Be it globalization or global warming, Sandesha is always at the forefront of burning issues. Not to mention articles that unearth the hidden treasures in Samskritam texts. There are sections suited for beginners, children, adult and advanced students. Comics, short stories, serials, puzzles and thought-provoking articles are some of the highlights of this wonderful monthly magazine.</p>
+		</header>
+	<!-- One -->
+		<section class="wrapper style2 container special-alt">
+			<div class="row 50%">
+				<div class="8u 12u(narrower)">
+					<header>
+						<h2>Surf through the volumes, issues, articles and authors of <strong>"Sambhashana Sandesha"</strong></h2>
+					</header>
+					<p>The language is very simple. Anyone with a basic knowledge of Sanskrit can easily understand. This is a project of "Sanskrit Bharati", which conducts the famous 10 day Sanskrit conversation classes.</p>
+					<footer>
+						<ul class="buttons">
+							<li><a href="php/volumes.php" class="button">Find Out More</a></li>
+						</ul>
+					</footer>
+				</div>
+				<div class="4u 8u(narrower) important(narrower)">
+					<ul class="featured-icons">
+						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
+						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>
+						<li><a href="php/articles.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
+						<li><a href="php/authors.php"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
+						<li><a href="php/search.php"><span class="icon fa-search"><span class="label">Search</span></span></a></li>
+						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="temp" class="wrapper style1 container special">
+			<div class="row">
+				<div class="6u 12u(narrower)">
+					<section>
+						<span class="icon featured fa-newspaper-o"></span>
+							<header>
+								<h3>Sambhashana Sandesha</h3>
+							</header>
+							<p>Sambhashana Sandesha (सम्भाषणसन्देश:) is a magazine published by Samskrita Bharati from Aksharam.The monthly magazine comes to you with news, current affairs, articles, Samskritam news and events from across the world, stories for children and grown-ups, cartoons, crossword, vocabulary builders, and so on. Written in conversational-style prose, many articles are easily accessible to even beginners in Samskritam. For our more scholarly readers, we bring you articles on a wide range of topics including science, philosophy, biographical sketches, discussions in grammar and so on.</p>
+					</section>
+				</div>
+				<div class="6u 12u(narrower)">
+					<section>
+						<span class="icon featured fa-university"></span>
+						<header>
+							<h3>Samskritabharati</h3>
+						</header>
+						<p>A movement for the development of Samskrit language, literature and mankind. It is registered as a Trust and also under Section 12A of IT Act. The Movement, called “Speak Samskrit Movement”, started in 1981 in Bangalore and it was later named and registered as “Samskrita Bharati” in 1995 in Delhi. Samskrita Bharati is also an organization of dedicated volunteers, who strive for the popularization of Samskrit, Samskriti and the Knowledge Tradition of Bharat. Its activities are spread to more than 2000 places all over the country.</p>
+					</section>
+				</div>
+			</div>
+			<footer class="major">
+				<ul class="buttons">
+					<li><a href="php/about.php" class="button">See More</a></li>
+				</ul>
+			</footer>
+		</section>
+	</article>
+	<!-- CTA -->
+	<section id="cta">
+		<header>
+				<h2>Subscribe for <strong>Sambhashana Sandesha</strong></h2>
+		</header>
+		<footer>
+			<ul class="buttons">
+				<li><a href="php/subscribe.php" class="button special">Click here to subscribe</a></li>
+			</ul>
+		</footer>
+	</section>
+	<!-- Footer -->
+	<footer id="footer">
+		<ol class="icons">
+			<li>samskritam@gmail.com</li>
+			<li>9900223344</li>
+		</ol>
+		<ol class="copyright">
+			<li>©&nbsp;www.samskrita.in All Rights Reserved</li><li>Digitization & Design : <a href="http://srirangadigital.com/">Sriranga Digital Software Technologies</a></li>
+		</ol>
+	</footer>
 </body>
 </html>

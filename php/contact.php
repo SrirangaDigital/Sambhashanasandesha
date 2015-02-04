@@ -1,56 +1,49 @@
-<!DOCTYPE html>			
-<html>
-
-<head>
-<meta charset="utf-8" />
-<title>​सम्भाषण सन्देशः</title>
-<link href="style/reset.css" rel="stylesheet" />
-<link href="style/style.css" rel="stylesheet" />
-</head>
-<body>
-<div class="container">
-<div class="page">
-	<div class="header">
-		<div class="image">
-            <img src="images/SS.png" alt="sambhashana sandesha Logo" style="width:350px">
+<?php include("header.php"); ?>
+<?php include("nav.php"); ?>
+<article id="main">
+	<header class="special container">
+		<span class="icon fa-envelope"></span>
+		<h2>Get In Touch</h2>
+		<p>Use the form below to reach us.</p>
+	</header>
+	<section class="wrapper style4 special container 75%">
+		<div class="content">
+			<header>
+				<p>SAMBHASHANA SANDESHA,<br />
+					“Aksharam”, 8th cross, Girinagar- 2nd phase<br />
+					Bangalore - 560 085<br /></p>
+					<span class="icon fa-phone">&nbsp;&nbsp;[080]- 2672 1052 / 2672 2576<br /></span>
+					<span class="icon fa-envelope"> samskritam@gmail.com</span> 
+			</header><br /><br />
+			<form>
+				<div class="row 50%">
+					<div class="6u 12u(mobile)">
+						<input type="text" name="name" placeholder="Name" />
+					</div>
+					<div class="6u 12u(mobile)">
+						<input type="text" name="email" placeholder="Email" />
+					</div>
+				</div>
+				<div class="row 50%">
+					<div class="12u">
+						<input type="text" name="subject" placeholder="Subject" />
+					</div>
+				</div>
+				<div class="row 50%">
+					<div class="12u">
+						<textarea name="message" placeholder="Message" rows="7"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="12u">
+						<ul class="buttons">
+							<li><input type="submit" class="special" value="Send Message" /></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+			
 		</div>
-		<ul id="menu">
-			<li><a href="../index.html">HOME</a></li>
-			<li><a href="about.php">ABOUT</a></li>
-			<li><a href="subscribe.php">SUBSCRIBE</a></li>
-			<li><a href="contact.php">CONTACT</a></li>
-			 <li><a href="volume.php">ARCHIVE</a></li>  
-		</ul>
-	</div>
-	<div class="about_nav">
-		<div class="ss_about">
-			<h2>Contact Us </h2>
-			<p> SAMBHASHANA SANDESHA,<br>
-			“Aksharam”, 8th cross, Girinagar- 2nd phase<br>
-			 Bangalore - 560 085<br>
-		     Tel: [080]- 2672 1052 / 2672 2576<br>
-			 E-mail: samskritam@gmail.com</p>
-		</div>
-	</div>	
-    <div class="row3">
-        <img src="images/sb1.png" alt="images">
-    </div> 
-</div>
-<div class="footer_top">
-&nbsp;
-</div>
-<div class="footer">
-    <div class="footer_inside">
-        <p>
-            <span class="bld">SAMBHASHANA SANDESHA,</span><br />
-            “Aksharam”, 8th cross,<br> Girinagar 2nd phase<br />
-            Bangalore - 560 085<br />
-            INDIA<br />
-        </p>
-        <p>Tel. : +91 80 2672 1052 / 2672 2576</p>
-		<p>Email: samskritam@gmail.com</p>
-    </div>
-</div>
-</div>
-</body>
-</html>
+	</section>
+</article>
+<?php include("footer.php"); ?>
