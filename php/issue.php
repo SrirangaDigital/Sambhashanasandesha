@@ -1,12 +1,11 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
-<?php
+<article id="main">
+	<?php
 	include("connect.php");
 	$volume = $_GET['volume'];
 	$year = $_GET['year'];
-
-?>
-<article id="main">
+	?>
 	<header class="special container">
 		<span class="icon fa-book"></span>
 		<h2><strong><?php echo $year; ?></strong></h2>
@@ -21,7 +20,7 @@
 $db = mysql_connect($server,$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
 mysql_set_charset("utf8",$db);
-$month_eng=array('','January','February','March','April','May','June','July','August','September','October','November','December');
+$month_eng=array('','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
 
 $month_name = array("1"=>"जनवरी","2"=>"फेब्रवरी","3"=>"मार्च्","4"=>"एप्रिल्","5"=>"मे","6"=>"जून्","7"=>"जुलै","8"=>"अगस्ट्","9"=>"सप्टम्बर्","10"=>"अक्टोबर्","11"=>"नवम्बर्","12"=>"डिसेम्बर्");
 
@@ -36,12 +35,6 @@ $count = 0;
 $col = 1;
 
 $volume_int = intval($volume);
-
-//~ echo "<div class=\"alphabet\"><h2>Volume $volume_int, $year</h2></div>";
-//~ echo "<br>";
-//~ echo "<br>";
-//~ echo "<br>";
-//~ echo "<div class=\"auther_main\">";
 if($num_rows)
 {
 	for($i=1;$i<=$num_rows;$i++)
@@ -61,12 +54,12 @@ if($num_rows)
 			}
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
-			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$temp.jpg\" alt=\"Issue $issue cover page\" /><p class=\"inum\">".$month_eng{intval($month)}."(Issue&nbsp;$inum&nbsp;)</p></a>";
+			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$temp.jpg\" alt=\"Issue $issue cover page\" /><p class=\"inum\">".$month_eng{intval($month)}."&nbsp;(Issue&nbsp;$inum)</p></a>";
 	}
 }
+echo '</div>';
 $db = mysql_close($db);
 ?>      
-</div>
 </div>
 	</section>
 </article>

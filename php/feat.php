@@ -59,7 +59,7 @@
 					$authorname1 = preg_replace("/ /","%20",$authorname);	
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?volume=$volume&amp;issue=$inum&amp;year=$year&amp;month=$month\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a><br/>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?volume=$volume&amp;issue=$inum&amp;year=$year&amp;month=$month\">".getMonth($month)."<span class=\"voliss\"> $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</span></a><br/>";
 					$sumne = preg_split("/;/",$authorid);
 					for($k = 0; $k < count($sumne); $k++)
 					{

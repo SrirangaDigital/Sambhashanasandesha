@@ -50,7 +50,6 @@
 			{
 				$authorname = $sumne[0];
 			}
-			$authorname1 = preg_replace("/ /","%20",$authorname);
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
@@ -67,11 +66,25 @@
 			
 			$featureid = $row1['featid'];
 					
-					echo "<div class=\"box\">";
-					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>"; if($authorname != "")echo "&nbsp;|&nbsp;"; echo "<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
-					echo	"</div>";
-					echo"</div>";
+			echo "<div class=\"box\">";
+			echo	"<div class=\"inside\">";
+			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan .sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a></span><br/>";
+			$sumne = preg_split("/;/",$authorid);
+			for($k = 0; $k < count($sumne); $k++)
+			{
+				$query1 = "select * from author where authid = '$sumne[$k]'";
+				$result1 = mysql_query($query1);
+				$row1=mysql_fetch_assoc($result1);
+				$authorname1 = preg_replace("/ /","%20",$row1["authorname"]);
+				echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+				if(count($sumne) > 1 && $k < count($sumne)-1)
+				{
+					echo "&nbsp;|&nbsp;";
+				}
+			}
+			
+			echo	"</div>";
+			echo"</div>";
 		}
 	}
 	else

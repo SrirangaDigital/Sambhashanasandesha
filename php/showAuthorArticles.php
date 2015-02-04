@@ -6,7 +6,7 @@
 	{
 		$authid = $_GET['authid'];
 		$authorname = $_GET['authorname'];
-		$query = "select * from article where authid  = $authid order by volume, issue, title, page";
+		$query = "select * from article where authid  like '%$authid%' order by volume, issue, title, page";
 	}
 	else
 	{
@@ -23,7 +23,7 @@
 		<div class="content">
 	
 <?php 
-	
+
 	include("connect.php");
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
@@ -40,7 +40,14 @@
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
 			$sumne = preg_split("/;/",$row['authorname']);
-			$authname = $sumne[1];
+			if(count($sumne)>1)
+			{
+				$authorname = $sumne[1];
+			}
+			else
+			{
+				$authorname = $sumne[0];
+			}
 			$volume = $row['volume'];
 			$inum = $row['issue'];
 			$page = $row['page'];
@@ -57,14 +64,14 @@
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</a>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><span class=\"voliss\">".getMonth($month)." $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum)."</span>)</a>";
 					echo	"</div>";
 					echo"</div>";
 		}
 	}
 	else
 	{
-		echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
+		echo "<span class=\"empty topic\">There are no articles by this author&nbsp;&nbsp;</span>";
 
 	}
 	mysql_close($db);
