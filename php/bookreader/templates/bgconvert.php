@@ -7,7 +7,7 @@
 	$imgurl = $_GET['imgurl'];
 	$reduce = round($_GET['level']);
 	$book = $_POST['book'];
-	$img = split("\.",$book[$index]);
+	$img = preg_split("/\./",$book[$index]);
 	$mode = $_GET['mode'];
 	//~ header('Content-type: application/json');
 	
