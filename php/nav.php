@@ -1,7 +1,7 @@
 <body class="no-sidebar">
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
-		<h1><a href="../index.php">सम्भाषण संदेश:</a></h1>
+		<h1><a href="../index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li><a href="../index.php">Home</a></li>
