@@ -27,7 +27,7 @@
 <body class="index">
 	<!-- Header -->
 	<header id="header" class="alt">
-		<h1><a href="index.php">सम्भाषण संदेश:</a></h1>
+		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li class="current"><a href="index.php">Home</a></li>
@@ -62,7 +62,7 @@
 		<div class="inner">
 			<p class="lang_sel"><a href="index_sanskrit.php">संस्कृतं</a> | <a href="index.php">english</a></p>
 			<header>
-				<h2>सम्भाषण संदेश:</h2>
+				<h2>सम्भाषण सन्देश:</h2>
 				</header>
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
 				<?php include("php/connect.php");?>
@@ -101,7 +101,7 @@
 						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
 						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>
 						<li><a href="php/articles.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
-						<li><a href="php/authors.php"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
+						<li><a href="php/authors.php?letter=अ"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
 						<li><a href="php/search.php"><span class="icon fa-search"><span class="label">Search</span></span></a></li>
 						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
 					</ul>

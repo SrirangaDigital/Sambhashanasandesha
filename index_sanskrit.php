@@ -27,7 +27,7 @@
 <body class="index">
 	<!-- Header -->
 	<header id="header" class="alt">
-		<h1><a href="index.php">सम्भाषण संदेश:</a></h1>
+		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li class="current"><a href="index.php">उपक्रमः</a></li>
@@ -62,7 +62,7 @@
 		<div class="inner">
 			<p class="lang_sel"><a href="index_sanskrit.php">संस्कृतं</a> | <a href="index.php">english</a></p>
 			<header>
-				<h2>सम्भाषण संदेश:</h2>
+				<h2>सम्भाषण सन्देश:</h2>
 				</header>
 				<p>World's first <strong>Samskrit</strong> monthly magazine</p>
 				<?php include("php/connect.php");?>
