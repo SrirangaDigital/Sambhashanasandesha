@@ -30,6 +30,11 @@
 						<input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="Feature" />
 					</div>
 				</div>
+				<div class="row uniform 50%">
+					<div class="3u 12u(3)">
+						<input type="text" name="text" id="text" onfocus="SetId('text')" value="" placeholder="Words" />
+					</div>
+				</div>
 					<div class="row uniform 50%">
 						<span class="clr1">Year</span>
 						<div class="1u 6u">

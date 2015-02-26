@@ -1,3 +1,4 @@
+<?php session_start();	?>
 <!DOCTYPE HTML>
 <html manifest="appcache.manifest">
 <head>
@@ -19,7 +20,10 @@
 		$month = $_GET['month'];
 		$year = $_GET['year'];
 		$page = $_GET['pagenum'].".jpg";
-		//~ $search = $_GET['search'];
+		if(isset($_GET['searchText']) && $_GET['searchText'] != "")
+		{
+			$search = $_GET['searchText'];
+		}
 		$djvurl = "../../../Volumes/djvu/".$year."/".$month;
 		$imgurl = "../../../Volumes/jpg/2/".$year."/".$month;
 
@@ -40,13 +44,16 @@
 		$book["SourceURL"] = "";
 		$result = array_keys($book["imglist"], $page);
 		$book["pagenum"] = $result[0];
-		//~ $book["searchText"] = $search;
+		$book["searchText"] = $search;
 		$book["year"] = $year;
 		$book["volume"] = $volume;
 		$book["month"] = $month;
 		$book["imgurl"] = $imgurl;
     ?>
-<script type="text/javascript">var book = <?php echo json_encode($book); ?>;</script>
+<script type="text/javascript">
+	var book = <?php echo json_encode($book); ?>;
+	var wordResult = <?php echo json_encode($_SESSION['sd'][$year.$month]); ?>;
+</script>
 </head>
 <script type="text/javascript" src="../static/BookReader/cacheUpdater.js"></script>
 <script type="text/javascript" src="../static/BookReader/checkCached.js"></script>

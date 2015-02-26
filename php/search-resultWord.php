@@ -1,6 +1,6 @@
 <?php
-	// If nothing is GETed, redirect to search page
 	session_start();
+	// If nothing is GETed, redirect to search page
 	if(empty($_GET['title']) && empty($_GET['author']) && empty($_GET['feature']) && empty($_GET['text']) && empty($_GET['year1']) && empty($_GET['year2'])) {
 		header('Location: search.php');
 		exit(1);
@@ -70,7 +70,7 @@
 							}
 							if($author=='')
 							{
-								$author='[अ-ह]*';
+								$author='[[अ-ह]]*';
 							}
 							if($featid=='')
 							{
@@ -143,15 +143,16 @@
 											(SELECT * FROM
 												(SELECT * FROM
 													(SELECT * FROM
-														(SELECT * FROM searchtable WHERE text regexp '$stext' ) AS tb1
+														(SELECT * FROM searchtable WHERE MATCH (text) AGAINST ('$stext' IN BOOLEAN MODE)) AS tb1
 													WHERE $authorFilter) AS tb2
 												WHERE $titleFilter) AS tb3
 											WHERE featid REGEXP '$featid') AS tb4
 										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
 							}
-							$result = $db->query($query) or die("query fraild".$db->mysql_error()); 
+							
+							$result = $db->query($query) or die("query failed".$db->mysql_error()); 
 							$num_results = $result ? $result->num_rows : 0;
-							//~ echo $query;
+							echo $query;
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
 								echo'<h2>Search Results</h2>';
@@ -170,25 +171,18 @@
 								<?php
 									$result = $db->query($query); 
 									$num_rows = $result ? $result->num_rows : 0;
+									$sd["q"] = "Searching Text";
+									$sd["indexed"] = true;
+									$sd["matches"]="";
+									$array ="";
 									$id = 0;
-									$year = "";
-									$month = "";
+
 									if($num_rows > 0)
 									{
 										for($a=1;$a<=$num_rows;$a++)
 										{
 											$row=$result->fetch_assoc();
-											
-											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
-											{
-												echo	"</div>";
-													echo"</div>";
-											}
-											
-											if($year != $row['volume'] && $month != $row['month'])
-											{
-												$sd = "";
-											}
+											$sd["matches"][] = getCords($text,$row["year"],$row["month"],$row["cur_page"]);
 											if ((strcmp($id, $row['titleid'])) != 0) 
 											{
 												$authorid = $row['authid'];
@@ -235,54 +229,22 @@
 												if($text != '')
 												{
 													echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
+													echo "<span class=\"aIssue\"><a href=\"bookReader.php?sd=".http_build_query($sd)."&amp;volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
 												}
-
-											}
-											else
-											{
-												if($text != '')
-												{
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
-												}
-											}
-											$id = $row['titleid'];
+										}
+										else
+										{
 											if($text != '')
 											{
-												//~******************************************************************************************************
-												$query1 = "select * from word where word regexp '".$stext."' and pagenum = '".$row['cur_page']."' and year = '".$year."' and month = '".$month."'" ;
-												//~ echo $query1;
-												$result1 = $db->query($query1);
-												$num_rows1 = $result1 ? $result1->num_rows : 0;
-												$cord = array();
-												$array = "";
-												for($b = 0; $b < $num_rows1; $b++)
-												{
-													$row1=$result1->fetch_assoc();
-													$sumne = preg_split("/,/", $row1['cords']);
-													//~ Base image size is 800X1200
-													//~ Also note that coordinate has already been shifted to top left from bottom left (DjVu)
-													$sumne[0] = floor($sumne[0] * 800 / $row1['width']);
-													$sumne[2] = floor($sumne[2] * 800 / $row1['width']);
-													$sumne[1] = floor($sumne[1] * 1200 / $row1['height']);
-													$sumne[3] = floor($sumne[3] * 1200 / $row1['height']);
-													$cord[] = array("l" => $sumne[0],"b" => $sumne[1],"r" => $sumne[2],"t" => $sumne[3]);
-												}
-												$row1["text"] = "Searched Text in from the given query";
-												$qtext = "Text";
-												$row1["text"] = txtTrimer($row1["text"] , $qtext);
-												$array["text"] = $row1["text"];
-												$array["par"][] = array( "page" => $row1["pagenum"] , "boxes" => $cord);
-												$sd["matches"][] = $array;
-												$_SESSION['sd'][$year.$month] = $sd;
-												//~****************************************************************************************************** 
+												echo '&nbsp;<span class="aIssue"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page" target="_blank">' . intval($row['cur_page']) . '</a> </span>';
 											}
-											//~ echo json_encode($_SESSION['sd'][$year.$month]);
-											//~ echo	"</div>";
-											//~ echo"</div>";
 										}
+										$_SESSION['sd'][$year.$month] = json_encode($sd);
+										$id = $row['titleid'];
+										
 										echo	"</div>";
 										echo"</div>";
+										}
 									}
 									else
 									{
@@ -297,7 +259,44 @@
 					</section>	
                </article>
 				<?php include("footer.php");?>
+				
 <?php
+	function getCords($text, $year, $month, $cur_page)
+	{
+		
+		include("connect.php");
+		
+		$db = @new mysqli("$server", "$user", "$password", "$database");
+		$db->set_charset("utf8");
+		$text = preg_replace("/\*/","",$text);
+		$queryW = "select * from word where word regexp '".$text."' and pagenum = ".$cur_page." and year = ".$year." and month = '".$month."'";
+		echo $queryW;
+		$result = $db->query($queryW) or die("query failed"); 
+		$num_results = $result ? $result->num_rows : 0;
+		
+		$cord = array();
+		$array = "";
+		$row["text"] = "Searched Text in from the given query";
+		$qtext = "Text";
+		$row["text"] = txtTrimer($row["text"] , $qtext);
+		
+		for($i = 0; $i < $num_results; $i++)
+		{
+			$row=$result->fetch_assoc();
+			$sumne = preg_split("/,/", $row['cords']);
+			//~ Base image size is 800X1200
+			//~ Also note that coordinate has already been shifted to top left from bottom left (DjVu)
+			$sumne[0] = floor($sumne[0] * 800 / $row['width']);
+			$sumne[2] = floor($sumne[2] * 800 / $row['width']);
+			$sumne[1] = floor($sumne[1] * 1200 / $row['height']);
+			$sumne[3] = floor($sumne[3] * 1200 / $row['height']);
+			$cord[] = array("l" => $sumne[0],"b" => $sumne[1],"r" => $sumne[2],"t" => $sumne[3]);
+		}
+		$array["text"] = "Searched Text in from the given query";
+		$array["par"][] = array( "page" => $cur_page , "boxes" => $cord);
+		return $array;
+	}
+	
 	function txtTrimer($text , $qtext){
 		//~ return 200 character from $row["text"]
 		$pos = stripos($text ,  $qtext);
@@ -306,5 +305,5 @@
 		$text = preg_replace("/$qtext/i" , "{{{".$qtext."}}}" , $text); 
 		return $text;
 	}
-
+	
 ?>

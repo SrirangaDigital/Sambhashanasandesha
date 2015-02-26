@@ -17,10 +17,26 @@ br.getPageHeight = function(index) {
 }
 
 br.getPageURI = function(index, reduce, rotate) {
-	var level = reduce <= 0.9 ? 1 : 2;
+
+	var level ;
+	if(this.mode == 1)
+	{
+		level = reduce < 1 ? 1 : 2;
+	}
+	else if(this.mode == 2)
+	{
+		level= reduce <= 0.8 ? 1 : 2
+	}
+	else
+	{
+		level = 2;
+	}
+	
 	
 	if(level == 1)
 	{
+		//~  to display loading popup
+		br.showProgressPopup('<img id="searchmarker" src="'+this.imagesBaseURL + 'marker_srch-on.png'+'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loading...');
 		$.ajax({type: "POST", url: "../templates/bgconvert.php?level="+level+"&index="+index+"&volume="+book.volume+"&imgurl="+book.imgurl+"&mode="+this.mode+"&month="+book.month+"&year="+book.year, async: true , success :function(data){br.updater(data);} , data : {book:this.book.imglist}});
 		return br.imagesBaseURL + "transparent.png";
 	}
@@ -32,6 +48,13 @@ br.getPageURI = function(index, reduce, rotate) {
 	
 }
 br.updater = function(result) {
+	//~  to remove popup of image loading
+	setTimeout(function(){
+		$(br.popup).fadeOut('slow', function() {
+			br.removeProgressPopup();
+		})        
+	},br.timeout);
+        
 	result = jQuery.parseJSON(result);
 	if(result.mode == 2)
 	{

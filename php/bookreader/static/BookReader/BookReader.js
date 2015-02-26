@@ -327,7 +327,8 @@ BookReader.prototype.init = function() {
     // Search the text if it is specified
     if(this.book.searchText != undefined)
     {
-	br.search(this.book.searchText);
+		br.search(this.book.searchText);
+		//~ br.BRSearchCallback(this.book.searchword);
     }
 }
 
@@ -2742,17 +2743,17 @@ BookReader.prototype.search = function(term) {
     
     $('#textSrch').blur(); //cause mobile safari to hide the keyboard     
     
-    var url = '../fulltext/inside.php?volume='+this.getBookId(); //remove the port and userdir
+    var url = '../fulltext/inside.php?year='+book.year; //remove the port and userdir
         url    += '&q='+term;
         //~ url    += '&q='+escape(term); ORIGINAL WAS LIKE THIS
-        url    += '&issue='+this.book.issue;
+        url    += '&month='+book.month;
         //~ console.log('search called with term=' + url);
     term = term.replace(/\//g, ' '); // strip slashes, since this goes in the url
     this.searchTerm = term;
     
     this.removeSearchResults();
     this.showProgressPopup('<img id="searchmarker" src="'+this.imagesBaseURL + 'marker_srch-on.png'+'"> Search results will appear below...');
-    $.ajax({url:url, dataType:'json', scriptCharset: "utf-8" , success:function( data ) {br.BRSearchCallback(data); }});    
+    $.ajax({url:url, dataType:'json', success:function( data ) {br.BRSearchCallback(data); }});    
 }
 
 // BRSearchCallback()
@@ -2760,8 +2761,7 @@ BookReader.prototype.search = function(term) {
 BookReader.prototype.BRSearchCallback = function(results) {
     br.removeSearchResults();
     br.searchResults = results; 
-
-    if (0 == results.matches.length) {
+	if (0 == results.matches.length) {
         var errStr  = 'No matches were found.';
         var timeout = 1000;
         if (false === results.indexed) {
@@ -2806,9 +2806,11 @@ BookReader.prototype.updateSearchHilites1UP = function() {
         
         var pageIndex = this.book.imglist.indexOf(results.matches[i].par[0].page+".jpg");
         //~ console.log(results.matches[i].par[0].page+".djvu "+pageIndex); 
-        
+        //~ console.log("suresh suisjssu"+results.matches[0].par[0].boxes.length);
         for (j=0; j<results.matches[i].par[0].boxes.length; j++) {
             var box = results.matches[i].par[0].boxes[j];
+            //~ console.log(box); SURESH 
+            //~ console.log(this.reduce);
             //~ var pageIndex = this.leafNumToIndex(box.page);
             if (jQuery.inArray(pageIndex, this.displayedIndices) >= 0) {
 				    if (null == box.div) {
@@ -3637,15 +3639,15 @@ BookReader.prototype.initToolbar = function(mode, ui) {
     
     $("#BookReader").append(
           "<div id='BRtoolbar'>"
-        +   "<span id='BRtoolbarbuttons'>"
-        +     "<form action='javascript:br.search($(\"#textSrch\").val());' id='booksearch'><input type='search' id='textSrch' name='textSrch' val='' placeholder='Search inside'/><button type='submit' id='btnSrch' name='btnSrch'>GO</button></form>"
-        +     "<button class='BRicon play'></button>"
-        +     "<button class='BRicon pause'></button>"
-        +     "<button class='BRicon info'></button>"
+        //~ +   "<span id='BRtoolbarbuttons'>"
+        //~ +     "<form action='javascript:br.search($(\"#textSrch\").val());' id='booksearch'><input type='search' id='textSrch' name='textSrch' val='' placeholder='Search inside'/><button type='submit' id='btnSrch' name='btnSrch'>GO</button></form>"
+        //~ +     "<button class='BRicon play'></button>"
+        //~ +     "<button class='BRicon pause'></button>"
+        //~ +     "<button class='BRicon info'></button>"
         //~ +     "<button class='BRicon share'></button>"
-        +     readIcon
-        //+     "<button class='BRicon full'></button>"
-        +   "</span>"
+        //~ +     readIcon
+        //~ +     "<button class='BRicon full'></button>"
+        //~ +   "</span>"
         +   "<span><a class='logo' href='" + this.logoURL + "'></a></span>"
         +   "<span id='BRreturn'><a></a></span>"
         +   "<div id='BRnavCntlTop' class='BRnabrbuvCntl'></div>"
@@ -4634,8 +4636,15 @@ BookReader.prototype._getPageURI = function(index, reduce, rotate) {
         }
         reduce = scale;
     }
+    if(this.mode == 2)
+    {
+		return this.getPageURI(index, ratio/2, rotate);
+	}
+	else
+	{
+		return this.getPageURI(index, reduce, rotate);
+	}
     
-    return this.getPageURI(index, reduce, rotate);
 }
 
 /*
