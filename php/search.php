@@ -4,7 +4,7 @@
 	<header class="special container">
 		<span class="icon fa-search"></span>
 		<h2><strong>Search</strong></h2>
-		<p>search in the volumes,articles,authors of Sambhashana Sandesha</p>
+		<p>Search by title of an article or by its author</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
