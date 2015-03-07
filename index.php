@@ -13,16 +13,12 @@
 	<script src="php/js/skel.min.js"></script>
 	<script src="php/js/skel-layers.min.js"></script>
 	<script src="php/js/init.js"></script>
-<!--
 	<noscript>
--->
 		<link rel="stylesheet" href="php/css/skel.css" />
 		<link rel="stylesheet" href="php/css/style.css" />
 		<link rel="stylesheet" href="php/css/style-wide.css" />
 		<link rel="stylesheet" href="php/css/style-noscript.css" />
-<!--
 	</noscript>
--->
 </head>
 <body class="index">
 	<!-- Header -->
@@ -30,7 +26,7 @@
 		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
-				<li class="current"><a href="index.php">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="php/about.php">About</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
@@ -47,8 +43,8 @@
 				<li><a href="javascript:void(0);">Archives</a>
 					<ul>
 						<li><a href="php/volumes.php">Volumes</a></li>
-						<li><a href="php/articles.php">Articles</a></li>
-						<li><a href="php/authors.php">Authors</a></li>
+						<li><a href="php/articles.php?letter=अ">Articles</a></li>
+						<li><a href="php/authors.php?letter=अ">Authors</a></li>
 						<li><a href="php/feature.php">Features</a></li>
 						<li><a href="php/search.php">Search</a></li>
 					</ul>
@@ -96,7 +92,7 @@
 						</ul>
 					</footer>
 				</div>
-				<div class="4u 8u(narrower) important(narrower)">
+				<div class="4u 4u(narrower) important(narrower)">
 					<ul class="featured-icons">
 						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
 						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>

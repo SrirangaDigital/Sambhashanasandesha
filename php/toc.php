@@ -19,7 +19,7 @@
 ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon fa-pencil"></span>
+		<span class="icon toc_image"><?php $temp=$year."_".$month;; echo "<img src=\"images/cover/$temp.jpg\" alt=\"Issue $issue cover page\" />"; ?></span>
 		<h2><strong><?php echo getMonth($month)." ".$year; ?></strong></h2>
 		<p><?php echo "Volume ".intval($volume).", Issue ".$issue?></p>
 	</header>
@@ -34,7 +34,7 @@
 
 	$result = mysql_query($query);
 	$num_rows = mysql_num_rows($result);
-	
+	$vnum = intval($volume);
 	if($num_rows)
 	{
 		for($a=1;$a<=$num_rows;$a++)
@@ -57,6 +57,7 @@
 			$month = $row['month']; 
 			$year = $row['year'];
 			$featureid = $row['featid'];
+			$vnum = intval($volume);
 			/*$type = $row['type'];*/
 		
 			$query1 = "select * from feature where featid = '$featureid'";
