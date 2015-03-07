@@ -112,7 +112,7 @@
 													(SELECT * FROM article WHERE $authorFilter) AS tb1
 												WHERE $titleFilter) AS tb2
 											WHERE featid REGEXP '$featid') AS tb3
-										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
+										WHERE year between $year1 and $year2 ORDER BY year, month, page";
 							}
 							elseif($text!='')
 							{
@@ -149,7 +149,8 @@
 											WHERE featid REGEXP '$featid') AS tb4
 										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
 							}
-							$result = $db->query($query) or die("query fraild".$db->mysql_error()); 
+							
+							$result = $db->query($query) or die("query fraild"); 
 							$num_results = $result ? $result->num_rows : 0;
 							//~ echo $query;
 							echo '<header class="special container">';
@@ -202,7 +203,8 @@
 												$volume = $row['volume'];
 												$inum = $row['issue'];
 												$page = $row['page'];
-												$cur_page = $row['cur_page'];
+												$cur_page = "";
+												if($text!=''){$cur_page = $row['cur_page'];}
 												$title = $row['title'];
 												$month = $row['month']; 
 												$year = $row['year'];

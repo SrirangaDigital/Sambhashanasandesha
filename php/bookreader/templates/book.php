@@ -23,6 +23,7 @@
 		if(isset($_GET['searchText']) && $_GET['searchText'] != "")
 		{
 			$search = $_GET['searchText'];
+			$book["searchText"] = $search;
 		}
 		$djvurl = "../../../Volumes/djvu/".$year."/".$month;
 		$imgurl = "../../../Volumes/jpg/2/".$year."/".$month;
@@ -39,12 +40,11 @@
 		}
 	
 		$book["imglist"]=array_values($book["imglist"]);
-		$book["Title"] = "Book Reader";
+		$book["Title"] = "Sambhashana Sandesha Book Reader";
 		$book["TotalPages"] = count($book["imglist"]);
 		$book["SourceURL"] = "";
 		$result = array_keys($book["imglist"], $page);
 		$book["pagenum"] = $result[0];
-		$book["searchText"] = $search;
 		$book["year"] = $year;
 		$book["volume"] = $volume;
 		$book["month"] = $month;
@@ -52,7 +52,9 @@
     ?>
 <script type="text/javascript">
 	var book = <?php echo json_encode($book); ?>;
-	var wordResult = <?php echo json_encode($_SESSION['sd'][$year.$month]); ?>;
+	<?php if(isset($_SESSION['sd'][$year.$month]) && $_SESSION['sd'][$year.$month] != ""):?>
+		var wordResult = <?php echo json_encode($_SESSION['sd'][$year.$month]); ?>;
+	<?php endif; ?>
 </script>
 </head>
 <script type="text/javascript" src="../static/BookReader/cacheUpdater.js"></script>
