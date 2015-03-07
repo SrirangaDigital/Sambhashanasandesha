@@ -66,7 +66,7 @@
 						$query1 = "select * from author where authid = '$sumne[$k]'";
 						$result1 = mysql_query($query1);
 						$row1=mysql_fetch_assoc($result1);
-						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".$row1["authorname"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 						if(count($sumne) > 1 && $k < count($sumne)-1)
 						{
 							echo "&nbsp;|&nbsp;";
