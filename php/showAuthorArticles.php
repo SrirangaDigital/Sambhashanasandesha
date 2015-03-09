@@ -6,11 +6,11 @@
 	{
 		$authid = $_GET['authid'];
 		$authorname = $_GET['authorname'];
-		$query = "select * from article where authid  like '%$authid%' order by volume, issue, title, page";
+		$query = "select * from article where authid  like '%$authid%' order by title, volume, issue, page";
 	}
 	else
 	{
-		$query = "select * from article order by volume, issue, title, page";
+		$query = "select * from article where authid  like '%1031%' order by title, volume, issue, page";
 	}
 ?>
 <article id="main">
