@@ -82,8 +82,7 @@
 			}
 			else
 			{
-				echo '		<p>&nbsp;</p>
-						</header>
+				echo '	</header>
 						<section class="wrapper style4 container">';
 
 				echo "<span class=\"empty topic\">Error encountered!</span>";
