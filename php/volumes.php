@@ -16,7 +16,7 @@
 	mysql_set_charset("utf8",$db);
 	
 	$row_count = 4;
-	$query = "select distinct volume from article order by volume";
+	$query = "select distinct volume from article order by volume desc";
 	$result = mysql_query($query);
 
 	$num_rows = mysql_num_rows($result);
