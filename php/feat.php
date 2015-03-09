@@ -12,11 +12,11 @@
 			if(isset($_GET['featid']) && $_GET['featid'] != '')
 			{
 				$featid = $_GET['featid'];
-				$query = "select * from article where featid  = $featid order by volume, issue, title, page";
+				$query = "select * from article where featid  = $featid order by title, volume, issue, page";
 			}
 			else
 			{
-				$query = "select * from article order by volume, issue, title, page";
+				$query = "select * from article where featid  = '1003' order by title, volume, issue, page";
 			}
 			include("connect.php");
 
