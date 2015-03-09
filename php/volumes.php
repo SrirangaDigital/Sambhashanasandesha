@@ -16,7 +16,7 @@
 	mysql_set_charset("utf8",$db);
 	
 	$row_count = 4;
-	$query = "select distinct volume from article order by volume desc";
+	$query = "select distinct year from article order by year desc";
 	$result = mysql_query($query);
 
 	$num_rows = mysql_num_rows($result);
@@ -28,37 +28,32 @@
 		for($i=1;$i<=$num_rows;$i++)
 		{
 			$row=mysql_fetch_assoc($result);
-			$volume=$row['volume'];
+			$year=$row['year'];
 
-			$query1 = "select distinct year from article where volume='$volume'";
+			$query1 = "select distinct volume from article where year='$year'";
 			$result1 = mysql_query($query1);
 			$num_rows1 = mysql_num_rows($result1);
 			if($num_rows1)
 			{
+
+				$volume = '';
 				for($i1=1;$i1<=$num_rows1;$i1++)
 				{
 					$row1=mysql_fetch_assoc($result1);
 
-					if($i1==1)
-					{
-						$year=$row1['year'];
-					}
-					else if($i1==2)
-					{
-						$year2 = $row1['year'];
-						$year21 = preg_split('//',$year2);
-						$year=$year."-".$year21[3].$year21[4];
-					}
+					$volume = $volume . '-' . intval($row1['volume']);
 				}
+				$volume = preg_replace('/^\-/', '', $volume);
+
 				$count++;
-				$volume_int = intval($volume);
+				$year_int = intval($year);
 				if($count > $row_count)
 				{
 					$col++;
 					$count = 1;
 				}
-				$vnum = preg_replace("/^[0]+/", "", $volume);
-				echo "<a class=\"box-shadow-outset\" href=\"issue.php?volume=$volume&amp;year=$year\"><img src=\"images/cover/$vnum.png\" alt=\"Issue $vnum cover page\" /><p class=\"inum\"> $year</p></a>";
+				$ynum = preg_replace("/^[0]+/", "", $year);
+				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\"><img src=\"images/cover/$year/09.jpg\" alt=\"$year thumbnail\" /><p class=\"inum\"> $year</p></a>";
 				
 			}
 		}

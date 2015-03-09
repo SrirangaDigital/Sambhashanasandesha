@@ -1205,6 +1205,13 @@
 			box-shadow:10px 10px 10px #EEE;
 */
 		}
+
+		.volumes img {
+			height:125px;
+/*
+			box-shadow:10px 10px 10px #EEE;
+*/
+		}
 		.volumes p {
 			font-size:0.85em;
 		}

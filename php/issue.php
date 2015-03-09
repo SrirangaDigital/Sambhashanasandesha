@@ -3,13 +3,13 @@
 <article id="main">
 	<?php
 	include("connect.php");
-	$volume = $_GET['volume'];
 	$year = $_GET['year'];
+	$volume = $_GET['volume'];
 	?>
 	<header class="special container">
 		<span class="icon fa-book"></span>
 		<h2><strong><?php echo $year; ?></strong></h2>
-		<p><?php echo "Volume ".intval($volume); ?></p>
+		<p><?php echo "Volume " . $volume; ?></p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -25,7 +25,7 @@ $month_eng=array('','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct',
 $month_name = array("1"=>"जनवरी","2"=>"फेब्रवरी","3"=>"मार्च्","4"=>"एप्रिल्","5"=>"मे","6"=>"जून्","7"=>"जुलै","8"=>"अगस्ट्","9"=>"सप्टम्बर्","10"=>"अक्टोबर्","11"=>"नवम्बर्","12"=>"डिसेम्बर्");
 
 $row_count = 2;
-$query = "select distinct issue,month,volume,year from article where volume = '$volume'";
+$query = "select distinct issue,month,volume,year from article where year = '$year' order by month";
 $result = mysql_query($query);
 $num_rows = mysql_num_rows($result);
 $vnum = preg_replace("/^[0]+/", "", $volume);
@@ -54,7 +54,7 @@ if($num_rows)
 			}
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
-			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$temp.jpg\" alt=\"Issue $issue cover page\" /><p class=\"inum\">".$month_eng{intval($month)}."&nbsp;(Issue&nbsp;$inum)</p></a>";
+			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">".$month_name{intval($month)}."</p></a>";
 	}
 }
 echo '</div>';
