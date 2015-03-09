@@ -16,12 +16,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-pencil"></span>
-		<h2><strong><?php echo $authorname; ?></strong></h2>
-		<p>Biblography</p>
-	</header>
-	<section class="wrapper style4 container">
-		<div class="content">
-	
+		<h2><strong><?php echo $authorname; ?></strong></h2>	
 <?php 
 
 	include("connect.php");
@@ -35,6 +30,12 @@
 	
 	if($num_rows)
 	{
+
+		echo '		<p>' . convert_devanagari($num_rows) . ' लेखनानि</p>
+				</header>
+				<section class="wrapper style4 container">
+					<div class="content">';
+
 		for($a=1;$a<=$num_rows;$a++)
 		{
 			$row=mysql_fetch_assoc($result);
@@ -71,6 +72,10 @@
 	}
 	else
 	{
+		echo '	</header>
+				<section class="wrapper style4 container">
+					<div class="content">';
+
 		echo "<span class=\"empty topic\">There are no articles by this author&nbsp;&nbsp;</span>";
 
 	}
