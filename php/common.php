@@ -158,6 +158,24 @@ function getMonth_part($month)
 	return $month;
 }
 
+function convert_devanagari($vid)
+{
+	$vid = preg_replace("/^0/", "", $vid);
+
+	$vid = preg_replace("/0/", "०", $vid);
+	$vid = preg_replace("/0/", "०", $vid);
+	$vid = preg_replace("/1/", "१", $vid);
+	$vid = preg_replace("/2/", "२", $vid);
+	$vid = preg_replace("/3/", "३", $vid);
+	$vid = preg_replace("/4/", "४", $vid);
+	$vid = preg_replace("/5/", "५", $vid);
+	$vid = preg_replace("/6/", "६", $vid);
+	$vid = preg_replace("/7/", "७", $vid);
+	$vid = preg_replace("/8/", "८", $vid);
+	$vid = preg_replace("/9/", "९", $vid);
+	return($vid);
+}
+
 /*
 isValidTitle, isValidFeature, isValidAuthor, isValidText
 */

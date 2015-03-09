@@ -4,10 +4,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tags"></span>
-		<h2><strong>Feature</strong></h2>
-		<p><?php echo $_GET["featname"];?></p>
-	</header>
-	<section class="wrapper style4 container">
+		<h2><strong><?php echo $_GET["featname"];?></strong></h2>
 		<?php 
 			if(isset($_GET['featid']) && $_GET['featid'] != '')
 			{
@@ -29,6 +26,11 @@
 			
 			if($num_rows)
 			{
+
+				echo '		<p>' . convert_devanagari($num_rows) . ' लेखनानि</p>
+						</header>
+						<section class="wrapper style4 container">';
+
 				for($a=1;$a<=$num_rows;$a++)
 				{
 					$row=mysql_fetch_assoc($result);
@@ -80,7 +82,11 @@
 			}
 			else
 			{
-				echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
+				echo '		<p>&nbsp;</p>
+						</header>
+						<section class="wrapper style4 container">';
+
+				echo "<span class=\"empty topic\">Error encountered!</span>";
 
 			}
 			mysql_close($db);
