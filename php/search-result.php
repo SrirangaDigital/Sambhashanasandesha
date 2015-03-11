@@ -185,13 +185,6 @@
 											if ((strcmp($id, $row['titleid'])) != 0) 
 											{
 												$authorid = $row['authid'];
-												$sumne = preg_split("/;/",$row['authorname']);
-												if(count($sumne)>1)
-												$authorname = $sumne[1];
-												else
-												$authorname = $sumne[0];
-												
-												$authorname1 = preg_replace("/ /","%20",$authorname);
 												$volume = $row['volume'];
 												$inum = $row['issue'];
 												$page = $row['page'];
@@ -219,7 +212,7 @@
 													$query1 = "select * from author where authid = '$sumne[$k]'";
 													$result1 = $db->query($query1); 
 													$row1=$result1->fetch_assoc();
-													echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
+													echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 													if(count($sumne) > 1 && $k < count($sumne)-1)
 													{
 														echo "&nbsp;|&nbsp;";

@@ -79,7 +79,7 @@ while($line)
 		$type = $1;
         $sal = $2;
 		$auth = $3;
-		$authname = $authname . ";" . $type . ";" . $auth . ";" . $sal;
+		$authname = $authname . "!!!" . $type . ";" . $auth . ";" . $sal;
 		$authid = $authid . ";" . get_author($auth);
 	}
 	elsif($line =~ /<allauthors\/>/)
@@ -110,7 +110,7 @@ sub insert_article()
 
 	$title =~ s/'/\\'/g;
 	$authname =~ s/'/\\'/g;
-	$authname =~ s/^;//;
+	$authname =~ s/^!!!//;
 	$authid =~ s/^;//;
 	
 
