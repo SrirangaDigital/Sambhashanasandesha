@@ -35,15 +35,6 @@
 				{
 					$row=mysql_fetch_assoc($result);
 					$authorid = $row['authid'];
-					$sumne = preg_split("/;/",$row['authorname']);
-					if(count($sumne)>1)
-					{
-						$authorname = $sumne[1];
-					}
-					else
-					{
-						$authorname = $sumne[0];
-					}
 					$volume = $row['volume'];
 					$inum = $row['issue'];
 					$page = $row['page'];
@@ -58,7 +49,6 @@
 					$row1=mysql_fetch_assoc($result1);
 					$featurename = $row1['featurename'];
 					$featureid = $row1['featid'];
-					$authorname1 = preg_replace("/ /","%20",$authorname);	
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
 					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"toc.php?volume=$volume&amp;issue=$inum&amp;year=$year&amp;month=$month\">".getMonth($month)."<span class=\"voliss\"> $year (Vol. ".intval($volume).", Issue&nbsp;".intval($inum).")</span></a><br/>";
@@ -66,9 +56,9 @@
 					for($k = 0; $k < count($sumne); $k++)
 					{
 						$query1 = "select * from author where authid = '$sumne[$k]'";
-						$result1 = mysql_query($query1);
-						$row1=mysql_fetch_assoc($result1);
-						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".$row1["authorname"]."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+						$result1 = mysql_query($query1); 
+						$row1 = mysql_fetch_assoc($result1);
+						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 						if(count($sumne) > 1 && $k < count($sumne)-1)
 						{
 							echo "&nbsp;|&nbsp;";
