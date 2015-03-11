@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php
+	include("header.php"); ?>
 <?php include("nav.php"); ?>
 <article id="main">
 	<header class="special container">

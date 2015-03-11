@@ -1,5 +1,7 @@
 #!/usr/bin/perl 
 
+print "Article Insertion\n";
+
 $host = $ARGV[0];
 $db = $ARGV[1];
 $usr = $ARGV[2];
@@ -24,7 +26,7 @@ page_end varchar(50),
 authorname varchar(5000),
 authid varchar(500),
 titleid int(50) not null auto_increment,
-primary key (titleid))auto_increment=10001");
+primary key (titleid)) auto_increment=10001 ENGINE=MyISAM ");
 
 $sth11->execute();
 $sth11->finish();

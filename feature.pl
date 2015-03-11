@@ -5,6 +5,8 @@ $db = $ARGV[1];
 $usr = $ARGV[2];
 $pwd = $ARGV[3];
 
+print "Feature Insertion\n";
+
 use DBI();
 
 open(IN, "sandesha.xml") or die "can't open sandesha.xml\n";
@@ -15,7 +17,7 @@ $dbh->do('SET NAMES utf8');
 
 $sth11=$dbh->prepare("CREATE TABLE feature(featurename varchar(500),
 featid int(50) not null auto_increment,
-primary key (featid))auto_increment=1001");
+primary key (featid))auto_increment=1001 ENGINE=MyISAM");
 
 $sth11->execute();
 $sth11->finish();

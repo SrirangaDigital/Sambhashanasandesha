@@ -5,7 +5,7 @@ $db = $ARGV[1];
 $usr = $ARGV[2];
 $pwd = $ARGV[3];
 
-
+print "Author Insertion\n";
 use DBI();
 
 open(IN, "sandesha.xml") or die "can't open sandesha.xml\n";
@@ -18,7 +18,7 @@ $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400),
 type varchar(10),
 sal varchar(100),
 authid int(10) NOT NULL AUTO_INCREMENT,
-PRIMARY KEY (authid))AUTO_INCREMENT=1001");
+PRIMARY KEY (authid))AUTO_INCREMENT=1001 ENGINE=MyISAM");
 
 $sth11->execute();
 $sth11->finish();

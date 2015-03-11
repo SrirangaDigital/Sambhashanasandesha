@@ -52,9 +52,9 @@
     ?>
 <script type="text/javascript">
 	var book = <?php echo json_encode($book); ?>;
-	<?php if(isset($_SESSION['sd'][$year.$month]) && $_SESSION['sd'][$year.$month] != ""):?>
-		var wordResult = <?php echo json_encode($_SESSION['sd'][$year.$month]); ?>;
-	<?php endif; ?>
+	//~ <?php if(isset($_SESSION['sd'][$year.$month]) && $_SESSION['sd'][$year.$month] != ""):?>
+		//~ var wordResult = <?php echo json_encode($_SESSION['sd'][$year.$month]); ?>;
+	//~ <?php endif; ?>
 </script>
 </head>
 <script type="text/javascript" src="../static/BookReader/cacheUpdater.js"></script>

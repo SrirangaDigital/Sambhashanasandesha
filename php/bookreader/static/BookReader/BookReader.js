@@ -2759,6 +2759,7 @@ BookReader.prototype.search = function(term) {
 // BRSearchCallback()
 //______________________________________________________________________________
 BookReader.prototype.BRSearchCallback = function(results) {
+    console.log(results);
     br.removeSearchResults();
     br.searchResults = results; 
 	if (0 == results.matches.length) {
