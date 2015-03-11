@@ -3,19 +3,19 @@
 <?php include("common.php"); ?>
 <?php
 
+$advtID = '1001';
 	if((isset($_GET['month']) && $_GET['month'] != '') && isset($_GET['year']) && $_GET['year'] != '')
 	{
 		$month = $_GET['month'];
 		$year = $_GET['year'];
 		$volume = $_GET['volume'];
 		$issue = $_GET['issue'];
-		$query = "select * from article where year = $year and month = $month order by volume, issue, title, page";
+		$query = "(select * from article where year = '$year' and month = '$month' and featid != '$advtID' order by page) UNION (select * from article where year = '$year' and month = '$month' and featid = '$advtID' order by page)";
 	}
 	else
 	{
 		$query = "select * from article order by year, month, title, page";
 	}
-	
 ?>
 <article id="main">
 	<header class="special container">
@@ -83,7 +83,7 @@
 	}
 	else
 	{
-		echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
+		echo "<span class=\"empty topic\">Error encountered!</span>";
 
 	}
 	mysql_close($db);
