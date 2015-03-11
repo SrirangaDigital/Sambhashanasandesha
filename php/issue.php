@@ -1,5 +1,6 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
+<?php include("common.php"); ?>
 <article id="main">
 	<?php
 	include("connect.php");
@@ -8,8 +9,8 @@
 	?>
 	<header class="special container">
 		<span class="icon fa-book"></span>
-		<h2><strong><?php echo $year; ?></strong></h2>
-		<p><?php echo "Volume " . $volume; ?></p>
+		<h2><strong><?php echo convert_devanagari($year); ?></strong></h2>
+		<p><?php echo "सम्पुटाः " . convert_devanagari($volume); ?></p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -54,7 +55,7 @@ if($num_rows)
 			}
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
-			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">".$month_name{intval($month)}."</p></a>";
+			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">" . getMonthDevanagari($month) . "</p></a>";
 	}
 }
 echo '</div>';

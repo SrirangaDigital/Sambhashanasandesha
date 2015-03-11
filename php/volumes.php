@@ -1,9 +1,10 @@
 <?php include("header.php"); ?>
 <?php include("nav.php"); ?>
+<?php include("common.php"); ?>
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-book"></span>
-		<h2><strong>Volumes</strong></h2>
+		<h2><strong>सम्पुटाः</strong></h2>
 		<p>Click on the year to see the issues.</p>
 	</header>
 	<section class="wrapper style4 container">
@@ -53,7 +54,7 @@
 					$count = 1;
 				}
 				$ynum = preg_replace("/^[0]+/", "", $year);
-				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\"><img src=\"images/cover/$year/09.jpg\" alt=\"$year thumbnail\" /><p class=\"inum\"> $year</p></a>";
+				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\"><img src=\"images/cover/$year/09.jpg\" alt=\"$year thumbnail\" /><p class=\"inum\">" . convert_devanagari($year) . "</p></a>";
 				
 			}
 		}

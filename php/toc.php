@@ -3,8 +3,6 @@
 <?php include("common.php"); ?>
 <?php
 
-	$month_name = array("1"=>"जनवरी","2"=>"फेब्रवरी","3"=>"मार्च्","4"=>"एप्रिल्","5"=>"मे","6"=>"जून्","7"=>"जुलै","8"=>"अगस्ट्","9"=>"सप्टम्बर्","10"=>"अक्टोबर्","11"=>"नवम्बर्","12"=>"डिसेम्बर्");
-	
 	if((isset($_GET['month']) && $_GET['month'] != '') && isset($_GET['year']) && $_GET['year'] != '')
 	{
 		$month = $_GET['month'];
@@ -22,7 +20,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon toc_image"><?php echo '<img src="images/cover/' . $year . '/' . $month . '.jpg" alt="Issue ' . $year . ' ' . $month . ' cover page" />'; ?></span>
-		<h2><strong><?php echo $month_name{intval($month)} . " " . convert_devanagari($year); ?></strong></h2>
+		<h2><strong><?php echo getMonthDevanagari($month) . " " . convert_devanagari($year); ?></strong></h2>
 		<p><?php echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue); ?></p>
 	</header>
 	
