@@ -1206,25 +1206,18 @@
 			color:#8b0000;
 		}
 		.volumes {
-			width:75%;
+			width:95%;
 			text-align:center;
-			margin-left:10%;
-			margin-right:10%;
+			margin: 0 auto;
 		}
 		.volumes a {
 			display:inline-block;
-			padding:1.5em 1.5em;
+			padding:2em 2em;
 			height:210px;
-/*
-			box-shadow:10px 10px 10px #EEE;
-*/
 		}
 
 		.volumes img {
-			height:125px;
-/*
-			box-shadow:10px 10px 10px #EEE;
-*/
+			height:140px;
 		}
 		.volumes p {
 			font-size:0.85em;
