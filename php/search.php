@@ -25,7 +25,30 @@
 				</div>
 				<div class="row uniform 50%">
 					<div class="3u 12u(3)">
-						<input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="प्रधानविभागः" />
+						<!-- <input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="प्रधानविभागः" /> -->
+						<select name="feature" id="feature" style="cursor:context-menu;color: rgba(124, 128, 129, 0.5);min-width: 13.2em;">
+							<option value="" selected="selected">&nbsp;&nbsp;प्रधानविभागः</option>
+								<?php
+									include("connect.php");
+									$db = mysql_connect($server,$user,$password) or die("Not connected to database");
+									$rs = mysql_select_db($database,$db) or die("No Database");
+									mysql_set_charset("utf8",$db);
+								
+									$query = "select distinct featid,featurename from feature order by featurename";
+									$result = mysql_query($query);
+									$num_rows = $result ? mysql_num_rows($result) : 0;
+									if($num_rows > 0)
+									{
+										for($i=1;$i<=$num_rows;$i++)
+										{
+											$row = mysql_fetch_assoc($result);
+											$featurename=$row['featurename'];
+											$featid=$row['featid'];
+											echo '<option value="' . $featid . '">&nbsp;&nbsp;' . $featurename . '</option>';
+										}
+									}
+								?>
+						</select>
 					</div>
 				</div>
 				<div class="row uniform 50%">
@@ -39,11 +62,6 @@
 							<select name="year1" style="cursor:context-menu;">
 								<option value="">&nbsp;</option>
 									<?php
-										include("connect.php");
-										$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-										$rs = mysql_select_db($database,$db) or die("No Database");
-										mysql_set_charset("utf8",$db);
-									
 										$query = "select distinct year from article order by year";
 										$result = mysql_query($query);
 										$num_rows = $result ? mysql_num_rows($result) : 0;
