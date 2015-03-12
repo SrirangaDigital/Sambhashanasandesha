@@ -4,8 +4,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-pencil"></span>
-		<h2><strong>लेखनानि</strong></h2>
-		<p>Lists all the articles of Sambhashana Sandesha.</p>
+		<h2><strong>लेखाः</strong></h2>
+		<p>अकाराद्यनुक्रमणिका</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

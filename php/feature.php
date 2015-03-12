@@ -4,8 +4,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tags"></span>
-		<h2><strong>Features</strong></h2>
-		<p>Lists of features</p>
+		<h2><strong>प्रधानविभागाः</strong></h2>
+		<p>सूचिः</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

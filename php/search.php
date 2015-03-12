@@ -1,44 +1,41 @@
-<?php
-	include("header.php"); ?>
+<?php include("header.php"); ?>
 <?php include("nav.php"); ?>
+<?php include("common.php"); ?>
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-search"></span>
-		<h2><strong>Search</strong></h2>
-		<p>Search by title of an article or by its author</p>
+		<h2><strong>अन्वेषणम्</strong></h2>
+		<p>लेखाः - लेखकाः - प्रधानविभागाः - शब्दाः</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
 			<section>
-				<header>
-					<h3><strong>Search Form</strong></h3>
-				</header>
 			<?php include("keyboard.php");?>
 			<form method="get" action="search-result.php">
 				<div class="row uniform 50%">
 					<div class="6u 12u(3)">
-						<input type="text" name="title" id="title" onfocus="SetId('title')" value="" placeholder="Title" />
+						<input type="text" name="title" id="title" onfocus="SetId('title')" value="" placeholder="शीर्षिकम्" />
 					</div>
 				</div>
 				
 				<div class="row uniform 50%">
 					<div class="3u 12u(3)">
-						<input type="text" name="author" id="author" onfocus="SetId('author')" value="" placeholder="Author" />
+						<input type="text" name="author" id="author" onfocus="SetId('author')" value="" placeholder="लेखकः" />
 					</div>
 				</div>
 				<div class="row uniform 50%">
 					<div class="3u 12u(3)">
-						<input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="Feature" />
+						<input type="text" name="feature" id="feature" onfocus="SetId('feature')" value="" placeholder="प्रधानविभागः" />
 					</div>
 				</div>
 				<div class="row uniform 50%">
 					<div class="3u 12u(3)">
-						<input type="text" name="text" id="text" onfocus="SetId('text')" value="" placeholder="Words" />
+						<input type="text" name="text" id="text" onfocus="SetId('text')" value="" placeholder="शब्दः" />
 					</div>
 				</div>
 					<div class="row uniform 50%">
-						<span class="clr1">Year</span>
-						<div class="1u 6u">
+						<span style="line-height: 2.5em;color: rgba(124, 128, 129, 0.5);">अवधिः</span>
+						<div class="5u 6u">
 							<select name="year1" style="cursor:context-menu;">
 								<option value="">&nbsp;</option>
 									<?php
@@ -56,14 +53,12 @@
 											{
 												$row = mysql_fetch_assoc($result);
 												$year=$row['year'];
-												echo "<option value=\"$year\">" . $year . "</option>";
+												echo '<option value="' . $year . '">' . convert_devanagari($year) . '</option>';
 											}
 										}
 									?>
 							</select>
-						</div>
-						<p>To</p>
-						<div class="1u 6u">
+							<span style="line-height: 2.5em;margin: 0 1em;color: rgba(124, 128, 129, 0.5)">प्रति</span>
 							<select name="year2" style="cursor:context-menu;">
 								<option value="">&nbsp;</option>
 									<?php
@@ -75,19 +70,19 @@
 											{
 												$row = mysql_fetch_assoc($result);
 												$year=$row['year'];
-												echo "<option value=\"$year\">" . $year . "</option>";
+												echo '<option value="' . $year . '">' . convert_devanagari($year) . '</option>';
 											}
 										}
 									?>
 							</select>
 						</div>
 					</div>
-					<div class="row uniform 50%">
-						<div class="4u 12u(3)">
-							<input type="submit" value="Search" class="fit" />
+					<div class="row uniform 70%">
+						<div class="2.2u 12u(3)">
+							<input type="submit" value="अन्विष्यताम्" class="fit" />
 						</div>
-						<div class="2u 12u(3)">
-							<input type="reset" value="Reset" class="fit" />
+						<div class="2.2u 12u(3)">
+							<input type="reset" value="पुनर्व्यवस्थापय" class="fit" />
 						</div>
 					</div>
 			</form>

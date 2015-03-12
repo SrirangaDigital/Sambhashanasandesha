@@ -5,7 +5,7 @@
 	<header class="special container">
 		<span class="icon fa-book"></span>
 		<h2><strong>सम्पुटाः</strong></h2>
-		<p>Click on the year to see the issues.</p>
+		<p>सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

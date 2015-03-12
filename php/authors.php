@@ -3,8 +3,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-user"></span>
-		<h2><strong>Authors</strong></h2>
-		<p>Author names starting with the letter<strong>&nbsp;<?php echo '"'.$_GET['letter'].'"';?></strong></p>
+		<h2><strong>लेखकाः</strong></h2>
+		<p>अकाराद्यनुक्रमणिका</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

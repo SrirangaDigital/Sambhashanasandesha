@@ -152,14 +152,10 @@
 							//~ echo $query;
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
-								echo'<h2>Search Results</h2>';
+								echo'<h2>अन्वेषणस्य फलम्</h2>';
 								if($num_results > 0)
 								{
-									echo ($num_results > 1) ? '<p>'.$num_results.'&nbsp;Results</p>' : '<p>'.$num_results.'&nbsp;Result</p>';
-								}
-								else
-								{
-									echo '<p>No Results</p>';
+									echo ($num_results > 1) ? '<p>' . convert_devanagari($num_results) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_results) . ' परिणामः</p>';
 								}
 							echo '</header>';
 					?>
@@ -240,7 +236,7 @@
 									}
 									else
 									{
-										echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;</span>";
+										echo "<span class=\"empty topic\">परिणामः नास्ति</span>";
 
 									}
 									if($result){$result->free();}
