@@ -1231,25 +1231,26 @@
 		}
 		.toc_image {
 			display:block;
-			margin-top:-4em;	
+			margin-top:-4em;
+		}
+		.toc_image img{
+			border: 6px solid white;
+			box-shadow: 0 1px 2px rgba(34, 25, 25, 0.3) !important;
 		}
 		
 		/* Hollow */
 		.box-shadow-outset {
 		  display: inline-block;
-		  -webkit-transition-duration: 0.3s;
-		  transition-duration: 0.3s;
-		  -webkit-transition-property: box-shadow;
-		  transition-property: box-shadow;
-		  -webkit-transform: translateZ(0);
-		  transform: translateZ(0);
-		  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 		}
-		.box-shadow-outset:hover, .box-shadow-outset:focus, .box-shadow-outset:active {
-		  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-		}d: none;
+		.box-shadow-outset img{
+		  border: 6px solid white;
+		  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.3);
+		}
+		.box-shadow-outset img:hover, .box-shadow-outset img:focus, .box-shadow-outset img:active {
+		  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.6);
+		}
 		.inum  {
-				border: 1px solid red;
+				
 			}
 		.inum {
 			font-family: 'Lato', sans-serif;
