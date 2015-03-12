@@ -15,7 +15,7 @@
 			<a href="articles.php?letter=इ">इ</a>
 			<a href="articles.php?letter=ई">ई</a>
 			<a href="articles.php?letter=उ">उ</a>
-			<a href="articles.php?letter=ऊ">ऊ</a>
+			<!-- <a href="articles.php?letter=ऊ">ऊ</a> -->
 			<a href="articles.php?letter=ऋ">ऋ</a>
 			<a href="articles.php?letter=ए">ए</a>
 			<a href="articles.php?letter=ऐ">ऐ</a>

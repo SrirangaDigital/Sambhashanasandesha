@@ -24,7 +24,7 @@
 		<a href="authors.php?letter=च">च</a>
 		<a href="authors.php?letter=ज">ज</a>
 		
-		<a href="authors.php?letter=ट">ट</a>
+		<!-- <a href="authors.php?letter=ट">ट</a> -->
 		<a href="authors.php?letter=ड">ड</a>
 		
 		<a href="authors.php?letter=त">त</a>
