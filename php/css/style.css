@@ -874,7 +874,7 @@
 				}
 
 			#banner .inner p {
-				letter-spacing: 0.1em;
+				letter-spacing: 1px;
 				margin: 0;
 /*
 				text-transform: uppercase;
