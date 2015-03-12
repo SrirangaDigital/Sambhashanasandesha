@@ -929,14 +929,14 @@
 
 #kbd{
 	font-family:'Sanskrit2003';
-	width: 500px;
-	float: left;
-	margin-top: 50px;
+	width: 400px;
+	margin-top: 0px;
 	margin-right: 0px;
+	float: right;
 }
 .keys{
 	width: 36px;
-	height: 27px;
+	height: 36px;
 	float: left;
 	border-right: 1px solid #AAA;
 	border-bottom: 1px solid #AAA;
@@ -1261,3 +1261,10 @@
 			font-size: 0.9em ;
 			font-weight: 300;
 		}
+
+		/*Extra*/
+
+		.gapBelow{
+			margin-bottom: 1.1em !important;
+		}
+		

@@ -2,7 +2,7 @@
 <?php include("nav.php"); ?>
 <?php include("common.php"); ?>
 <?php
-	if(empty($_GET['title']) && empty($_GET['author']) && empty($_GET['feature']) && empty($_GET['text']) && empty($_GET['year1']) && empty($_GET['year2'])) {
+	if(empty($_GET['title']) && empty($_GET['author']) && empty($_GET['featid']) && empty($_GET['text']) && empty($_GET['year1']) && empty($_GET['year2'])) {
 		header('Location: search.php');
 		exit(1);
 	}
@@ -147,7 +147,8 @@
 										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
 							}
 							
-							$result = $db->query($query) or die("query fraild"); 
+
+							$result = $db->query($query) or die("query failed"); 
 							$num_results = $result ? $result->num_rows : 0;
 							//~ echo $query;
 							echo '<header class="special container">';
