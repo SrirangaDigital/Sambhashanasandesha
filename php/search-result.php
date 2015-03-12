@@ -203,22 +203,27 @@
 												echo "<div class=\"box\">";
 												echo	"<div class=\"inside\">";
 												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
-												$sumne = preg_split("/;/",$authorid);
-												for($k = 0; $k < count($sumne); $k++)
+												if($authorid != "")
 												{
-													$query1 = "select * from author where authid = '$sumne[$k]'";
-													$result1 = $db->query($query1); 
-													$row1=$result1->fetch_assoc();
-													echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
-													if(count($sumne) > 1 && $k < count($sumne)-1)
+													$sumne = preg_split("/;/",$authorid);
+													for($k = 0; $k < count($sumne); $k++)
 													{
-														echo "&nbsp;|&nbsp;";
+														$query1 = "select * from author where authid = '$sumne[$k]'";
+														$result1 = $db->query($query1); 
+														$row1=$result1->fetch_assoc();
+														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+														if(count($sumne) > 1 && $k < count($sumne)-1)
+														{
+															echo "&nbsp;|&nbsp;";
+														}
 													}
 												}
+												
 											
 												if($text != '')
 												{
-													echo '<br /><span class="aIssue">Text match found at page(s) : </span>';
+													if($authorid != ""){echo "<br />";}
+													echo '<span class="aIssue">Text match found at page(s) : </span>';
 													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
 												}
 
