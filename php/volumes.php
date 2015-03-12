@@ -54,7 +54,7 @@
 					$count = 1;
 				}
 				$ynum = preg_replace("/^[0]+/", "", $year);
-				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\"><img src=\"images/cover/$year/09.jpg\" alt=\"$year thumbnail\" /><p class=\"inum\">" . convert_devanagari($year) . "</p></a>";
+				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\"><img src=\"images/cover/thumbs/$year/09.jpg\" alt=\"$year thumbnail\" /><p class=\"inum\">" . convert_devanagari($year) . "</p></a>";
 				
 			}
 		}

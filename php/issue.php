@@ -55,7 +55,7 @@ if($num_rows)
 			}
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
-			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">" . getMonthDevanagari($month) . "</p></a>";
+			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">" . getMonthDevanagari($month) . "</p></a>";
 	}
 }
 echo '</div>';

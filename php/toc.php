@@ -19,7 +19,7 @@ $advtID = '1001';
 ?>
 <article id="main">
 	<header class="special container">
-		<span class="icon toc_image"><?php echo '<img src="images/cover/' . $year . '/' . $month . '.jpg" alt="Issue ' . $year . ' ' . $month . ' cover page" />'; ?></span>
+		<span class="icon toc_image"><?php echo '<img src="images/cover/thumbs/' . $year . '/' . $month . '.jpg" alt="Issue ' . $year . ' ' . $month . ' cover page" />'; ?></span>
 		<h2><strong><?php echo getMonthDevanagari($month) . " " . convert_devanagari($year); ?></strong></h2>
 		<p><?php echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue); ?></p>
 	</header>
