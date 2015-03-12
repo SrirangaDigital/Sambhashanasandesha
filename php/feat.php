@@ -27,9 +27,10 @@
 			if($num_rows)
 			{
 
-				echo '		<p>' . convert_devanagari($num_rows) . ' लेखनानि</p>
-						</header>
-						<section class="wrapper style4 container">';
+
+				echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p>' . convert_devanagari($num_rows) . ' लेखः</p>';
+				echo '		</header>
+							<section class="wrapper style4 container">';
 
 				for($a=1;$a<=$num_rows;$a++)
 				{

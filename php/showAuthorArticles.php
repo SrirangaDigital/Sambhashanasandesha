@@ -31,8 +31,8 @@
 	if($num_rows)
 	{
 
-		echo '		<p>' . convert_devanagari($num_rows) . ' लेखनानि</p>
-				</header>
+		echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p>' . convert_devanagari($num_rows) . ' लेखः</p>';
+		echo '		</header>
 				<section class="wrapper style4 container">
 					<div class="content">';
 
