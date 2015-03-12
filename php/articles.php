@@ -62,12 +62,14 @@
 	if(isset($_GET['letter']) && $_GET['letter'] != '')
 	{
 		$letter = $_GET['letter'];
-		$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
 	}
 	else
 	{
-		$query = "select * from article order by volume, issue, title, page";
+		$letter = 'अ';
 	}
+
+	$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
+
 	include("connect.php");
 
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");

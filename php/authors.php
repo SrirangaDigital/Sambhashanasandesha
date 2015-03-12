@@ -50,12 +50,19 @@
 		
 	</div>
 <?php
-	include("connect.php");
 	if(isset($_GET['letter']) && $_GET['letter'] != '')
 	{
 		$letter = $_GET['letter'];
-		$query1 = "select * from author where authorname like '$letter%' order by authorname";
 	}
+	else
+	{
+		$letter = 'अ';
+	}
+
+	$query1 = "select * from author where authorname like '$letter%' order by authorname";
+
+	include("connect.php");
+
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
 	mysql_set_charset("utf8",$db);
