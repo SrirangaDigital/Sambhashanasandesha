@@ -1192,8 +1192,20 @@
 */
 			font-size:1em;
 		}
-		.box			{ display:block; }
-		.box .inside	{ display:inline-block;border: 1px dotted #D3D3D3;padding: 20px; border-radius:10px;background: #f2f5f6;  position: relative; margin: 10px 0;}
+		.box{
+			display:block;
+		}
+		.box .inside{
+			display:inline-block;
+			border-left: 1px solid #3372df;
+			box-shadow: 0 0 2px rgba(34, 25, 25, 0.3);
+			padding: 20px;
+			border-radius:2px;
+			background: #ffffff;
+			position: relative;
+			margin: 10px 0;
+			width: 100%;
+		}
 		.letters {
 			width: 100%;
 			text-align:center;
