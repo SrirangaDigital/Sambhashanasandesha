@@ -26,37 +26,36 @@
 		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="php/about.php">About</a>
+				<li><a href="index.php">Home | उपक्रमः:</a></li>
+				<li><a href="php/about.php">About | परिचयः</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
 					</ul>
 				</li>
-				<li><a href="php/subscribe.php">Subscribe</a>
+				<li><a href="php/subscribe.php">Subscribe | ग्राहकता</a>
 					<ul>
 						<li><a href="php/subscribe.php">India</a></li>
-						<li><a href="php/subscribe_us.php">US & Canada</a></li>
+						<li><a href="php/subscribe_us.php">US &amp; Canada</a></li>
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="javascript:void(0);">Archives</a>
+				<li><a href="javascript:void(0);">Archives | सङ्ग्रहः</a>
 					<ul>
-						<li><a href="php/volumes.php">Volumes</a></li>
-						<li><a href="php/articles.php?letter=अ">Articles</a></li>
-						<li><a href="php/authors.php?letter=अ">Authors</a></li>
-						<li><a href="php/feature.php">Features</a></li>
-						<li><a href="php/search.php">Search</a></li>
+						<li><a href="php/volumes.php">Volumes | सम्पुटाः</a></li>
+						<li><a href="php/articles.php?letter=अ">Articles | लेखाः</a></li>
+						<li><a href="php/authors.php?letter=अ">Authors | लेखकाः</a></li>
+						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
+						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
-				<li><a href="php/contact.php">Contact</a></li>
+				<li><a href="php/contact.php">Contact | सम्पर्कः</a></li>
 			</ul>
 		</nav>
 	</header>
 	<!-- Banner -->
 	<section id="banner">
 		<div class="inner">
-			<p class="lang_sel"><a href="index_sanskrit.php">संस्कृतं</a> | <a href="index.php">english</a></p>
 			<header>
 				<h2>सम्भाषण सन्देश:</h2>
 			</header>
