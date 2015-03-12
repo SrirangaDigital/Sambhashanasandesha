@@ -22,16 +22,16 @@
 		for($b = 0; $b < $num_rows1; $b++)
 		{
 			$row1=$result1->fetch_assoc();
-			$sumne = preg_split("/,/", $row1['cords']);
+			//~ $sumne = preg_split("/,/", $row1['cords']);
 			//~ Base image size is 800X1200
 			//~ Also note that coordinate has already been shifted to top left from bottom left (DjVu)
-			$sumne[0] = floor($sumne[0] * 800 / $row1['width']);
-			$sumne[2] = floor($sumne[2] * 800 / $row1['width']);
-			$sumne[1] = floor($sumne[1] * 1200 / $row1['height']);
-			$sumne[3] = floor($sumne[3] * 1200 / $row1['height']);
-			$cord[] = array("l" => $sumne[0],"b" => $sumne[1],"r" => $sumne[2],"t" => $sumne[3]);
+			//~ $sumne[0] = floor($sumne[0] * 800 / $row1['width']);
+			//~ $sumne[2] = floor($sumne[2] * 800 / $row1['width']);
+			//~ $sumne[1] = floor($sumne[1] * 1200 / $row1['height']);
+			//~ $sumne[3] = floor($sumne[3] * 1200 / $row1['height']);
+			$cord[] = array("l" => $row1['l'],"b" => $row1["b"],"r" => $row1["r"],"t" => $row1["t"]);
 		}
-		$row1["text"] = "Searched Text in from the given query";
+		$row1["text"] = "Text Found in";
 		$qtext = "Text";
 		$row1["text"] = preg_replace("/Text/" , "{{{".$qtext."}}}" , $row1["text"]);
 		$array["text"] = $row1["text"];

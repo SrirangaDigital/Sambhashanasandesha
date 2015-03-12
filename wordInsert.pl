@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-
+use POSIX;
 $host = $ARGV[0];
 $db = $ARGV[1];
 $usr = $ARGV[2];
@@ -22,7 +22,10 @@ month varchar(10),
 height varchar(10),
 width varchar(10),
 pagenum varchar(10),
-cords varchar(25),
+l int(10),
+b int(10),
+t int(10),
+r int(10),
 word varchar(50),
 wordid int(10) NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (wordid))AUTO_INCREMENT=1001  ENGINE=MyISAM");
@@ -83,10 +86,17 @@ sub insert_word()
 	$word =~ s///g;
 	$word =~ s///g;
 	$word =~ s/^\s+|\s+$//g;
+	#~ Base image size is 800X1200
+	#~ Also note that coordinate has already been shifted to top left from bottom left (DjVu)
+	@sumne = split(/,/, $cords);
+	$left = floor($sumne[0] * 800 / $width);
+	$top = floor($sumne[2] * 800 / $width);
+	$bottom = floor($sumne[1] * 1200 / $height);
+	$right = floor($sumne[3] * 1200 / $height);
 	
 	my($sth1,$sth);
 
-	$sth = $dbh->prepare("insert into word values('$yr','$mon','$height','$width','$page','$cords','$word','')");
+	$sth = $dbh->prepare("insert into word values('$yr','$mon','$height','$width','$page','$left','$bottom','$right','$top','$word','')");
 	$sth->execute();
 	$sth->finish();
 }
