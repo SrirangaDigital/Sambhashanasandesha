@@ -142,7 +142,7 @@
 
 							$result = mysql_query($query) or die("query failed".mysql_error()); 
 							$num_rows = $num_results = $result ? mysql_num_rows($result) : 0;
-							echo $query;
+							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
 								echo'<h2>अन्वेषणस्य फलम्</h2>';
