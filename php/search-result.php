@@ -11,17 +11,9 @@
     		<article id="main">
 					<?php
 							include("connect.php");
-							$db = @new mysqli('localhost', "$user", "$password", "$database");
-							$db->set_charset("utf8");
-							
-							if($db->connect_errno > 0)
-							{
-								echo '<span class="aFeature clr2">Not connected to the Database</span>';
-								echo '</div> <!-- cd-container -->';
-								echo '</div> <!-- cd-scrolling-bg -->';
-								echo '</main> <!-- cd-main-content -->';
-								exit(1);
-							}
+							$db=mysql_connect('localhost', "$user", "$password") or die("Not Connected to databases");
+							mysql_select_db("$database",$db);
+							mysql_set_charset("utf8",$db);
 							
 							if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 							if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
@@ -148,9 +140,9 @@
 							}
 							
 
-							$result = $db->query($query) or die("query failed"); 
-							$num_results = $result ? $result->num_rows : 0;
-							//~ echo $query;
+							$result = mysql_query($query) or die("query failed".mysql_error()); 
+							$num_rows = $num_results = $result ? mysql_num_rows($result) : 0;
+							echo $query;
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
 								echo'<h2>अन्वेषणस्य फलम्</h2>';
@@ -163,8 +155,8 @@
 				<section class="wrapper style4 container">
 						<div class="content">
 								<?php
-									$result = $db->query($query); 
-									$num_rows = $result ? $result->num_rows : 0;
+									//~ $result = $db->query($query); 
+									//~ $num_rows = $result ? $result->num_rows : 0;
 									$id = 0;
 									$year = "";
 									$month = "";
@@ -172,7 +164,7 @@
 									{
 										for($a=1;$a<=$num_rows;$a++)
 										{
-											$row=$result->fetch_assoc();
+											$row=mysql_fetch_assoc($result);
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
@@ -193,8 +185,8 @@
 												$featureid = $row['featid'];
 												
 												$query1 = "select * from feature where featid = '$featureid'";
-												$result1 = $db->query($query1); 
-												$row1=$result1->fetch_assoc();
+												$result1 = mysql_query($query1); 
+												$row1=mysql_fetch_assoc($result1);
 												$fname = $row1['featurename'];
 												$featurename = preg_replace("/ /","%20",$row1['featurename']);
 												
@@ -209,8 +201,8 @@
 													for($k = 0; $k < count($sumne); $k++)
 													{
 														$query1 = "select * from author where authid = '$sumne[$k]'";
-														$result1 = $db->query($query1); 
-														$row1=$result1->fetch_assoc();
+														$result1 = mysql_query($query1); 
+														$row1=mysql_fetch_assoc($result1);
 														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
 														if(count($sumne) > 1 && $k < count($sumne)-1)
 														{
@@ -245,8 +237,7 @@
 										echo "<span class=\"empty topic\">परिणामः नास्ति</span>";
 
 									}
-									if($result){$result->free();}
-									$db->close();
+									mysql_close();
 
 							?>
 						</div>

@@ -10,7 +10,6 @@ print "Test OCR\n";
 use DBI();
 
 my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
-$dbh->{'mysql_enable_utf8'} = 1;
 $dbh->do('SET NAMES utf8');
 
 $sth11=$dbh->prepare("drop table if exists testocr");

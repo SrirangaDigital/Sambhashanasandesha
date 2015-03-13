@@ -11,7 +11,6 @@ use DBI();
 open(IN, "sandesha.xml") or die "can't open sandesha.xml\n";
 
 $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
-$dbh->{'mysql_enable_utf8'} = 1;
 $dbh->do('SET NAMES utf8');
 
 $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400),
