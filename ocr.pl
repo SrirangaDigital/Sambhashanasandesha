@@ -10,7 +10,9 @@ print "Test OCR\n";
 use DBI();
 
 my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
-$dbh->do('SET NAMES utf8');
+$sth_enc=$dbh->prepare("set names utf8");
+$sth_enc->execute();
+$sth_enc->finish();
 
 $sth11=$dbh->prepare("drop table if exists testocr");
 $sth11->execute();
@@ -19,7 +21,7 @@ $sth11->finish();
 $sth11=$dbh->prepare("CREATE TABLE testocr(year varchar(5),
 month varchar(10),
 cur_page varchar(10),
-text varchar(5000)) ENGINE=MyISAM");
+text varchar(5000)) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 $sth11->execute();
 $sth11->finish(); 
 @year = `ls Text`;

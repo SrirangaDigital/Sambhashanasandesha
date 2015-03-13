@@ -31,7 +31,7 @@ $advtID = '1001';
 	include("connect.php");
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_set_charset("utf8",$db);
+	mysql_query("set names utf8");
 
 
 	$result = mysql_query($query);

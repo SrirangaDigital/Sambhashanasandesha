@@ -13,7 +13,7 @@
 							include("connect.php");
 							$db=mysql_connect('localhost', "$user", "$password") or die("Not Connected to databases");
 							mysql_select_db("$database",$db);
-							mysql_set_charset("utf8",$db);
+							mysql_query("set names utf8");
 							
 							if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 							if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}

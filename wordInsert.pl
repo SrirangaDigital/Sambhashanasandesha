@@ -27,7 +27,7 @@ t int(10),
 r int(10),
 word varchar(50),
 wordid int(10) NOT NULL AUTO_INCREMENT,
-PRIMARY KEY (wordid))AUTO_INCREMENT=1001  ENGINE=MyISAM");
+PRIMARY KEY (wordid))AUTO_INCREMENT=1001  ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 $sth11->execute();
 $sth11->finish(); 
 @year = `ls Volumes_xml`;

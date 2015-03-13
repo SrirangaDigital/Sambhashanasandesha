@@ -12,11 +12,13 @@ use DBI();
 open(IN, "sandesha.xml") or die "can't open sandesha.xml\n";
 
 $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
-$dbh->do('SET NAMES utf8');
+$sth_enc=$dbh->prepare("set names utf8");
+$sth_enc->execute();
+$sth_enc->finish();
 
 $sth11=$dbh->prepare("CREATE TABLE feature(featurename varchar(500),
 featid int(50) not null auto_increment,
-primary key (featid))auto_increment=1001 ENGINE=MyISAM");
+primary key (featid))auto_increment=1001 ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 
 $sth11->execute();
 $sth11->finish();

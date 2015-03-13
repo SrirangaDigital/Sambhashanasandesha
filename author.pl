@@ -8,16 +8,18 @@ $pwd = $ARGV[3];
 print "Author Insertion\n";
 use DBI();
 
-open(IN, "sandesha.xml") or die "can't open sandesha.xml\n";
+open(IN,"<:utf8","sandesha.xml") or die "can't open sandesha.xml\n";
 
 $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
-$dbh->do('SET NAMES utf8');
+$sth_enc=$dbh->prepare("set names utf8");
+$sth_enc->execute();
+$sth_enc->finish();
 
 $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400),
 type varchar(10),
 sal varchar(100),
 authid int(10) NOT NULL AUTO_INCREMENT,
-PRIMARY KEY (authid))AUTO_INCREMENT=1001 ENGINE=MyISAM");
+PRIMARY KEY (authid))AUTO_INCREMENT=1001 ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 
 $sth11->execute();
 $sth11->finish();
