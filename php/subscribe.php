@@ -25,11 +25,11 @@
 						Tel: [080]- 2672 1052 / 2672 2576 <br />
 						e-mail: samskritam@gmail.com<br /><br />
 						<strong>Subscription amount may be sent through D.D/M.O./ e-transfer. Bank details for e-transfer</strong><br /><br />
-						Name of the account - Sambhashana Sandesha<br /> 
-						Corporation Bank, Girinagar, Bangalore<br />
-						CLSB A/c. No – 074600301120001<br />
-						MICR No – 560017055<br />
-						IFSC code - CORP 0000746.</p>
+						Name of the account - <strong>Sambhashana Sandesha</strong><br /> 
+						Bank details – Corporation Bank, Girinagar, Bangalore<br />
+						A/c No. – <strong>074600301120001</strong><br />
+						IFSC – CORP0000746<br />
+						MICR No. – 560017055</p>
 				</section>
 			</div>
 		</section>
