@@ -106,60 +106,43 @@
 							elseif($text!='')
 							{
 								$text = rtrim($text);
-								if(preg_match("/^\"/", $text)) {
-									$stext = preg_replace("/\"/", "", $text);
-									$dtext = $stext;
-									$stext = '"' . $stext . '"';
+								$texts = preg_split("/ /", $text);
+								$textFilter = "";
+								for($ic=0;$ic<sizeof($texts);$ic++)
+								{
+									$textFilter .= $texts[$ic] . "* ";
 								}
-								elseif(preg_match("/\+/", $text)) {
-									$stext = preg_replace("/\+/", " +", $text);
-									$dtext = preg_replace("/\+/", "|", $text);
-									$stext = '+' . $stext;
-								}
-								elseif(preg_match("/\|/", $text)) {
-									$stext = preg_replace("/\|/", " ", $text);
-									$dtext = $text;
-								}
-								else {
-									$stext = $text;
-									$dtext = $stext = preg_replace("/ /", "|", $text);
-									$stext = $text;
-								}
-								
-								$stext = addslashes($stext);
 								
 								$query="SELECT * FROM
 											(SELECT * FROM
 												(SELECT * FROM
 													(SELECT * FROM
-														(SELECT * FROM searchtable WHERE text regexp '$stext' ) AS tb1
+														(SELECT * FROM searchtable WHERE MATCH (text) AGAINST ('$textFilter' IN BOOLEAN MODE)) AS tb1
 													WHERE $authorFilter) AS tb2
 												WHERE $titleFilter) AS tb3
 											WHERE featid REGEXP '$featid') AS tb4
 										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
 							}
 							
-
 							$result = mysql_query($query) or die("query failed".mysql_error()); 
-							$num_rows = $num_results = $result ? mysql_num_rows($result) : 0;
+							$num_rows = $result ? mysql_num_rows($result) : 0;
 							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
 								echo'<h2>अन्वेषणस्य फलम्</h2>';
-								if($num_results > 0)
+								if($num_rows > 0)
 								{
-									echo ($num_results > 1) ? '<p>' . convert_devanagari($num_results) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_results) . ' परिणामः</p>';
+									echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_rows) . ' परिणामः</p>';
 								}
 							echo '</header>';
 					?>
 				<section class="wrapper style4 container">
 						<div class="content">
 								<?php
-									//~ $result = $db->query($query); 
-									//~ $num_rows = $result ? $result->num_rows : 0;
 									$id = 0;
 									$year = "";
 									$month = "";
+									$oldText = "";
 									if($num_rows > 0)
 									{
 										for($a=1;$a<=$num_rows;$a++)
@@ -168,8 +151,23 @@
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
+												if(count($texts) > 1)
+												{
+													echo "<br/>";
+													for($ic=0;$ic<sizeof($texts);$ic++)
+													{
+														if(!preg_match("[".$texts[$ic]."]",$oldText))
+														{
+															echo "&#10005;$texts[$ic]\n";
+														}
+														else
+														{
+															echo "&#10003;$texts[$ic]\n";
+														}
+													}
+												}
 												echo	"</div>";
-													echo"</div>";
+												echo"</div>";
 											}
 											if ((strcmp($id, $row['titleid'])) != 0) 
 											{
@@ -228,6 +226,22 @@
 												}
 											}
 											$id = $row['titleid'];
+											$oldText = $row['text'];
+										}
+										if(count($texts) > 1)
+										{
+											echo "<br/>";
+											for($ic=0;$ic<sizeof($texts);$ic++)
+											{
+												if(!preg_match("[".$texts[$ic]."]",$oldText))
+												{
+													echo "&#10005;$texts[$ic]\n";
+												}
+												else
+												{
+													echo "&#10003;$texts[$ic]\n";
+												}
+											}
 										}
 										echo	"</div>";
 										echo"</div>";
