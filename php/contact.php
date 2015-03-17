@@ -15,7 +15,7 @@
 					<span class="icon fa-phone">&nbsp;&nbsp;[080]- 2672 1052 / 2672 2576<br /></span>
 					<span class="icon fa-envelope"> samskritam@gmail.com</span> 
 			</header><br /><br />
-			<form>
+			<!-- <form>
 				<div class="row 50%">
 					<div class="6u 12u(mobile)">
 						<input type="text" name="name" placeholder="Name" />
@@ -41,7 +41,7 @@
 						</ul>
 					</div>
 				</div>
-			</form>
+			</form> -->
 			
 		</div>
 	</section>
