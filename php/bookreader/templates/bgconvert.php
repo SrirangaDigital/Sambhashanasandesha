@@ -24,7 +24,12 @@
 			$cmd = "ddjvu -format=tif ".$djvurl."/".$img[0].".djvu ".$tifurl."/".$img[0].".tif";
 			exec($cmd);
 		}
-		if(!file_exists($imgurl."/".$img[0].".jpg"))
+		elseif(round((time() - filemtime($tifurl))/60) > 8)
+		{
+			$cmd = "ddjvu -format=tif ".$djvurl."/".$img[0].".djvu ".$tifurl."/".$img[0].".tif";
+			exec($cmd);
+		}
+		if(!file_exists($imgurl."/".$img[0].".jpg") && round((time() - filemtime($imgurl))/60) > 8)
 		{
 			$cmd="convert $tifurl/".$img[0].".tif -resize x".$scale." $imgurl/".$img[0].".jpg";
 			exec($cmd);
