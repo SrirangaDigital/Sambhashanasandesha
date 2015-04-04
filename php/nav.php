@@ -26,6 +26,7 @@
 						<li><a href="search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
+				<li><a href="feedback.php">Feedback | प्रतिपुष्टिः</a></li>
 				<li><a href="contact.php">Contact | सम्पर्कः</a></li>
 			</ul>
 		</nav>
