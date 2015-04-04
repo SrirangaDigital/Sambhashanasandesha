@@ -23,7 +23,6 @@
 <body class="index">
 	<!-- Header -->
 	<header id="header" class="alt">
-		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li><a href="index.php">Home | उपक्रमः:</a></li>
