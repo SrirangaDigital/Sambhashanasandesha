@@ -648,7 +648,7 @@
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 2em 1.5em;
+		padding: 1.7em 1.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -681,7 +681,7 @@
 					color: inherit;
 					display: inline-block;
 					line-height: 1em;
-					padding: 0.6em 0.75em;
+					padding: 0.5em 0.75em;
 					text-decoration: none;
 				}
 
