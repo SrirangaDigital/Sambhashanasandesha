@@ -23,6 +23,7 @@
 <body class="index">
 	<!-- Header -->
 	<header id="header" class="alt">
+		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li><a href="index.php">Home | उपक्रमः:</a></li>
@@ -48,7 +49,6 @@
 						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
-				<li><a href="php/feedback.php">Feedback | प्रतिपुष्टिः</a></li>
 				<li><a href="php/contact.php">Contact | सम्पर्कः</a></li>
 			</ul>
 		</nav>

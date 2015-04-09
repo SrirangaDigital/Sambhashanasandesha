@@ -1,6 +1,7 @@
 <body class="no-sidebar">
 	<!-- Header -->
 	<header id="header" class="skel-layers-fixed">
+		<h1><a href="../index.php">सम्भाषण सन्देश:</a></h1>
 		<nav id="nav">
 			<ul>
 				<li><a href="../index.php">Home | उपक्रमः:</a></li>
@@ -26,7 +27,6 @@
 						<li><a href="search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
-				<li><a href="feedback.php">Feedback | प्रतिपुष्टिः</a></li>
 				<li><a href="contact.php">Contact | सम्पर्कः</a></li>
 			</ul>
 		</nav>

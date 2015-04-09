@@ -3,7 +3,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-envelope"></span>
-		<h2>Feedback</h2>
+		<h2>Get In Touch</h2>
 	</header>
 	<section class="wrapper style4 special container 75%">
 		<div class="content">
@@ -24,7 +24,7 @@ elseif (!filter_var($email, FILTER_VALIDATE_EMAIL))
 }
 else
 {
-	$admin_email = "example@gmail.com";
+	$admin_email = "samskritam@gmail.com";
 	$headers = "From: $email" . "\n";
 	//send email
 	mail($admin_email, $subject, $message, $headers);
