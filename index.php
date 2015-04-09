@@ -43,9 +43,9 @@
 				<li><a href="javascript:void(0);">Archives | सङ्ग्रहः</a>
 					<ul>
 						<li><a href="php/volumes.php">Volumes | सम्पुटाः</a></li>
+						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
 						<li><a href="php/articles.php?letter=अ">Articles | लेखाः</a></li>
 						<li><a href="php/authors.php?letter=अ">Authors | लेखकाः</a></li>
-						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
 						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
@@ -95,10 +95,10 @@
 					<ul class="featured-icons">
 						<li><a href="index.php"><span class="icon fa-home"><span class="label">Home</span></span></a></li>
 						<li><a href="php/volumes.php"><span class="icon fa-book"><span class="label">Volumes</span></span></a></li>
+						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
 						<li><a href="php/articles.php"><span class="icon fa-pencil"><span class="label">Articles</span></span></a></li>
 						<li><a href="php/authors.php?letter=अ"><span class="icon fa-user"><span class="label">Authors</span></span></a></li>
 						<li><a href="php/search.php"><span class="icon fa-search"><span class="label">Search</span></span></a></li>
-						<li><a href="php/feature.php"><span class="icon fa-tags"><span class="label">Categories</span></span></a></li>
 					</ul>
 				</div>
 			</div>
