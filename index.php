@@ -44,9 +44,9 @@
 					<ul>
 						<li><a href="php/volumes.php">Volumes | सम्पुटाः</a></li>
 						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
-						<li><a href="#">Special Issues | विशेषाङ्कः</a></li>
 						<li><a href="php/articles.php?letter=अ">Articles | लेखाः</a></li>
 						<li><a href="php/authors.php?letter=अ">Authors | लेखकाः</a></li>
+						<li><a href="#">Special Issues | विशेषाङ्कः</a></li>						
 						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
