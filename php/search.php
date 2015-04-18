@@ -4,8 +4,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-search"></span>
-		<h2><strong>अन्वेषणम्</strong></h2>
-		<p>लेखाः - लेखकाः - प्रधानविभागाः - शब्दाः</p>
+		<h2><strong>Search | अन्वेषणम्</strong></h2>
+		<p><strong>Articles | लेखाः - Authors | लेखकाः -  Features | प्रधानविभागाः - Words | शब्दाः</strong></p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

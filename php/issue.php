@@ -9,8 +9,18 @@
 	?>
 	<header class="special container">
 		<span class="icon fa-book"></span>
-		<h2><strong><?php echo convert_devanagari($year); ?></strong></h2>
-		<p><?php echo "सम्पुटाः " . convert_devanagari($volume); ?></p>
+		<h2>
+			<strong>
+				<?php echo "<span style=\"font-size: 0.85em\">" . $year . " | </span>"; ?>
+				<?php echo convert_devanagari($year); ?>
+			</strong>
+		</h2>
+		<p>
+			<strong>
+				<?php echo "Volume&nbsp;" . $volume . " | "; ?>
+				<?php echo "सम्पुटाः " . convert_devanagari($volume); ?>
+			</strong>
+		</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

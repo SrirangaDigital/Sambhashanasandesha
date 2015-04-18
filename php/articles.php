@@ -4,7 +4,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-pencil"></span>
-		<h2><strong>लेखाः</strong></h2>
+		<h2><strong>Articles | लेखाः</strong>	</h2>
 		<p>अकाराद्यनुक्रमणिका</p>
 	</header>
 	<section class="wrapper style4 container">

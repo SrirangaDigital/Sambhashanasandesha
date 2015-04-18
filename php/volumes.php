@@ -4,7 +4,11 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-book"></span>
-		<h2><strong>सम्पुटाः</strong></h2>
+		<h2>
+			<strong>
+				<span style="font-size: 0.9em">Volumes | </span> सम्पुटाः
+			</strong>
+		</h2>
 		<p>सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>
 	</header>
 	<section class="wrapper style4 container">

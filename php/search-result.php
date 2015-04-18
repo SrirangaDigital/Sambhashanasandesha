@@ -129,7 +129,7 @@
 							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
-								echo'<h2>अन्वेषणस्य फलम्</h2>';
+								echo'<h2><strong>Search Results | अन्वेषणस्य फलम्</strong></h2>';
 								if($num_rows > 0)
 								{
 									echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_rows) . ' परिणामः</p>';

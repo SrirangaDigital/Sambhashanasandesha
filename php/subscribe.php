@@ -27,9 +27,11 @@
 						<strong>Subscription amount may be sent through D.D/M.O./ e-transfer. Bank details for e-transfer</strong><br /><br />
 						Name of the account - <strong>Sambhashana Sandesha</strong><br /> 
 						Bank details – Corporation Bank, Girinagar, Bangalore<br />
+						Account Type - <strong>CLSB</strong><br />
 						A/c No. – <strong>074600301120001</strong><br />
-						IFSC – CORP0000746<br />
-						MICR No. – 560017055</p>
+						MICR No. – 560017055<br />
+						IFSC – CORP0000746</p>
+						<p>[Note: Account type CLSB need not be mentioned while mentioning the account number. If there is a column, asking for the account type, ONLY then, this should be mentioned. Otherwise please don’t.]</p>
 				</section>
 			</div>
 		</section>
