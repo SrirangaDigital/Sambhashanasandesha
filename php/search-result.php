@@ -151,30 +151,30 @@
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
-												if(count($texts) > 1)
-												{
-													echo "<br/>";
-													for($ic=0;$ic<sizeof($texts);$ic++)
-													{
-														if(!preg_match("[".$texts[$ic]."]",$oldText))
-														{
-															echo "&#10005;$texts[$ic]\n";
-														}
-														else
-														{
-															echo "&#10003;$texts[$ic]\n";
-														}
-													}
-												}
+												//~ if(count($texts) > 1)
+												//~ {
+													//~ echo "<br/>";
+													//~ for($ic=0;$ic<sizeof($texts);$ic++)
+													//~ {
+														//~ if(!preg_match("[".$texts[$ic]."]",$oldText))
+														//~ {
+															//~ echo "&#10005;$texts[$ic]\n";
+														//~ }
+														//~ else
+														//~ {
+															//~ echo "&#10003;$texts[$ic]\n";
+														//~ }
+													//~ }
+												//~ }
 												echo	"</div>";
 												echo"</div>";
 											}
-											if ((strcmp($id, $row['titleid'])) != 0) 
+											if ((strcmp($id, $row['titleid'])) != 0)
 											{
 												$authorid = $row['authid'];
 												$volume = $row['volume'];
 												$inum = $row['issue'];
-												$page = $row['page'];
+												$page = preg_split('/-/',$row['page'],2);
 												$cur_page = "";
 												if($text!=''){$cur_page = $row['cur_page'];}
 												$title = $row['title'];
@@ -192,7 +192,7 @@
 														
 												echo "<div class=\"box\">";
 												echo	"<div class=\"inside\">";
-												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
 												if($authorid != "")
 												{
 													$sumne = preg_split("/;/",$authorid);
@@ -214,7 +214,7 @@
 												{
 													if($authorid != ""){echo "<br />";}
 													echo '<span class="aIssue">Text match found at page(s) : </span>';
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
+													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\" target=\"_blank\">" . intval($row['cur_page']) . "</a> </span>";
 												}
 
 											}
@@ -222,7 +222,7 @@
 											{
 												if($text != '')
 												{
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
+													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\" target=\"_blank\">" . intval($row['cur_page']) . "</a> </span>";
 												}
 											}
 											$id = $row['titleid'];
