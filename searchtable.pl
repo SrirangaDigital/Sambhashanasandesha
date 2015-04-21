@@ -23,8 +23,7 @@ authid varchar(200),
 authorname varchar(1000),
 featid varchar(10),
 text varchar(5000),
-page varchar(10),
-page_end varchar(10),
+page varchar(50),
 cur_page varchar(10),
 volume varchar(3),
 issue varchar(10),
@@ -41,7 +40,6 @@ while($ref=$sth1->fetchrow_hashref())
 {
 	$titleid = $ref->{'titleid'};
 	$page = $ref->{'page'};
-	$page_end = $ref->{'page_end'};
 	$volume = $ref->{'volume'};
 	$issue = $ref->{'issue'};
 	$title = $ref->{'title'};
@@ -50,11 +48,21 @@ while($ref=$sth1->fetchrow_hashref())
 	$year = $ref->{'year'};
 	$month = $ref->{'month'};
 	$featid = $ref->{'featid'};
-	
+	$str = '';
 	$title =~ s/'/\\'/g;
 	$authorname =~ s/'/\\'/g;
-	print $year."\n";	
-	$sth2=$dbh->prepare("select * from testocr where year='$year' and month='$month' and cur_page between '$page' and '$page_end'");
+	print $year."\n";
+	
+	@pageRangeList = split(';',$page);
+	
+	for($i1=0;$i1<@pageRangeList;$i1++)
+	{
+		@pageRange = split('-',$pageRangeList[$i1]);
+		$str .= $pageRange[0]."' and '".$pageRange[1]." or cur_page between ";
+	}
+	
+	$str =~ s/ or cur_page between $//;
+	$sth2=$dbh->prepare("select * from testocr where year='$year' and month='$month' and (cur_page between '$str')");
 	$sth2->execute();
 	
 	while($ref2=$sth2->fetchrow_hashref())
@@ -63,7 +71,7 @@ while($ref=$sth1->fetchrow_hashref())
 		$text =~ s/'/\\'/g;
 		$cur_page = $ref2->{'cur_page'};
 			
-		$sth4=$dbh->prepare("insert into searchtable values('$title','$authid','$authorname','$featid','$text','$page','$page_end','$cur_page',
+		$sth4=$dbh->prepare("insert into searchtable values('$title','$authid','$authorname','$featid','$text','$page','$cur_page',
 			'$volume','$issue','$year','$month','$titleid')");
 		$text = '';
 		$sth4->execute();

@@ -16,6 +16,10 @@ $sth_enc=$dbh->prepare("set names utf8");
 $sth_enc->execute();
 $sth_enc->finish();
 
+$sth_drop=$dbh->prepare("DROP TABLE IF EXISTS article");
+$sth_drop->execute();
+$sth_drop->finish();
+
 $sth11=$dbh->prepare("CREATE TABLE article(volume varchar(5), 
 issue varchar(10), 
 month varchar(50),
@@ -23,7 +27,6 @@ year varchar(50),
 title varchar(5000),
 featid varchar(20),
 page varchar(50),
-page_end varchar(50),
 authorname varchar(5000),
 authid varchar(500),
 titleid int(50) not null auto_increment,
@@ -65,15 +68,9 @@ while($line)
 		$featurename = $1;
 		$fid = get_fid($featurename);
 	}
-	elsif($line =~ /<page>(.*)-(.*), (.*)-(.*)<\/page>/)
+	elsif($line =~ /<page>(.*)<\/page>/)
 	{
 		$page = $1;
-		$page_end = $2;
-	}
-	elsif($line =~ /<page>(.*)-(.*)<\/page>/)
-	{
-		$page = $1;
-		$page_end = $2;
 	}
 	elsif($line =~ /<author type="(.*)" sal="(.*)">(.*)<\/author>/)
 	{
@@ -90,7 +87,7 @@ while($line)
 	}
 	elsif($line =~ /<\/entry>/)	
 	{
-		insert_article($vnum,$inum,$month,$year,$title,$fid,$page,$page_end,$authname,$authid);
+		insert_article($vnum,$inum,$month,$year,$title,$fid,$page,$authname,$authid);
 		$title = "";
 		$fid = "";
 		$page = "";
@@ -106,7 +103,7 @@ $dbh->disconnect();
 
 sub insert_article()
 {
-	my($vnum,$inum,$month,$year,$title,$fid,$page,$page_end,$authname,$authid) = @_;
+	my($vnum,$inum,$month,$year,$title,$fid,$page,$authname,$authid) = @_;
 	my($sth1);
 
 	$title =~ s/'/\\'/g;
@@ -115,7 +112,7 @@ sub insert_article()
 	$authid =~ s/^;//;
 	
 
-	$sth1=$dbh->prepare("insert into article values('$vnum','$inum','$month','$year','$title','$fid','$page','$page_end','$authname','$authid','')");
+	$sth1=$dbh->prepare("insert into article values('$vnum','$inum','$month','$year','$title','$fid','$page','$authname','$authid','')");
 	$sth1->execute();
 	
 	$sth1->finish();
