@@ -13,6 +13,7 @@
 	<script src="php/js/skel.min.js"></script>
 	<script src="php/js/skel-layers.min.js"></script>
 	<script src="php/js/init.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<noscript>
 		<link rel="stylesheet" href="php/css/skel.css" />
 		<link rel="stylesheet" href="php/css/style.css" />
@@ -58,7 +59,7 @@
 						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
 						<li><a href="php/articles.php?letter=अ">Articles | लेखाः</a></li>
 						<li><a href="php/authors.php?letter=अ">Authors | लेखकाः</a></li>
-						<li><a href="#">Special Issues | विशेषाङ्कः</a></li>						
+						<li><a href="#">Special Issues | विशेषाङ्कः</a></li>
 						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>
