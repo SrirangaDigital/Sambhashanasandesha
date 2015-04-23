@@ -46,7 +46,6 @@
 						</ul>
 					</div>
 				</div>
-				<div class="g-recaptcha" data-sitekey="6LcpzQUTAAAAAEHnCjW6IQVv9NuZ1VkU-09C6aij"></div>
 			</form>
 		</div>
 	</section>
