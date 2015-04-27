@@ -39,7 +39,7 @@ $advtID = '1001';
 					}
 				?>
 				<?php
-					if($month == 'special')
+					if($month == 'specialA' || $month == 'specialB' || $month == 'special')
 					{
 						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", विशेष सञ्चिका " . convert_devanagari($issue);
 					}
