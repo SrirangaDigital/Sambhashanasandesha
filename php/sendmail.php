@@ -47,7 +47,6 @@ else
 		$toName = "Sriranga";
 		$mail = new PHPMailer();
 		$mail->isSendmail();
-		$mail->isHTML(true);
 		$mail->setFrom($fromEmail, $fromName);
 		$mail->addReplyTo($fromEmail, $fromName);
 		$mail->addAddress($toEmail, $toName);
