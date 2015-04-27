@@ -68,7 +68,7 @@
 		$letter = 'अ';
 	}
 
-	$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
+	$query = "select * from article where title like '$letter%' order by title, volume, issue, page";
 
 	include("connect.php");
 
