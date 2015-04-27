@@ -3,7 +3,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-envelope"></span>
-		<h2>Get In Touch</h2>
+		<h2>Feedback</h2>
 	</header>
 	<section class="wrapper style4 special container 75%">
 		<div class="content">
@@ -14,7 +14,7 @@ require_once 'mail/class.smtp.php';
 require_once 'mail/PHPMailerAutoload.php';
 require_once 'mail/recaptchalib.php';
 
-$privatekey = "6LcpzQUTAAAAABTmBNtFGWI6eFbFqaaKOMLKBLKN";
+$privatekey = "6LdBywUTAAAAAD1K1YCNS1P7IT0uhiOJZ6HFEfY7";
 $resp = recaptcha_check_answer ($privatekey,
                                  $_SERVER["REMOTE_ADDR"],
                                  $_POST["recaptcha_challenge_field"],
@@ -43,11 +43,10 @@ else
 	}
 	else
 	{
-		$toEmail = "arjun.kashyap@srirangadigital.com";
-		$toName = "Sriranga";
+		$toEmail = "samskritam@gmail.com";
+		$toName = "Sambhashanasandesha";
 		$mail = new PHPMailer();
 		$mail->isSendmail();
-		$mail->isHTML(true);
 		$mail->setFrom($fromEmail, $fromName);
 		$mail->addReplyTo($fromEmail, $fromName);
 		$mail->addAddress($toEmail, $toName);

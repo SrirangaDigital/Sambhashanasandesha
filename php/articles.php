@@ -9,7 +9,7 @@
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
-		<div class="letters">	
+		<div class="letters">
 			<a href="articles.php?letter=अ">अ</a>
 			<a href="articles.php?letter=आ">आ</a>
 			<a href="articles.php?letter=इ">इ</a>
@@ -68,7 +68,7 @@
 		$letter = 'अ';
 	}
 
-	$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
+	$query = "select * from article where title like '$letter%' order by title, volume, issue, page";
 
 	include("connect.php");
 

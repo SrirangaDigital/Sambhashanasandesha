@@ -36,7 +36,7 @@
 						<li><a href="feature.php">Features | प्रधानविभागाः</a></li>
 						<li><a href="articles.php?letter=अ">Articles | लेखाः</a></li>
 						<li><a href="authors.php?letter=अ">Authors | लेखकाः</a></li>
-						<li><a href="#">Special Issues | विशेषाङ्कः</a></li>						
+						<li><a href="special_issue.php">Special Issues | विशेषाङ्कः</a></li>
 						<li><a href="search.php">Search | अन्वेषणम्</a></li>
 					</ul>
 				</li>

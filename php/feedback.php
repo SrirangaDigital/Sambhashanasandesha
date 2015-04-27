@@ -35,9 +35,10 @@
 				</div>
 				<?php
 					require_once('mail/recaptchalib.php');
-					$publickey = "6LcpzQUTAAAAAEHnCjW6IQVv9NuZ1VkU-09C6aij"; // you got this from the signup page
+					$publickey = "6LdBywUTAAAAAK-Ks8tfu9geTICQUKsH81xAvXmZ"; // you got this from the signup page
 					echo recaptcha_get_html($publickey);
 				?>
+				<br /><br />
 				<div class="row">
 					<div class="12u">
 						<ul class="buttons">
