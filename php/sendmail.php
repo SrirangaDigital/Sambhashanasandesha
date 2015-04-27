@@ -43,8 +43,8 @@ else
 	}
 	else
 	{
-		$toEmail = "shruthitr.nayak@gmail.com";
-		$toName = "Sriranga";
+		$toEmail = "samskritam@gmail.com";
+		$toName = "Sambhashanasandesha";
 		$mail = new PHPMailer();
 		$mail->isSendmail();
 		$mail->setFrom($fromEmail, $fromName);
