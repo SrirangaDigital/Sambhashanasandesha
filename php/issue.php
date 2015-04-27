@@ -11,7 +11,7 @@
 		<span class="icon fa-book"></span>
 		<h2>
 			<strong>
-				<?php echo "<span style=\"font-size: 0.85em\">" . $year . " | </span>"; ?>
+				<?php echo "<span class=\"head_t2\">" . $year . " | </span>"; ?>
 				<?php echo convert_devanagari($year); ?>
 			</strong>
 		</h2>
@@ -26,7 +26,6 @@
 		<div class="content">
 			<div class="volumes">
 <?php
-
 
 $db = mysql_connect($server,$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");

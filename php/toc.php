@@ -22,14 +22,32 @@ $advtID = '1001';
 		<span class="icon toc_image"><?php echo '<img src="images/cover/thumbs/' . $year . '/' . $month . '.jpg" alt="Issue ' . $year . ' ' . $month . ' cover page" />'; ?></span>
 		<h2>
 			<strong>
-				<?php echo "<span style=\"font-size: 0.85em\">" . getMonthEnglish($month) . " " . $year . " | </span>" ; ?>
+				<?php echo "<span class=\"head_t2\">" . getMonthEnglish($month) . " " . $year . " | </span>" ; ?>
 				<?php echo getMonthDevanagari($month) . " " . convert_devanagari($year); ?>
 			</strong>
 		</h2>
 		<p>
 			<strong>
-				<?php echo "Volume " . intval($volume) . ", Issue " . intval($issue) . " | ";?>
-				<?php echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue); ?>
+				<?php
+					if($month == 'specialA' || $month == 'specialB' || $month == 'special')
+					{
+						echo "Volume " . intval($volume) . ", Special Issue " . intval($issue) . " | ";
+					}
+					else
+					{
+						echo "Volume " . intval($volume) . ", Issue " . intval($issue) . " | ";
+					}
+				?>
+				<?php
+					if($month == 'special')
+					{
+						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", विशेष सञ्चिका " . convert_devanagari($issue);
+					}
+					else
+					{
+						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue);
+					}
+				 ?>
 			</strong>
 		</p>
 	</header>
