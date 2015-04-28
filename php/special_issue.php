@@ -19,15 +19,12 @@
 	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
 	$rs = mysql_select_db($database,$db) or die("No Database");
 	mysql_query("set names utf8");
-	
-	$row_count = 4;
+
 	$query = "select distinct month, year from article order by year desc";
 	$result = mysql_query($query);
 
 	$num_rows = mysql_num_rows($result);
 
-	$count = 0;
-	$col = 1;
 	if($num_rows)
 	{
 		for($i=1;$i<=$num_rows;$i++)
@@ -43,10 +40,11 @@
 			if($num_rows2)
 			{
 				$row2=mysql_fetch_assoc($result2);
+				
 				$volume=$row2['volume'];
 				$issue=$row2['issue'];
 				
-				if($month == 'special' || $month == 'specialA' || $month == 'specialB')
+				if($month == 'specialA' || $month == 'specialB' || $month == 'special')
 				{
 					echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\">";
 					echo "<img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$month thumbnail\" />";

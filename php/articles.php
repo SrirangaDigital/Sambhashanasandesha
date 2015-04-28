@@ -56,8 +56,9 @@
 			<a href="articles.php?letter=ष">ष</a>
 			<a href="articles.php?letter=स">स</a>
 			<a href="articles.php?letter=ह">ह</a>
+			<a href="#">#</a>
 		</div>
-	
+
 <?php 
 	if(isset($_GET['letter']) && $_GET['letter'] != '')
 	{
@@ -67,8 +68,16 @@
 	{
 		$letter = 'अ';
 	}
-
-	$query = "select * from article where title like '$letter%' order by title, volume, issue, page";
+	#$query = "select * from article where title like '$letter%' order by title, volume, issue, page";
+	if($letter == 'special')
+	{
+		#$query = "select * from article where title like 'ಅ%' or like  order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+		#$query = "select * from article where title like '`%' union select * from article where title regexp '^[a-zA-Z0-9]' order by title, volume, issue, page";
+	}
+	else
+	{
+		$query = "select * from article where title like '$letter%' union select * from article where title like '``$letter%' union select * from article where title like '`$letter%' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+	}
 
 	include("connect.php");
 
@@ -78,7 +87,6 @@
 
 	$result = mysql_query($query);
 	$num_rows = mysql_num_rows($result);
-	
 	if($num_rows)
 	{
 		for($a=1;$a<=$num_rows;$a++)
@@ -93,7 +101,7 @@
 			$year = $row['year'];
 			$featureid = $row['featid'];
 			/*$type = $row['type'];*/
-		
+
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
@@ -116,15 +124,13 @@
 					echo "&nbsp;|&nbsp;";
 				}
 			}
-			
 			echo	"</div>";
-			echo"</div>";
+			echo "</div>";
 		}
 	}
 	else
 	{
 		echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
-
 	}
 	mysql_close($db);
 ?>
