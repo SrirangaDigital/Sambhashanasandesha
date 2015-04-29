@@ -747,6 +747,7 @@
 			color: white;
 			padding: 2em 2.5em;
 			position: absolute;
+			z-index: 99;
 		}
 
 			#header.alt nav {
