@@ -15,7 +15,7 @@
 			<a href="articles.php?letter=इ">इ</a>
 			<a href="articles.php?letter=ई">ई</a>
 			<a href="articles.php?letter=उ">उ</a>
-			<!-- <a href="articles.php?letter=ऊ">ऊ</a> -->
+			<a href="articles.php?letter=ऊ">ऊ</a>
 			<a href="articles.php?letter=ऋ">ऋ</a>
 			<a href="articles.php?letter=ए">ए</a>
 			<a href="articles.php?letter=ऐ">ऐ</a>
@@ -71,7 +71,7 @@
 
 	if($letter == 'special')
 	{
-		$query = "select * from article where title not regexp '^अ|आ|इ|ई|उ|ऋ|ए|ऐ|ओ|औ|क|ख|ग|घ|च|छ|ज|झ|ट|ड|त|थ|द|ध|न|प|फ|ब|भ|म|य|र|ल|व|श|ष|स|ह' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+		$query = "select * from article where title not regexp '^अ|आ|इ|ई|उ|ऊ|ऋ|ए|ऐ|ओ|औ|क|ख|ग|घ|च|छ|ज|झ|ट|ड|त|थ|द|ध|न|प|फ|ब|भ|म|य|र|ल|व|श|ष|स|ह' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
 
 	}
 	else
