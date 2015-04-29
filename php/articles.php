@@ -56,7 +56,7 @@
 			<a href="articles.php?letter=ष">ष</a>
 			<a href="articles.php?letter=स">स</a>
 			<a href="articles.php?letter=ह">ह</a>
-			<a href="articles.php?letter=special">#</a>
+			<a title="English and Kannada Articles" href="articles.php?letter=special">#</a>
 		</div>
 
 <?php 
