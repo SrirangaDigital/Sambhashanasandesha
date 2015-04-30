@@ -4,16 +4,28 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tags"></span>
-		<h2><strong><?php echo $_GET["featname"];?></strong></h2>
+		<h2><strong>
+				<?php
+					$featurename = $_GET["featname"];
+					echo $featurename;
+				?>
+			</strong></h2>
 		<?php 
 			if(isset($_GET['featid']) && $_GET['featid'] != '')
 			{
 				$featid = $_GET['featid'];
-				$query = "select * from article where featid  = $featid order by title, volume, issue, page";
+				if($featurename == 'निकषोपलः' || $featurename == 'पदरञ्जिनी' || $featurename == 'सुयोगः' || $featurename == 'कुतुककुटी')
+				{ 
+					$query = "select * from article where featid = $featid order by volume, issue";
+				}
+				else
+				{
+					$query = "select * from article where featid = $featid order by TRIM(LEADING '`' FROM title)";
+				}
 			}
 			else
 			{
-				$query = "select * from article where featid  = '1003' order by title, volume, issue, page";
+				$query = "select * from article where featid  = '1003' order by TRIM(LEADING '`' FROM title)";
 			}
 			include("connect.php");
 
@@ -38,21 +50,16 @@
 					$authorid = $row['authid'];
 					$volume = $row['volume'];
 					$inum = $row['issue'];
-					$page = $row['page'];
+					$page = preg_split('/-/',$row['page'],2);
 					$title = $row['title'];
 					$month = $row['month']; 
 					$year = $row['year'];
 					$featureid = $row['featid'];
 					/*$type = $row['type'];*/
-				
-					$query1 = "select * from feature where featid = '$featureid'";
-					$result1 = mysql_query($query1);
-					$row1=mysql_fetch_assoc($result1);
-					$featurename = $row1['featurename'];
-					$featureid = $row1['featid'];
+					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\"  target=\"_blank\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
 					$sumne = preg_split("/;/",$authorid);
 					for($k = 0; $k < count($sumne); $k++)
 					{

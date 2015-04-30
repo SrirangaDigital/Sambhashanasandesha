@@ -9,13 +9,13 @@
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
-		<div class="letters">	
+		<div class="letters">
 			<a href="articles.php?letter=अ">अ</a>
 			<a href="articles.php?letter=आ">आ</a>
 			<a href="articles.php?letter=इ">इ</a>
 			<a href="articles.php?letter=ई">ई</a>
 			<a href="articles.php?letter=उ">उ</a>
-			<!-- <a href="articles.php?letter=ऊ">ऊ</a> -->
+			<a href="articles.php?letter=ऊ">ऊ</a>
 			<a href="articles.php?letter=ऋ">ऋ</a>
 			<a href="articles.php?letter=ए">ए</a>
 			<a href="articles.php?letter=ऐ">ऐ</a>
@@ -56,8 +56,9 @@
 			<a href="articles.php?letter=ष">ष</a>
 			<a href="articles.php?letter=स">स</a>
 			<a href="articles.php?letter=ह">ह</a>
+			<a title="English and Kannada Articles" href="articles.php?letter=special">#</a>
 		</div>
-	
+
 <?php 
 	if(isset($_GET['letter']) && $_GET['letter'] != '')
 	{
@@ -68,7 +69,16 @@
 		$letter = 'अ';
 	}
 
-	$query = "select * from article where title like '$letter%' order by volume, issue, title, page";
+	if($letter == 'special')
+	{
+		$query = "select * from article where title not regexp '^अ|आ|इ|ई|उ|ऊ|ऋ|ए|ऐ|ओ|औ|क|ख|ग|घ|च|छ|ज|झ|ट|ड|त|थ|द|ध|न|प|फ|ब|भ|म|य|र|ल|व|श|ष|स|ह' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+
+	}
+	else
+	{
+		$query = "select * from article where title like '$letter%' union select * from article where title like '``$letter%' union select * from article where title like '`$letter%' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+	}
+
 
 	include("connect.php");
 
@@ -78,7 +88,6 @@
 
 	$result = mysql_query($query);
 	$num_rows = mysql_num_rows($result);
-	
 	if($num_rows)
 	{
 		for($a=1;$a<=$num_rows;$a++)
@@ -87,13 +96,13 @@
 			$authorid = $row['authid'];
 			$volume = $row['volume'];
 			$inum = $row['issue'];
-			$page = $row['page'];
+			$page = preg_split('/-/',$row['page'],2);
 			$title = $row['title'];
 			$month = $row['month']; 
 			$year = $row['year'];
 			$featureid = $row['featid'];
 			/*$type = $row['type'];*/
-		
+
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
@@ -103,7 +112,7 @@
 					
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
 			$sumne = preg_split("/;/",$authorid);
 			for($k = 0; $k < count($sumne); $k++)
 			{
@@ -116,15 +125,13 @@
 					echo "&nbsp;|&nbsp;";
 				}
 			}
-			
 			echo	"</div>";
-			echo"</div>";
+			echo "</div>";
 		}
 	}
 	else
 	{
 		echo "<span class=\"empty topic\">There are no articles beginning with letter&nbsp;:&nbsp;$letter</span>";
-
 	}
 	mysql_close($db);
 ?>

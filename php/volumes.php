@@ -6,7 +6,7 @@
 		<span class="icon fa-book"></span>
 		<h2>
 			<strong>
-				<span style="font-size: 0.9em">Volumes | </span> सम्पुटाः
+				<span class="head_t1">Volumes | </span> सम्पुटाः
 			</strong>
 		</h2>
 		<p>सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>

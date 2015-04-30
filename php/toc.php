@@ -22,14 +22,32 @@ $advtID = '1001';
 		<span class="icon toc_image"><?php echo '<img src="images/cover/thumbs/' . $year . '/' . $month . '.jpg" alt="Issue ' . $year . ' ' . $month . ' cover page" />'; ?></span>
 		<h2>
 			<strong>
-				<?php echo "<span style=\"font-size: 0.85em\">" . getMonthEnglish($month) . " " . $year . " | </span>" ; ?>
+				<?php echo "<span class=\"head_t2\">" . getMonthEnglish($month) . " " . $year . " | </span>" ; ?>
 				<?php echo getMonthDevanagari($month) . " " . convert_devanagari($year); ?>
 			</strong>
 		</h2>
 		<p>
 			<strong>
-				<?php echo "Volume " . intval($volume) . ", Issue " . intval($issue) . " | ";?>
-				<?php echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue); ?>
+				<?php
+					if($month == 'specialA' || $month == 'specialB' || $month == 'special')
+					{
+						echo "Volume " . intval($volume) . ", Special Issue " . intval($issue) . " | ";
+					}
+					else
+					{
+						echo "Volume " . intval($volume) . ", Issue " . intval($issue) . " | ";
+					}
+				?>
+				<?php
+					if($month == 'specialA' || $month == 'specialB' || $month == 'special')
+					{
+						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", विशेषसञ्चिका " . convert_devanagari($issue);
+					}
+					else
+					{
+						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue);
+					}
+				 ?>
 			</strong>
 		</p>
 	</header>
@@ -56,7 +74,7 @@ $advtID = '1001';
 			$sumne = preg_split("/;/",$row['authorname']);
 			$volume = $row['volume'];
 			$inum = $row['issue'];
-			$page = $row['page'];
+			$page = preg_split('/-/',$row['page'],2);
 			$title = $row['title'];
 			$month = $row['month']; 
 			$year = $row['year'];
@@ -73,7 +91,7 @@ $advtID = '1001';
 					
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a><br/>";
+			echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a><br/>";
 			$sumne = preg_split("/;/",$authorid);
 			for($k = 0; $k < count($sumne); $k++)
 			{

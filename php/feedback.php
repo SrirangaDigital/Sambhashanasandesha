@@ -33,6 +33,12 @@
 						<textarea name="message" placeholder="Message" rows="7"></textarea>
 					</div>
 				</div>
+				<?php
+					require_once('mail/recaptchalib.php');
+					$publickey = "6LdBywUTAAAAAK-Ks8tfu9geTICQUKsH81xAvXmZ"; // you got this from the signup page
+					echo recaptcha_get_html($publickey);
+				?>
+				<br /><br />
 				<div class="row">
 					<div class="12u">
 						<ul class="buttons">
