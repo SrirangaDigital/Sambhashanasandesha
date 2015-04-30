@@ -41,7 +41,7 @@ $advtID = '1001';
 				<?php
 					if($month == 'specialA' || $month == 'specialB' || $month == 'special')
 					{
-						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", विशेष सञ्चिका " . convert_devanagari($issue);
+						echo "सम्पुटः " . convert_devanagari(intval($volume)) . ", विशेषसञ्चिका " . convert_devanagari($issue);
 					}
 					else
 					{

@@ -6,6 +6,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">	
 	<script src="php/js/jquery.min.js"></script>
 	<script src="php/js/jquery.dropotron.min.js"></script>
 	<script src="php/js/jquery.scrolly.min.js"></script>
@@ -36,7 +37,7 @@
 
 	<!-- Header -->
 	<header id="header" class="alt">
-		<h1><a href="index.php">सम्भाषण सन्देश:</a></h1>
+		<h1><a href="index.php">&nbsp;&nbsp;</a></h1>
 		<nav id="nav">
 			<ul>
 				<li><a href="index.php">Home | उपक्रमः:</a></li>
@@ -69,19 +70,42 @@
 	</header>
 	<!-- Banner -->
 	<section id="banner">
-		<div class="inner">
-			<header>
-				<h2>सम्भाषण सन्देश:</h2>
-			</header>
-			<p>World's first of its kind <strong>Samskrit</strong> monthly magazine</p>
-			<?php include("php/connect.php");?>
-			<footer>
-				<?php 
-					echo "<ul class=\"buttons vertical\">";
-					echo "<li><a class=\"button fit scrolly\" href=\"php/toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"> Click to view the latest issue</a></li>";
-					echo "</ul>";
-				?>
-			</footer>
+		<p class="webtitle">सम्भाषण सन्देश:</p>
+		<div class="current_issue">
+			<div class="cur_image">
+				<span class="cur_month">Current Issue</span><br />
+				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
+				<span class="cur_month">वैशाखमासः </span><br />
+				<span class="cur_month">मे - २०१५</span>
+			</div>
+			<div class="cur_text">
+				<div class="inthisissue">			
+					<span>In this issue</span>
+					<div class="rule">&nbsp;</div>
+				</div>
+				<div class="inthis_left">
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> रामायणकालीनाः पक्षिणः</a><br />
+						<span class="article_details">डा. एस्. हेमलता, बेङ्गलूरु &nbsp;|&nbsp; लेखनम्</span>
+					</div>
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> ब्राह्मी तु भारती भाषा..</a><br />
+						<span class="article_details">मुरलीश्यामः एच्. &nbsp;|&nbsp; लेखनम्</span>
+					</div>
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> यज्ञप्रक्रियायाः वैज्ञानिकता</a><br />
+						<span class="article_details">स्वानन्दगजाननपुण्डः, वणी (महा.) &nbsp;|&nbsp; लेखनम्</span>
+					</div>				
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> मया अपि प्रमादः कृतः एव !</a><br />
+						<span class="article_details">अनु. – भार्गवः, मराटीमूलम् – अरविन्दलिमये &nbsp;|&nbsp; कथा</span>
+					</div>				
+				</div>
+			    <div  class="read_more">
+					<div><a href="#">...coming soon</a></div>
+					<div class="rule">&nbsp;</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- Main -->

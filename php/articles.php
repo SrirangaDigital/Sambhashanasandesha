@@ -15,7 +15,7 @@
 			<a href="articles.php?letter=इ">इ</a>
 			<a href="articles.php?letter=ई">ई</a>
 			<a href="articles.php?letter=उ">उ</a>
-			<!-- <a href="articles.php?letter=ऊ">ऊ</a> -->
+			<a href="articles.php?letter=ऊ">ऊ</a>
 			<a href="articles.php?letter=ऋ">ऋ</a>
 			<a href="articles.php?letter=ए">ए</a>
 			<a href="articles.php?letter=ऐ">ऐ</a>
@@ -56,7 +56,7 @@
 			<a href="articles.php?letter=ष">ष</a>
 			<a href="articles.php?letter=स">स</a>
 			<a href="articles.php?letter=ह">ह</a>
-			<a href="#">#</a>
+			<a title="English and Kannada Articles" href="articles.php?letter=special">#</a>
 		</div>
 
 <?php 
@@ -68,16 +68,17 @@
 	{
 		$letter = 'अ';
 	}
-	#$query = "select * from article where title like '$letter%' order by title, volume, issue, page";
+
 	if($letter == 'special')
 	{
-		#$query = "select * from article where title like 'ಅ%' or like  order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
-		#$query = "select * from article where title like '`%' union select * from article where title regexp '^[a-zA-Z0-9]' order by title, volume, issue, page";
+		$query = "select * from article where title not regexp '^अ|आ|इ|ई|उ|ऊ|ऋ|ए|ऐ|ओ|औ|क|ख|ग|घ|च|छ|ज|झ|ट|ड|त|थ|द|ध|न|प|फ|ब|भ|म|य|र|ल|व|श|ष|स|ह' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
+
 	}
 	else
 	{
 		$query = "select * from article where title like '$letter%' union select * from article where title like '``$letter%' union select * from article where title like '`$letter%' order by TRIM(BOTH '`' FROM TRIM(BOTH '``' FROM title))";
 	}
+
 
 	include("connect.php");
 

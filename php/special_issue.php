@@ -6,10 +6,10 @@
 		<span class="icon fa-book"></span>
 		<h2>
 			<strong>
-				<span class="head_t1">Special Issues | </span> विशेषाङ्कः
+				<span class="head_t1">Special Issues | </span> विशेषाङ्काः
 			</strong>
 		</h2>
-		<p>सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>
+		<p>विशेषाङ्कं द्रष्टुं ‘वर्षं’ स्पृशत</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">

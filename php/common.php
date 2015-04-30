@@ -155,9 +155,9 @@ function getMonthDevanagari($month)
 	$month = preg_replace('/10/', 'अक्टोबर्', $month);
 	$month = preg_replace('/11/', 'नवम्बर्', $month);
 	$month = preg_replace('/12/', 'डिसेम्बर्', $month);
-	$month = preg_replace('/specialA/', 'विशेषाङ्क', $month);
-	$month = preg_replace('/specialB/', 'विशेषाङ्क', $month);
-	$month = preg_replace('/special/', 'विशेषाङ्क', $month);
+	$month = preg_replace('/specialA/', 'विशेषाङ्कः', $month);
+	$month = preg_replace('/specialB/', 'विशेषाङ्कः', $month);
+	$month = preg_replace('/special/', 'विशेषाङ्कः', $month);
 	
 	return $month;
 }
