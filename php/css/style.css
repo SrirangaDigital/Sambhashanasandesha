@@ -631,8 +631,10 @@
 			padding: 4em;
 		}
 	.sanskrit {
-			font-family:'siddhanta';
+			font-family:'siddhanta', 'Gubbi', 'Open Sans';
+/*
 			font-size:1em !important;
+*/
 			}
 	
 

@@ -6,10 +6,10 @@
 		<span class="icon fa-book"></span>
 		<h2>
 			<strong>
-				<span class="head_t1">Volumes | </span> सम्पुटाः
+				<span class="head_t1">Volumes | </span> <span class="sanskrit">सम्पुटाः</span>
 			</strong>
 		</h2>
-		<p>सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>
+		<p class="sanskrit">सञ्चिकाः द्रष्टुं ‘वर्षं’ स्पृशत</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -60,7 +60,7 @@
 				$ynum = preg_replace("/^[0]+/", "", $year);
 				echo "<a class=\"box-shadow-outset\" href=\"issue.php?year=$year&amp;volume=$volume\">";
 				echo (file_exists('images/cover/thumbs/' . $year . '/09.jpg')) ? "<img src=\"images/cover/thumbs/$year/09.jpg\" alt=\"$year thumbnail\" />" : "<img src=\"images/cover/thumbs/$year/01.jpg\" alt=\"$year thumbnail\" />";
-				echo "<p class=\"inum\">" . convert_devanagari($year) . "</p></a>";
+				echo "<p class=\"inum\"><span class=\"sanskrit\">" . convert_devanagari($year) . "</span></p></a>";
 			}
 		}
 	}

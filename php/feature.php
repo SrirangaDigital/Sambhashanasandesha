@@ -4,8 +4,8 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-tags"></span>
-		<h2><strong>Features | प्रधानविभागाः</strong></h2>
-		<p>सूचिः</p>
+		<h2><strong>Features | <span class="sanskrit">प्रधानविभागाः</span></strong></h2>
+		<p class="sanskrit">सूचिः</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -32,7 +32,7 @@
 			
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"feat.php?featid=$featid&amp;featname=$featurename\"><span class=\"authorspan\">".$featurename."</span></a>";
+			echo		"<a href=\"feat.php?featid=$featid&amp;featname=$featurename\"><span class=\"authorspan sanskrit\">".$featurename."</span></a>";
 			echo	"</div>";
 			echo"</div>";
 		}
