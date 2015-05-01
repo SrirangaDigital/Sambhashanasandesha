@@ -3,50 +3,50 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-user"></span>
-		<h2><strong>Authors | लेखकाः</strong></h2>
-		<p>अकाराद्यनुक्रमणिका</p>
+		<h2><strong>Authors | <span class="sanskrit">लेखकाः</span></strong></h2>
+		<p class="sanskrit">अकाराद्यनुक्रमणिका</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
 			<div class="letters">	
-		<a href="authors.php?letter=अ">अ</a>
-		<a href="authors.php?letter=आ">आ</a>
-		<a href="authors.php?letter=इ">इ</a>
-		<a href="authors.php?letter=ई">ई</a>
-		<a href="authors.php?letter=उ">उ</a>
-		<a href="authors.php?letter=ओ">ओ</a>
+		<a href="authors.php?letter=अ"><span class="sanskrit">अ</span></a>
+		<a href="authors.php?letter=आ"><span class="sanskrit">आ</span></a>
+		<a href="authors.php?letter=इ"><span class="sanskrit">इ</span></a>
+		<a href="authors.php?letter=ई"><span class="sanskrit">ई</span></a>
+		<a href="authors.php?letter=उ"><span class="sanskrit">उ</span></a>
+		<a href="authors.php?letter=ओ"><span class="sanskrit">ओ</span></a>
 
-		<a href="authors.php?letter=क">क</a>
-		<a href="authors.php?letter=ख">ख</a>
-		<a href="authors.php?letter=ग">ग</a>
-		<a href="authors.php?letter=घ">घ</a>
+		<a href="authors.php?letter=क"><span class="sanskrit">क</span></a>
+		<a href="authors.php?letter=ख"><span class="sanskrit">ख</span></a>
+		<a href="authors.php?letter=ग"><span class="sanskrit">ग</span></a>
+		<a href="authors.php?letter=घ"><span class="sanskrit">घ</span></a>
 	
-		<a href="authors.php?letter=च">च</a>
-		<a href="authors.php?letter=ज">ज</a>
+		<a href="authors.php?letter=च"><span class="sanskrit">च</span></a>
+		<a href="authors.php?letter=ज"><span class="sanskrit">ज</span></a>
 		
-		<!-- <a href="authors.php?letter=ट">ट</a> -->
-		<a href="authors.php?letter=ड">ड</a>
+		<!-- <a href="authors.php?letter=ट"><span class="sanskrit">ट</span></a> -->
+		<a href="authors.php?letter=ड"><span class="sanskrit">ड</span></a>
 		
-		<a href="authors.php?letter=त">त</a>
-		<a href="authors.php?letter=द">द</a>
-		<a href="authors.php?letter=ध">ध</a>
-		<a href="authors.php?letter=न">न</a>
+		<a href="authors.php?letter=त"><span class="sanskrit">त</span></a>
+		<a href="authors.php?letter=द"><span class="sanskrit">द</span></a>
+		<a href="authors.php?letter=ध"><span class="sanskrit">ध</span></a>
+		<a href="authors.php?letter=न"><span class="sanskrit">न</span></a>
 	
-		<a href="authors.php?letter=प">प</a>
-		<a href="authors.php?letter=फ">फ</a>
-		<a href="authors.php?letter=ब">ब</a>
-		<a href="authors.php?letter=भ">भ</a>
-		<a href="authors.php?letter=म">म</a>
+		<a href="authors.php?letter=प"><span class="sanskrit">प</span></a>
+		<a href="authors.php?letter=फ"><span class="sanskrit">फ</span></a>
+		<a href="authors.php?letter=ब"><span class="sanskrit">ब</span></a>
+		<a href="authors.php?letter=भ"><span class="sanskrit">भ</span></a>
+		<a href="authors.php?letter=म"><span class="sanskrit">म</span></a>
 
 
-		<a href="authors.php?letter=य">य</a>
-		<a href="authors.php?letter=र">र</a>
-		<a href="authors.php?letter=ल">ल</a>
-		<a href="authors.php?letter=व">व</a>
-		<a href="authors.php?letter=श">श</a>
-		<a href="authors.php?letter=ष">ष</a>
-		<a href="authors.php?letter=स">स</a>
-		<a href="authors.php?letter=ह">ह</a>
+		<a href="authors.php?letter=य"><span class="sanskrit">य</span></a>
+		<a href="authors.php?letter=र"><span class="sanskrit">र</span></a>
+		<a href="authors.php?letter=ल"><span class="sanskrit">ल</span></a>
+		<a href="authors.php?letter=व"><span class="sanskrit">व</span></a>
+		<a href="authors.php?letter=श"><span class="sanskrit">श</span></a>
+		<a href="authors.php?letter=ष"><span class="sanskrit">ष</span></a>
+		<a href="authors.php?letter=स"><span class="sanskrit">स</span></a>
+		<a href="authors.php?letter=ह"><span class="sanskrit">ह</span></a>
 		
 	</div>
 <?php
@@ -82,7 +82,7 @@
 			$authorid = $row1['authid'];
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
-			echo		"<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan\">".$authorname."</span></a>";
+			echo		"<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan sanskrit\">".$authorname."</span></a>";
 			echo	"</div>";
 			echo "</div>";
 		}

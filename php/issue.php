@@ -12,13 +12,13 @@
 		<h2>
 			<strong>
 				<?php echo "<span class=\"head_t2\">" . $year . " | </span>"; ?>
-				<?php echo convert_devanagari($year); ?>
+				<?php echo "<span class=\"sanskrit\">" . convert_devanagari($year) . "</span>"; ?>
 			</strong>
 		</h2>
 		<p>
 			<strong>
 				<?php echo "Volume&nbsp;" . $volume . " | "; ?>
-				<?php echo "सम्पुटाः " . convert_devanagari($volume); ?>
+				<?php echo "<span class=\"sanskrit\">सम्पुटाः " . convert_devanagari($volume) . "</span>"; ?>
 			</strong>
 		</p>
 	</header>
@@ -65,7 +65,7 @@ if($num_rows)
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
 			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">";
-			echo (preg_match('/^special/', $month)) ? '<span class="featurespan">' . getMonthDevanagari($month) . '</span>' : getMonthDevanagari($month);
+			echo (preg_match('/^special/', $month)) ? '<span class="featurespan sanskrit">' . getMonthDevanagari($month) . '</span>' : '<span class="sanskrit">' . getMonthDevanagari($month) . '</span>';
 			echo "</p></a>";
 	}
 }

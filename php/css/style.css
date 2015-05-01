@@ -631,8 +631,10 @@
 			padding: 4em;
 		}
 	.sanskrit {
-			font-family:'siddhanta';
+			font-family:'siddhanta', 'Gubbi', 'Open Sans';
+/*
 			font-size:1em !important;
+*/
 			}
 	
 
@@ -1367,12 +1369,16 @@
 				
 			}
 		.inum {
+/*
 			font-family: 'Lato', sans-serif;
+*/
 			font-size: 15pt;
 			font-weight: 300;
 		}
 		.voliss {
+/*
 			font-family: 'Lato', sans-serif;
+*/
 			font-size: 0.9em ;
 			font-weight: 300;
 		}

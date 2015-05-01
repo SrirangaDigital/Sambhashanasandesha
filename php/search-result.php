@@ -130,10 +130,10 @@
 							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
-								echo'<h2><strong>Search Results | अन्वेषणस्य फलम्</strong></h2>';
+								echo'<h2><strong>Search Results | <span class="sanskrit">अन्वेषणस्य फलम्</span></strong></h2>';
 								if($num_rows > 0)
 								{
-									echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_rows) . ' परिणामः</p>';
+									echo ($num_rows > 1) ? '<p class="sanskrit">' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p class="sanskrit">' . convert_devanagari($num_rows) . ' परिणामः</p>';
 								}
 							echo '</header>';
 					?>
@@ -184,7 +184,7 @@
 														
 												echo "<div class=\"box\">";
 												echo	"<div class=\"inside\">";
-												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan sanskrit\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss sanskrit\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
 												if($authorid != "")
 												{
 													$sumne = preg_split("/;/",$authorid);
@@ -193,7 +193,7 @@
 														$query1 = "select * from author where authid = '$sumne[$k]'";
 														$result1 = mysql_query($query1); 
 														$row1=mysql_fetch_assoc($result1);
-														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan sanskrit\">".$row1["authorname"]."</span></a>";
 														if(count($sumne) > 1 && $k < count($sumne)-1)
 														{
 															echo "&nbsp;|&nbsp;";
@@ -240,7 +240,7 @@
 									}
 									else
 									{
-										echo "<span class=\"empty topic\">परिणामः नास्ति</span>";
+										echo "<span class=\"empty topic sanskrit\">परिणामः नास्ति</span>";
 
 									}
 									mysql_close();

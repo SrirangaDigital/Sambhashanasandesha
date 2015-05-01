@@ -6,10 +6,10 @@
 		<span class="icon fa-book"></span>
 		<h2>
 			<strong>
-				<span class="head_t1">Special Issues | </span> विशेषाङ्काः
+				<span class="head_t1">Special Issues | </span>  <span class="sanskrit">विशेषाङ्काः</span>
 			</strong>
 		</h2>
-		<p>विशेषाङ्कं द्रष्टुं ‘वर्षं’ स्पृशत</p>
+		<p class="sanskrit">विशेषाङ्कं द्रष्टुं ‘वर्षं’ स्पृशत</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
@@ -48,7 +48,7 @@
 				{
 					echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\">";
 					echo "<img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$month thumbnail\" />";
-					echo "<p class=\"inum\">" . convert_devanagari($year) . "</p></a>";
+					echo "<p class=\"inum sanskrit\">" . convert_devanagari($year) . "</p></a>";
 				}
 			}
 		}
