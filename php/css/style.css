@@ -1194,7 +1194,10 @@
 			width: 60px;
 			z-index: 1;
 		}
-
+		.downloadspan {
+			font-size: 0.8em;
+			color: #000000;
+		}
 		#sideButton .toggle:after {
 			background: rgba(163, 169, 170, 0.75);
 			border-radius: 2px;

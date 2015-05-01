@@ -47,6 +47,8 @@ $advtID = '1001';
 					{
 						echo "<span class=\"sanskrit\">सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue) . '</span>';
 					}
+					//~ Link for downloading pdf 
+					//~ echo "<br/><a target=\"_blank\" href=\"downloadPdf.php?year=$year&amp;month=$month\"><span class=\"downloadspan\">Download Issue</span></a>"
 				 ?>
 			</strong>
 		</p>
@@ -71,6 +73,7 @@ $advtID = '1001';
 		{
 			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
+			$titleid = $row['titleid'];
 			$sumne = preg_split("/;/",$row['authorname']);
 			$volume = $row['volume'];
 			$inum = $row['issue'];
@@ -88,6 +91,7 @@ $advtID = '1001';
 			$featurename = preg_replace("/ /","%20",$row1['featurename']);
 			
 			$featureid = $row1['featid'];
+			
 					
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
@@ -104,7 +108,9 @@ $advtID = '1001';
 					echo "&nbsp;|&nbsp;";
 				}
 			}
-			
+			//~ Link for downloading pdf 
+			//~ if($row['authid'] != ""){echo "<br/>";}
+			//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 			echo	"</div>";
 			echo"</div>";
 		}
