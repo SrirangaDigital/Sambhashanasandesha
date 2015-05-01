@@ -2,6 +2,8 @@
 <?php include("nav.php"); ?>
 <?php include("common.php"); ?>
 <?php
+	session_start();
+	
 	if(empty($_GET['title']) && empty($_GET['author']) && empty($_GET['featid']) && empty($_GET['text']) && empty($_GET['year1']) && empty($_GET['year2'])) {
 		header('Location: search.php');
 		exit(1);
@@ -92,7 +94,6 @@
 							$authorFilter = preg_replace("/^and /", "", $authorFilter);
 							$titleFilter = preg_replace("/^and /", "", $titleFilter);
 							$titleFilter = preg_replace("/ $/", "", $titleFilter);
-							
 							if($text=='')
 							{
 								$query="SELECT * FROM
@@ -143,6 +144,8 @@
 									$year = "";
 									$month = "";
 									$oldText = "";
+									$_SESSION['sd'] = "";
+									
 									if($num_rows > 0)
 									{
 										for($a=1;$a<=$num_rows;$a++)
@@ -151,21 +154,6 @@
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
-												//~ if(count($texts) > 1)
-												//~ {
-													//~ echo "<br/>";
-													//~ for($ic=0;$ic<sizeof($texts);$ic++)
-													//~ {
-														//~ if(!preg_match("[".$texts[$ic]."]",$oldText))
-														//~ {
-															//~ echo "&#10005;$texts[$ic]\n";
-														//~ }
-														//~ else
-														//~ {
-															//~ echo "&#10003;$texts[$ic]\n";
-														//~ }
-													//~ }
-												//~ }
 												echo	"</div>";
 												echo"</div>";
 											}
@@ -176,11 +164,15 @@
 												$inum = $row['issue'];
 												$page = preg_split('/-/',$row['page'],2);
 												$cur_page = "";
-												if($text!=''){$cur_page = $row['cur_page'];}
 												$title = $row['title'];
 												$month = $row['month']; 
 												$year = $row['year'];
 												$featureid = $row['featid'];
+												if($text!='')
+												{
+													$cur_page = $row['cur_page'];
+													$_SESSION['sd'][$year.$month][] = $row['cur_page'];
+												}
 												
 												$query1 = "select * from feature where featid = '$featureid'";
 												$result1 = mysql_query($query1); 
