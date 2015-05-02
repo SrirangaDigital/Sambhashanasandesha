@@ -154,6 +154,9 @@
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
+												$titleid = $row['titleid'];
+												//~ Link To Download Pdf
+												//~ echo	"<br/><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 												echo	"</div>";
 												echo"</div>";
 											}
@@ -220,21 +223,8 @@
 											$id = $row['titleid'];
 											$oldText = $row['text'];
 										}
-										if(count($texts) > 1)
-										{
-											echo "<br/>";
-											for($ic=0;$ic<sizeof($texts);$ic++)
-											{
-												if(!preg_match("[".$texts[$ic]."]",$oldText))
-												{
-													echo "&#10005;$texts[$ic]\n";
-												}
-												else
-												{
-													echo "&#10003;$texts[$ic]\n";
-												}
-											}
-										}
+										//~ Link To Download Pdf 
+										//~ echo	"<br/><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 										echo	"</div>";
 										echo"</div>";
 									}

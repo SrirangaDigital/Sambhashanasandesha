@@ -56,6 +56,7 @@
 			$month = $row['month'];
 			$year = $row['year'];
 			$featureid = $row['featid'];
+			$titleid = $row['titleid'];
 				
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
@@ -66,6 +67,8 @@
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
 					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan sanskrit\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss sanskrit\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+					//~ Link To Download Pdf 
+					//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 					echo	"</div>";
 					echo"</div>";
 		}
