@@ -48,7 +48,7 @@ $advtID = '1001';
 						echo "<span class=\"sanskrit\">सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari($issue) . '</span>';
 					}
 					//~ Link for downloading pdf 
-					//~ echo "<br/><a target=\"_blank\" href=\"downloadPdf.php?year=$year&amp;month=$month\"><span class=\"downloadspan\">Download Issue</span></a>"
+					//~ echo "<br/><br/><a target=\"_blank\" href=\"downloadPdf.php?year=$year&amp;month=$month\"><span class=\"downloadspan\">Download Issue</span></a>"
 				 ?>
 			</strong>
 		</p>

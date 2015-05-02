@@ -128,7 +128,7 @@
 	}
 
 	header.special {
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 		padding-top: 7em;
 		position: relative;
 		text-align: center;
@@ -159,7 +159,7 @@
 
 		header.special h2 + p {
 			margin-bottom: 0;
-			padding-top: 1.5em;
+			padding-top: 0.5em;
 		}
 
 		header.special .icon {
@@ -658,7 +658,6 @@
 		width: 100%;
 		z-index: 10000;
 	}
-
 		#header h1 {
 			font-weight: 300;
 			font-family:'siddhanta';
@@ -677,6 +676,8 @@
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
+			z-index: 9;
+			max-height: 20px;
 		}
 
 			#header nav ul li {
@@ -1196,7 +1197,7 @@
 		}
 		.downloadspan {
 			font-size: 0.8em;
-			color: #000000;
+			color: rgb(124, 128, 129);
 		}
 		#sideButton .toggle:after {
 			background: rgba(163, 169, 170, 0.75);
@@ -1312,7 +1313,7 @@
 			display:inline-block;
 			border-left: 1px solid #3372df;
 			box-shadow: 0 0 2px rgba(34, 25, 25, 0.3);
-			padding: 20px;
+			padding: 20px 20px 10px 20px;
 			border-radius:2px;
 			background: #ffffff;
 			position: relative;
