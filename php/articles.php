@@ -101,8 +101,8 @@
 			$month = $row['month']; 
 			$year = $row['year'];
 			$featureid = $row['featid'];
-			/*$type = $row['type'];*/
-
+			$titleid = $row['titleid'];
+			
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
 			$row1=mysql_fetch_assoc($result1);
@@ -125,6 +125,9 @@
 					echo "&nbsp;|&nbsp;";
 				}
 			}
+			//~ Link for downloading pdf 
+			//~ if($row['authid'] != ""){echo "<br/>";}
+			//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 			echo	"</div>";
 			echo "</div>";
 		}

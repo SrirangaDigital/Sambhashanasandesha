@@ -55,6 +55,7 @@
 					$month = $row['month']; 
 					$year = $row['year'];
 					$featureid = $row['featid'];
+					$titleid = $row['titleid'];
 					/*$type = $row['type'];*/
 					
 					echo "<div class=\"box\">";
@@ -72,7 +73,9 @@
 							echo "&nbsp;|&nbsp;";
 						}
 					}
-					
+					//~ Link To Download Pdf 
+					//~ if($row['authid'] != ""){echo "<br/>";}
+					//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 					echo	"</div>";
 					echo"</div>";
 
