@@ -8261,6 +8261,849 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="10" month="special" year="1996">
+			<entry>
+				<title>Allure Homes and Resorts Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0000b-0000b</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The Electronix Shop</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0001-0001</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ತುಮಕೂರು ಜಿಲ್ಲಾ ಸಹಕಾರ ಕೇಂದ್ರ ಬ್ಯಾಂಕ್ ನಿಯಮಿತ, ತುಮಕೂರು</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Tej Couriers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Manjunatha Jewellers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सम्पादकीयम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्राचीने भारते आसीत् एव लेखनकला</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0015</page>
+				<allauthors>
+					<author type="1" sal="">वाकणकर्, एल्. एस्.</author>
+					<author type="3" sal="">सरिता</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>The Southern Gas Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Mathura Electronics</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>NKCA Pharmacy Limited, Mysore</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Poorna Electronics</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>R. S. Power Controls Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0014-0014</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पत्रकथाः - कोऽन्धः ?</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">माधवन्, पि. के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रकथाः - अपायः उपायेन .....</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0016-0017</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रकथाः - मृतोऽपि पुनरायातः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">रमेश ज. खरे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रकथाः - वार्षिकः रोगः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="1" sal="">बालकृष्ण हेगडे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रकथाः - व्यवहारकौशलम्</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0018-0021</page>
+				<allauthors>
+					<author type="1" sal="">मुरलीधरः, वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विश्वसुन्दरी !!!</title>
+				<feature>एहि हसामः</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="">रावः, ल. ना.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रकथाः - खलः करोति</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">वन्दना, जे.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वराहहृदयं मानवशरीरे</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="3" sal="">अकल्पिता म्हसवडे></author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सर्वं पीनसार्थम् .....</title>
+				<feature>एहि हसामः</feature>
+				<page>0025-0028</page>
+				<allauthors>
+					<author type="1" sal="">विकटराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Lakshmidas Jewellers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0028-0028</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>भवतां भविष्यम्</title>
+				<feature>एहि हसामः</feature>
+				<page>0029-0032</page>
+				<allauthors>
+					<author type="1" sal="">वराहमिहिराचार्यः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Manju Process</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0033-0033</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>समयान्वेषी</title>
+				<feature>कथा</feature>
+				<page>0034-0039</page>
+				<allauthors>
+					<author type="1" sal="">नारायणन्, इ. एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Harshita Jewellery Works</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Hotel Dwaraka</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Industrial Research Corporation</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>A Well Wisher</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0038-0038</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Tunga Agencies, Tunga Enterprises</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0038-0038</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Shobha Hardware Stores</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0039-0039</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>VI Microsystems Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0040-0040</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>`विश्वचिन्तां करोमि'</title>
+				<feature>रूपकम्</feature>
+				<page>0041-0047</page>
+				<allauthors>
+					<author type="1" sal="">श्याम सरडे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Gangarams Book Bureau</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>B. Lalitha Bai Sons and Co.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Fairgrowth Investments Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Ambuja Enterprises</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Navadurga Agencies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Mohana Bhandara</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0045-0045</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Mahendra Vastralaya</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0046-0046</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Rajalakshmi Agencies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0046-0046</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>गुरुकुलम् - गन्तव्यः पन्थाः</title>
+				<feature>लेखनम्</feature>
+				<page>0048-0057</page>
+				<allauthors>
+					<author type="1" sal="डा।।">रामचन्द्रभट्टः कोटेमने</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Kartikeya Provisions</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0050-0050</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>H. Shashidhara Acharya</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0050-0050</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Raghavendra Prasanna</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0050-0050</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>S. L. N. Agro Sales and Service Arvind Agro Agencies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0050-0050</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Vinzaa School of CAD</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0052-0052</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Cargo Tarpaulin Industries</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0054-0054</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The Mestern India Industrial Corporation Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0054-0054</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Gautam Cloth Stores</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0056-0056</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Siddeshwara Industries, Siddeshwar Traders</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0056-0056</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>C. A. K. Stores</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0056-0056</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>M/s G. S. Hegde, Kadekodi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0056-0056</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Belavadi Tool Room</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0058-0058</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Speed-O-Graphics (India)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0058-0058</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>कारणम्</title>
+				<feature>कथा</feature>
+				<page>0059-0061</page>
+				<allauthors>
+					<author type="1" sal="">बिजु, टि. के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Aruna Agarbathi Co.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0060-0060</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Anantha Satya Essential Corner</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0060-0060</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Ganesh Steel Mart</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0060-0060</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sarapha Jewellers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0060-0060</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ऐवो केम. इण्डस्ट्रीज</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0061-0061</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अन्धानुकरणस्य फलम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0062-0063</page>
+				<allauthors>
+					<author type="1" sal="">रवीन्द्रनाथगुरुः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Khoday Group of Industries</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0064-0064</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri S. L. Lakshmana and Sons</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0065-0065</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri C. M. Gowda</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0066-0066</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>M/s Dynaquip Machines</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0067-0067</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Emco Goa Private Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0068-0068</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अन्योन्यं यदि साहाय्यम् .....</title>
+				<feature>बालमोदिनी</feature>
+				<page>0069-0072</page>
+				<allauthors>
+					<author type="3" sal="श्रीमान्">नंपूतिरी, डी.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Vijay Litetronics Components Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0070-0070</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Nanu Enterprises</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0073-0073</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>बुद्धिपरीक्षा</title>
+				<feature>बालमोदिनी</feature>
+				<page>0074-0081</page>
+				<allauthors>
+					<author type="1" sal="">भानुमूर्तिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Lakshmi Chitramandira</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0076-0076</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Venlon Polyster Film Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0079-0079</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Mohini Vilas Restaurant and Udipi Sri Krishna Bhavan</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0082-0082</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अक्षरविनोदः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0083-0083</page>
+				<allauthors>
+					<author type="1" sal="">पै, यु. के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्नीव्रतत्वम्</title>
+				<feature>एहि हसामः</feature>
+				<page>0084-0091</page>
+				<allauthors>
+					<author type="1" sal="">श्रीमती, वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Mysore Polymers and Rubber Products Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0086-0086</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The Sirsi Urban Co-Operative Bank Ltd., HO. Sirsi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0088-0088</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>``Goldstar" Group of Companies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0089-0089</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Shikerkar Agencies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0091-0091</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Devi Renewable Fuels Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0091-0091</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मध्यमवियोगः</title>
+				<feature>कथा</feature>
+				<page>0092-0099</page>
+				<allauthors>
+					<author type="1" sal="">मञ्जुनाथः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Bhima and Brother Jewellers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0094-0094</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Shanteri Homoeo Stores</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0096-0096</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>M/s Babu Ramakant D. Desai</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0096-0096</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>P. G. Chitnis</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0097-0097</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Dalmia Cement</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0098-0098</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ದಿ ತೋಟಗಾರ್ಸ ಕೋ-ಆಪರೇಟಿವ್ ಸೇಲ್ ಸೊಸೈಟಿ ಲಿಮಿಟೆಡ್, ಶಿರಸಿ</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0099-0099</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Vijay Wires and Filaments Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0100-0100</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The Vysya Bank Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0101-0101</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The House of Girija</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0102-0102</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Lakshmi Traders</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0103-0103</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sundaram Clayton Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0104-0104</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Bhoruka Aluminium Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0105-0105</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri S. Mukund, Sri Vinayaka Wine Depot</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0106-0106</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Tumkur Grain Merchants Co-Operative Bank Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0107-0107</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Desai Pharmaceutical Distributors</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0107-0107</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Dinshaw's Ice Cream Parlours</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0107-0107</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Kaveri Printers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0108-0108</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Eastwest Heavy Electricals Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0108-0108</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - कृतमहो ओदनम् !</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0109-0109</page>
+				<allauthors>
+					<author type="1" sal="">पार्वती, एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - पञ्चाग्निमध्ये तपः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0109-0110</page>
+				<allauthors>
+					<author type="1" sal="आचार्यः">रामसेवकशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - क्वथितम् उत तिक्तरसः ..... ?</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0110-0111</page>
+				<allauthors>
+					<author type="1" sal="">जयश्रीः, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - सिद्धेऽपि पाके ......</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0111-0113</page>
+				<allauthors>
+					<author type="1" sal="">सुब्बारावु, वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>M/s Bhagwati Glass Centre</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0112-0112</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sushila Clinic</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0112-0112</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>M/s Laxman Vasudev Kamat</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0112-0112</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Gajanan Kamat</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0112-0112</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - स्वयंपाकस्य प्रायोगिकपाठः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0113-0114</page>
+				<allauthors>
+					<author type="1" sal="">के. वि. बि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - अहो स्वादिष्टम् .... !</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0114-0115</page>
+				<allauthors>
+					<author type="1" sal="">अद्देपल्लि राजेश्वरी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रथमः पाकः - तदेव प्रातः, रात्रौ तदेव</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0115-0115</page>
+				<allauthors>
+					<author type="1" sal="">अरविन्दः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>M/s Kalyanpur Brothers</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0116-0116</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>V. A. Shanbhag Hardware and Paint Merchants</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0116-0116</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Atkere Krishnaraya Pai and Venkatesha Pai</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0116-0116</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Dr. N. R. Acharya Memorial Hospital</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0116-0116</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मिस्टरी स्पाट् - निगूढस्थलस्य अनूह्यलीला</title>
+				<feature>लेखनम्</feature>
+				<page>0117-0120</page>
+				<allauthors>
+					<author type="1" sal="">वर्षा सरडा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Bhojayya Sons</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0121-0121</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sri Raghavendra Bhat</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0121-0121</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>A Well Wisher</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0121-0121</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Maple Engg. Works Philaman Cottage</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0121-0121</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>बिडालनयना</title>
+				<feature>कथा</feature>
+				<page>0122-0124</page>
+				<allauthors>
+					<author type="1" sal="">उदय अब्बीमूले, के. ए.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Ram-Nath and co. Rana Dyes Corporation Deccan Organics</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0124-0124</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sunrise Pipe Industries</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0125-0125</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Taurus Enterprises</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0125-0125</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Narcinva Damodar Naik</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0126-0126</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Maroor Padmanabha Pai and Company</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0127-0127</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>M/s Malnad Alloy Castings (P) Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0128-0128</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Dhanwantari Medicals</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0128-0128</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Power Research and Development Consultants Private Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0129-0129</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>hmt - Lalit Quartz</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0130-0130</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 	<volume vnum="004">
 		<issue inum="01" month="09" year="1997">
@@ -18531,7 +19374,7 @@
 				<allauthors />
 			</entry>
 		</issue>
-		<issue inum="10" month="special" year="2005">
+		<issue inum="10" month="special" year="1999">
 			<entry>
 				<title>राष्ट्रीय बचन राज्य सलाहकार बोई</title>
 				<feature>विज्ञापिकाः</feature>
@@ -18960,6 +19803,166 @@
 				<allauthors>
 					<author type="1" sal="">चेतना मुळे</author>
 				</allauthors>
+			</entry>
+			<entry>
+				<title>PS Printech Solutions</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0068-0068</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>P and N Foods Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0068-0068</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Deepak Stores</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0068-0068</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sudarshana General Industries</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0068-0068</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Mysore Polymers and Rubber Products Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0069-0069</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ऋणं गतजन्मनः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0070-0071</page>
+				<allauthors>
+					<author type="3" sal="">रवीन्द्रनाथ गुरुः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>तस्य नोच्चलते मनः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0072-0074</page>
+				<allauthors>
+					<author type="3" sal="">सुब्बरायशास्त्री, वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>असदृशं देशप्रेम</title>
+				<feature>बालमोदिनी</feature>
+				<page>0075-0077</page>
+				<allauthors>
+					<author type="3" sal="">सुवर्णा, के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Gandhar Creations</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0077-0077</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>निश्चला भक्तिः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0078-0080</page>
+				<allauthors>
+					<author type="1" sal="">नरसिंह गोठे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सैव हि शरणम्</title>
+				<feature>गीतम्</feature>
+				<page>0080-0080</page>
+				<allauthors>
+					<author type="1" sal="">शास्त्री, के.बी.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कूटप्रश्नः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0081-0081</page>
+				<allauthors>
+					<author type="1" sal="">राघवेन्द्रः, वी.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ज्ञानपरीक्षा-रामायणप्रश्नगुच्छः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0082-0087</page>
+				<allauthors>
+					<author type="1" sal="">राघवेन्द्रः, वी.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>घटीयन्त्रं पुरातनम्</title>
+				<feature>गीतम्</feature>
+				<page>0088-0088</page>
+				<allauthors>
+					<author type="1" sal="">रामकृष्णवारियर्, के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Luxmi Paper Mart</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0089-0089</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मम व्यथा</title>
+				<feature>कथा</feature>
+				<page>0090-0093</page>
+				<allauthors>
+					<author type="1" sal="डा।।">रामसुमेर यादवः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Paper Packaging Pvt. Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0092-0092</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pradeep Enterprises</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0093-0093</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Vasu Agarbathies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0094-0094</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>न सन्ति गृहाणां द्वाराणि !!!</title>
+				<feature>लेखनम्</feature>
+				<page>0095-0097</page>
+				<allauthors>
+					<author type="1" sal="">चक्रपाणिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कृतं तु विनोदार्थम्</title>
+				<feature>कथा</feature>
+				<page>0098-0100</page>
+				<allauthors>
+					<author type="1" sal="डा।।">सरस्वती बाली</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Power Research and Development Consultants Private Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0101-0101</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Club Collections Exports Pvt. Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0102-0102</page>
+				<allauthors />
 			</entry>
 		</issue>
 	</volume>
