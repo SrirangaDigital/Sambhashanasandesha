@@ -75,8 +75,8 @@
 			<div class="cur_image">
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
-				<span class="cur_month">वैशाखमासः </span><br />
-				<span class="cur_month">मे - २०१५</span>
+				<span class="cur_month">जयेष्ठमासः</span><br />
+				<span class="cur_month">जून्  - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -85,20 +85,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> रामायणकालीनाः पक्षिणः</a><br />
-						<span class="article_details">डा. एस्. हेमलता, बेङ्गलूरु &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> वराहमिहिरोक्तः भूकम्पलक्षणविचारः</a><br />
+						<span class="article_details">शुभा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> ब्राह्मी तु भारती भाषा..</a><br />
-						<span class="article_details">मुरलीश्यामः एच्. &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> वास्तविकतामूढविश्वासौ पृथक्करणीयौ</a><br />
+						<span class="article_details">सुरेशः, बेङ्गलूरु &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> यज्ञप्रक्रियायाः वैज्ञानिकता</a><br />
-						<span class="article_details">स्वानन्दगजाननपुण्डः, वणी (महा.) &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सम्भाषणसन्देशस्य जालपुटे विवरणान्वेषणं करतलामलकम्</a><br />
+						<span class="article_details">जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>				
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> मया अपि प्रमादः कृतः एव !</a><br />
-						<span class="article_details">अनु. – भार्गवः, मराटीमूलम् – अरविन्दलिमये &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> आत्महया</a><br />
+						<span class="article_details">गुप्तचन्द्रः, उत्तर २४ परगणा, पश्चिमवङ्गः &nbsp;|&nbsp; कथा</span>
 					</div>				
 				</div>
 			    <div  class="read_more">
