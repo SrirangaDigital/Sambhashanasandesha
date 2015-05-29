@@ -97,7 +97,7 @@
 						<span class="article_details">जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>				
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> आत्महया</a><br />
+						<a href="#"><span class="icon fa-share"></span> आत्महत्या</a><br />
 						<span class="article_details">गुप्तचन्द्रः, उत्तर २४ परगणा, पश्चिमवङ्गः &nbsp;|&nbsp; कथा</span>
 					</div>				
 				</div>
