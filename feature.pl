@@ -16,6 +16,10 @@ $sth_enc=$dbh->prepare("set names utf8");
 $sth_enc->execute();
 $sth_enc->finish();
 
+$sth_drop=$dbh->prepare("DROP TABLE IF EXISTS feature");
+$sth_drop->execute();
+$sth_drop->finish();
+
 $sth11=$dbh->prepare("CREATE TABLE feature(featurename varchar(500),
 featid int(50) not null auto_increment,
 primary key (featid))auto_increment=1001 ENGINE=MyISAM character set utf8 collate utf8_general_ci");

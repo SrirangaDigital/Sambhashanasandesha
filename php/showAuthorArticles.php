@@ -16,7 +16,7 @@
 <article id="main">
 	<header class="special container">
 		<span class="icon fa-pencil"></span>
-		<h2><strong><?php echo $authorname; ?></strong></h2>	
+		<h2><strong><?php echo '<span class="sanskrit">' . $authorname . '</span>'; ?></strong></h2>	
 <?php 
 
 	include("connect.php");
@@ -31,7 +31,7 @@
 	if($num_rows)
 	{
 
-		echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p>' . convert_devanagari($num_rows) . ' लेखः</p>';
+		echo ($num_rows > 1) ? '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखः</p>';
 		echo '		</header>
 				<section class="wrapper style4 container">
 					<div class="content">';
@@ -51,11 +51,12 @@
 			}
 			$volume = $row['volume'];
 			$inum = $row['issue'];
-			$page = $row['page'];
+			$page = preg_split('/-/',$row['page'],2);
 			$title = $row['title'];
 			$month = $row['month'];
 			$year = $row['year'];
 			$featureid = $row['featid'];
+			$titleid = $row['titleid'];
 				
 			$query1 = "select * from feature where featid = '$featureid'";
 			$result1 = mysql_query($query1);
@@ -65,7 +66,9 @@
 					
 					echo "<div class=\"box\">";
 					echo	"<div class=\"inside\">";
-					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+					echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan sanskrit\">".$row1['featurename']."</span></a>&nbsp;|&nbsp;<span class=\"voliss sanskrit\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+					//~ Link To Download Pdf 
+					//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 					echo	"</div>";
 					echo"</div>";
 		}

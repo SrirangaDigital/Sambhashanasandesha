@@ -6,6 +6,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">	
 	<script src="php/js/jquery.min.js"></script>
 	<script src="php/js/jquery.dropotron.min.js"></script>
 	<script src="php/js/jquery.scrolly.min.js"></script>
@@ -13,6 +14,7 @@
 	<script src="php/js/skel.min.js"></script>
 	<script src="php/js/skel-layers.min.js"></script>
 	<script src="php/js/init.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<noscript>
 		<link rel="stylesheet" href="php/css/skel.css" />
 		<link rel="stylesheet" href="php/css/style.css" />
@@ -21,53 +23,89 @@
 	</noscript>
 </head>
 <body class="index">
+	<!-- Google Analytics Code -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-60797448-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
 	<!-- Header -->
 	<header id="header" class="alt">
+		<h1><a href="index.php">&nbsp;&nbsp;</a></h1>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.php">Home | उपक्रमः:</a></li>
-				<li><a href="php/about.php">About | परिचयः</a>
+				<li><a href="index.php">Home | <span class="sanskrit">उपक्रमः:</span></a></li>
+				<li><a href="php/about.php">About | <span class="sanskrit">परिचयः</span></a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
 					</ul>
 				</li>
-				<li><a href="php/subscribe.php">Subscribe | ग्राहकता</a>
+				<li><a href="php/subscribe.php">Subscribe | <span class="sanskrit">ग्राहकता</span></a>
 					<ul>
 						<li><a href="php/subscribe.php">India</a></li>
 						<li><a href="php/subscribe_us.php">US &amp; Canada</a></li>
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="javascript:void(0);">Archives | सङ्ग्रहः</a>
+				<li><a href="javascript:void(0);">Archives | <span class="sanskrit">सङ्ग्रहः</span></a>
 					<ul>
-						<li><a href="php/volumes.php">Volumes | सम्पुटाः</a></li>
-						<li><a href="php/feature.php">Features | प्रधानविभागाः</a></li>
-						<li><a href="php/articles.php?letter=अ">Articles | लेखाः</a></li>
-						<li><a href="php/authors.php?letter=अ">Authors | लेखकाः</a></li>
-						<li><a href="php/search.php">Search | अन्वेषणम्</a></li>
+						<li><a href="php/volumes.php">Volumes | <span class="sanskrit">सम्पुटाः</span></a></li>
+						<li><a href="php/feature.php">Features | <span class="sanskrit">प्रधानविभागाः</span></a></li>
+						<li><a href="php/articles.php?letter=अ">Articles | <span class="sanskrit">लेखाः</span></a></li>
+						<li><a href="php/authors.php?letter=अ">Authors | <span class="sanskrit">लेखकाः</span></a></li>
+						<li><a href="php/special_issue.php">Special Issues | <span class="sanskrit">विशेषाङ्कः</span></a></li>
+						<li><a href="php/search.php">Search | <span class="sanskrit">अन्वेषणम्</span></a></li>
 					</ul>
 				</li>
-				<li><a href="php/feedback.php">Feedback | प्रतिपुष्टिः</a></li>
-				<li><a href="php/contact.php">Contact | सम्पर्कः</a></li>
+				<li><a href="php/feedback.php">FEEDBACK | <span class="sanskrit">प्रतिपुष्टिः</span></a></li>
 			</ul>
 		</nav>
 	</header>
 	<!-- Banner -->
 	<section id="banner">
-		<div class="inner">
-			<header>
-				<h2>सम्भाषण सन्देश:</h2>
-			</header>
-			<p>World's first of its kind <strong>Samskrit</strong> monthly magazine</p>
-			<?php include("php/connect.php");?>
-			<footer>
-				<?php 
-					echo "<ul class=\"buttons vertical\">";
-					echo "<li><a class=\"button fit scrolly\" href=\"php/toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"> Click to view the latest issue</a></li>";
-					echo "</ul>";
-				?>
-			</footer>
+		<p class="webtitle">सम्भाषण सन्देश:</p>
+		<div class="current_issue">
+			<div class="cur_image">
+				<span class="cur_month">Current Issue</span><br />
+				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
+				<span class="cur_month">जयेष्ठमासः</span><br />
+				<span class="cur_month">जून्  - २०१५</span>
+			</div>
+			<div class="cur_text">
+				<div class="inthisissue">			
+					<span>In this issue</span>
+					<div class="rule">&nbsp;</div>
+				</div>
+				<div class="inthis_left">
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> वराहमिहिरोक्तः भूकम्पलक्षणविचारः</a><br />
+						<span class="article_details">शुभा &nbsp;|&nbsp; लेखनम्</span>
+					</div>
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> वास्तविकतामूढविश्वासौ पृथक्करणीयौ</a><br />
+						<span class="article_details">सुरेशः, बेङ्गलूरु &nbsp;|&nbsp; लेखनम्</span>
+					</div>
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> सम्भाषणसन्देशस्य जालपुटे विवरणान्वेषणं करतलामलकम्</a><br />
+						<span class="article_details">जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
+					</div>				
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> आत्महत्या</a><br />
+						<span class="article_details">गुप्तचन्द्रः, उत्तर २४ परगणा, पश्चिमवङ्गः &nbsp;|&nbsp; कथा</span>
+					</div>				
+				</div>
+			    <div  class="read_more">
+					<div><a href="#">...coming soon</a></div>
+					<div class="rule">&nbsp;</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- Main -->

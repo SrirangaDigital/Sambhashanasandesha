@@ -9,14 +9,23 @@
 	?>
 	<header class="special container">
 		<span class="icon fa-book"></span>
-		<h2><strong><?php echo convert_devanagari($year); ?></strong></h2>
-		<p><?php echo "सम्पुटाः " . convert_devanagari($volume); ?></p>
+		<h2>
+			<strong>
+				<?php echo "<span class=\"head_t2\">" . $year . " | </span>"; ?>
+				<?php echo "<span class=\"sanskrit\">" . convert_devanagari($year) . "</span>"; ?>
+			</strong>
+		</h2>
+		<p>
+			<strong>
+				<?php echo "Volume&nbsp;" . $volume . " | "; ?>
+				<?php echo "<span class=\"sanskrit\">सम्पुटाः " . convert_devanagari($volume) . "</span>"; ?>
+			</strong>
+		</p>
 	</header>
 	<section class="wrapper style4 container">
 		<div class="content">
 			<div class="volumes">
 <?php
-
 
 $db = mysql_connect($server,$user,$password) or die("Not connected to database");
 $rs = mysql_select_db($database,$db) or die("No Database");
@@ -55,7 +64,9 @@ if($num_rows)
 			}
 			$temp=$year."_".$month;
 			$inum = preg_replace("/^[0]+/", "", $issue);
-			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">" . getMonthDevanagari($month) . "</p></a>";
+			echo "<a class=\"box-shadow-outset\" href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$issue\"><img src=\"images/cover/thumbs/$year/$month.jpg\" alt=\"$year $month coverpage\" /><p class=\"inum\">";
+			echo (preg_match('/^special/', $month)) ? '<span class="featurespan sanskrit">' . getMonthDevanagari($month) . '</span>' : '<span class="sanskrit">' . getMonthDevanagari($month) . '</span>';
+			echo "</p></a>";
 	}
 }
 echo '</div>';

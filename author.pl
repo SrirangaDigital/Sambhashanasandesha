@@ -15,6 +15,10 @@ $sth_enc=$dbh->prepare("set names utf8");
 $sth_enc->execute();
 $sth_enc->finish();
 
+$sth_drop=$dbh->prepare("DROP TABLE IF EXISTS author");
+$sth_drop->execute();
+$sth_drop->finish();
+
 $sth11=$dbh->prepare("CREATE TABLE author(authorname varchar(400),
 type varchar(10),
 sal varchar(100),

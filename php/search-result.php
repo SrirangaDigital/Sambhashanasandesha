@@ -2,6 +2,8 @@
 <?php include("nav.php"); ?>
 <?php include("common.php"); ?>
 <?php
+	session_start();
+	
 	if(empty($_GET['title']) && empty($_GET['author']) && empty($_GET['featid']) && empty($_GET['text']) && empty($_GET['year1']) && empty($_GET['year2'])) {
 		header('Location: search.php');
 		exit(1);
@@ -92,7 +94,6 @@
 							$authorFilter = preg_replace("/^and /", "", $authorFilter);
 							$titleFilter = preg_replace("/^and /", "", $titleFilter);
 							$titleFilter = preg_replace("/ $/", "", $titleFilter);
-							
 							if($text=='')
 							{
 								$query="SELECT * FROM
@@ -129,10 +130,10 @@
 							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
-								echo'<h2>अन्वेषणस्य फलम्</h2>';
+								echo'<h2><strong>Search Results | <span class="sanskrit">अन्वेषणस्य फलम्</span></strong></h2>';
 								if($num_rows > 0)
 								{
-									echo ($num_rows > 1) ? '<p>' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p>' . convert_devanagari($num_rows) . ' परिणामः</p>';
+									echo ($num_rows > 1) ? '<p class="sanskrit">' . convert_devanagari($num_rows) . ' परिणामाः</p>' : '<p class="sanskrit">' . convert_devanagari($num_rows) . ' परिणामः</p>';
 								}
 							echo '</header>';
 					?>
@@ -143,6 +144,8 @@
 									$year = "";
 									$month = "";
 									$oldText = "";
+									$_SESSION['sd'] = "";
+									
 									if($num_rows > 0)
 									{
 										for($a=1;$a<=$num_rows;$a++)
@@ -151,36 +154,28 @@
 											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
-												if(count($texts) > 1)
-												{
-													echo "<br/>";
-													for($ic=0;$ic<sizeof($texts);$ic++)
-													{
-														if(!preg_match("[".$texts[$ic]."]",$oldText))
-														{
-															echo "&#10005;$texts[$ic]\n";
-														}
-														else
-														{
-															echo "&#10003;$texts[$ic]\n";
-														}
-													}
-												}
+												$titleid = $row['titleid'];
+												//~ Link To Download Pdf
+												//~ echo	"<br/><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 												echo	"</div>";
 												echo"</div>";
 											}
-											if ((strcmp($id, $row['titleid'])) != 0) 
+											if ((strcmp($id, $row['titleid'])) != 0)
 											{
 												$authorid = $row['authid'];
 												$volume = $row['volume'];
 												$inum = $row['issue'];
-												$page = $row['page'];
+												$page = preg_split('/-/',$row['page'],2);
 												$cur_page = "";
-												if($text!=''){$cur_page = $row['cur_page'];}
 												$title = $row['title'];
 												$month = $row['month']; 
 												$year = $row['year'];
 												$featureid = $row['featid'];
+												if($text!='')
+												{
+													$cur_page = $row['cur_page'];
+													$_SESSION['sd'][$year.$month][] = $row['cur_page'];
+												}
 												
 												$query1 = "select * from feature where featid = '$featureid'";
 												$result1 = mysql_query($query1); 
@@ -192,7 +187,7 @@
 														
 												echo "<div class=\"box\">";
 												echo	"<div class=\"inside\">";
-												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page\"><span class=\"titlespan\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
+												echo		"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"titlespan sanskrit\">".$title."</span></a>&nbsp;|&nbsp;<a href=\"feat.php?featid=$featureid&amp;featname=$featurename\"><span class=\"featurespan sanskrit\">".$fname."</span></a>&nbsp;|&nbsp;<span class=\"voliss sanskrit\"><a href=\"toc.php?year=$year&amp;month=$month&amp;volume=$volume&amp;issue=$inum\">" . getMonthDevanagari($month) . " ". convert_devanagari($year) . " (सम्पुटः " . convert_devanagari(intval($volume)) . ", सञ्चिका " . convert_devanagari(intval($inum)) . ")</a></span><br/>";
 												if($authorid != "")
 												{
 													$sumne = preg_split("/;/",$authorid);
@@ -201,7 +196,7 @@
 														$query1 = "select * from author where authid = '$sumne[$k]'";
 														$result1 = mysql_query($query1); 
 														$row1=mysql_fetch_assoc($result1);
-														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan\">".$row1["authorname"]."</span></a>";
+														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan sanskrit\">".$row1["authorname"]."</span></a>";
 														if(count($sumne) > 1 && $k < count($sumne)-1)
 														{
 															echo "&nbsp;|&nbsp;";
@@ -214,7 +209,7 @@
 												{
 													if($authorid != ""){echo "<br />";}
 													echo '<span class="aIssue">Text match found at page(s) : </span>';
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
+													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\" target=\"_blank\">" . intval($row['cur_page']) . "</a> </span>";
 												}
 
 											}
@@ -222,33 +217,20 @@
 											{
 												if($text != '')
 												{
-													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\">" . intval($row['cur_page']) . "</a> </span>";
+													echo "<span class=\"aIssue\"><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=".$row['cur_page']."&amp;text=$text\" target=\"_blank\">" . intval($row['cur_page']) . "</a> </span>";
 												}
 											}
 											$id = $row['titleid'];
 											$oldText = $row['text'];
 										}
-										if(count($texts) > 1)
-										{
-											echo "<br/>";
-											for($ic=0;$ic<sizeof($texts);$ic++)
-											{
-												if(!preg_match("[".$texts[$ic]."]",$oldText))
-												{
-													echo "&#10005;$texts[$ic]\n";
-												}
-												else
-												{
-													echo "&#10003;$texts[$ic]\n";
-												}
-											}
-										}
+										//~ Link To Download Pdf 
+										//~ echo	"<br/><a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 										echo	"</div>";
 										echo"</div>";
 									}
 									else
 									{
-										echo "<span class=\"empty topic\">परिणामः नास्ति</span>";
+										echo "<span class=\"empty topic sanskrit\">परिणामः नास्ति</span>";
 
 									}
 									mysql_close();

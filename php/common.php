@@ -155,6 +155,30 @@ function getMonthDevanagari($month)
 	$month = preg_replace('/10/', 'अक्टोबर्', $month);
 	$month = preg_replace('/11/', 'नवम्बर्', $month);
 	$month = preg_replace('/12/', 'डिसेम्बर्', $month);
+	$month = preg_replace('/specialA/', 'विशेषाङ्कः', $month);
+	$month = preg_replace('/specialB/', 'विशेषाङ्कः', $month);
+	$month = preg_replace('/special/', 'विशेषाङ्कः', $month);
+	
+	return $month;
+}
+function getMonthEnglish($month)
+{
+
+	$month = preg_replace('/01/', 'January', $month);
+	$month = preg_replace('/02/', 'February', $month);
+	$month = preg_replace('/03/', 'March', $month);
+	$month = preg_replace('/04/', 'April', $month);
+	$month = preg_replace('/05/', 'May', $month);
+	$month = preg_replace('/06/', 'June', $month);
+	$month = preg_replace('/07/', 'July', $month);
+	$month = preg_replace('/08/', 'August', $month);
+	$month = preg_replace('/09/', 'September', $month);
+	$month = preg_replace('/10/', 'October', $month);
+	$month = preg_replace('/11/', 'November', $month);
+	$month = preg_replace('/12/', 'December', $month);
+	$month = preg_replace('/specialA/', 'Special Issue', $month);
+	$month = preg_replace('/specialB/', 'Special Issue', $month);
+	$month = preg_replace('/special/', 'Special Issue', $month);
 	
 	return $month;
 }
