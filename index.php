@@ -75,7 +75,7 @@
 			<div class="cur_image">
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
-				<span class="cur_month">जयेष्ठमासः</span><br />
+				<span class="cur_month">ज्येष्ठमासः</span><br />
 				<span class="cur_month">जून्  - २०१५</span>
 			</div>
 			<div class="cur_text">
