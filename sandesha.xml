@@ -75969,6 +75969,222 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="08" month="05" year="2015">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मातृभाषामाध्यमशिक्षणम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>रामायणकालीनाः पक्षिणः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हेमलता, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २४७</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मा भैषीः संशयो मा भून्न ते किञ्चन......  - चाटुचणकः २००</title>
+				<feature>चाटुचणकः</feature>
+				<page>0009-0009</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>उपदेशसाहित्यमाळा (एकादशभागात्मिका)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">विजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मया अपि प्रमादः कृतः एव ! (मराठीमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0011-0013;0023-0023</page>
+				<allauthors>
+					<author type="1" sal="">अरविन्दलिमये</author>
+					<author type="2" sal="">भार्गवः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रपितामही का?</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">विजयाभट्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रमाणीक्रियते नारीशक्तिः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २४९</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0016</page>
+				<allauthors>
+					<author type="1" sal="">गुण्डमि गणपय्य होळ्ळः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शनैः शनैः, किं करोषि</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">सम्पदानन्दमिश्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ९३</title>
+				<feature>सुयोगः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृत-चलनचित्र-गीताय प्रशस्तिः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">वार्ताहरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ब्राह्मी तु भारती भाषा....</title>
+				<feature>लेखनम्</feature>
+				<page>0017-0019</page>
+				<allauthors>
+					<author type="1" sal="">मुरलीश्यामः, एच्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-५</title>
+				<feature>धारावाहिनी</feature>
+				<page>0020-0023</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`कतिपयेषाम्' इति असाधु - भाषापाकः - २२०</title>
+				<feature>भाषापाकः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आशीवदिः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="3" sal="">दिनमणिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शत्रुणापि प्रशंसितः लाचितः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">बुद्धीन्द्रबरठाकुरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवतः प्रियः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">उदयकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ९३</title>
+				<feature>कुतुककुटी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>हिमशिलासु संलग्नः मनितः - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>यज्ञप्रक्रियायाः वैज्ञानिकता</title>
+				<feature>लेखनम्</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="1" sal="">स्वानन्दगजाननपुण्डः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वैदिकदर्शनविभागः - भविष्यति एकादशी शलाकापरीक्षा</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0029-0029</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pavan English School and P. U. College</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0030-0030</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Bangalore Water Supply and Sewerage Board</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0030-0030</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0031-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - युगादिविशेषाङ्कः - २०१५</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - संवादशाला देहल्यां काश्यां च</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 		<issue inum="10" month="special" year="2014">
 			<entry>
 				<title>Directorate of Sports and Youth Affairs Campal, Panaji-Goa</title>
