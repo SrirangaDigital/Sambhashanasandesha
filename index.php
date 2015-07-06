@@ -73,36 +73,36 @@
 		<p class="webtitle">सम्भाषण सन्देश:</p>
 		<div class="current_issue">
 			<div class="cur_image">
-				<span class="cur_month">Current Issue</span><br />
+				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
-				<span class="cur_month">ज्येष्ठमासः</span><br />
+				<span class="cur_month">अधिकनिजाषाढौ</span><br />
 				<span class="cur_month">जून्  - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
-					<span>In this issue</span>
+					<span>अस्यां सञ्चिकायाम्</span>
 					<div class="rule">&nbsp;</div>
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वराहमिहिरोक्तः भूकम्पलक्षणविचारः</a><br />
-						<span class="article_details">शुभा &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> दुर्गमपथे संस्कृतम्</a><br />
+						<span class="article_details">चमूकृष्णशास्त्री &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वास्तविकतामूढविश्वासौ पृथक्करणीयौ</a><br />
-						<span class="article_details">सुरेशः, बेङ्गलूरु &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> बेङ्काक्-नगरे विश्वसंस्कृतसम्मेलनम्</a><br />
+						<span class="article_details">वार्ताहर: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सम्भाषणसन्देशस्य जालपुटे विवरणान्वेषणं करतलामलकम्</a><br />
-						<span class="article_details">जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
-					</div>				
+						<a href="#"><span class="icon fa-share"></span> दक्षिणायनं परमश्रेष्ठम् </a><br />
+						<span class="article_details">(सं.) लोकनारायण: &nbsp;|&nbsp; लेखनम्</span>
+					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> आत्महत्या</a><br />
-						<span class="article_details">गुप्तचन्द्रः, उत्तर २४ परगणा, पश्चिमवङ्गः &nbsp;|&nbsp; कथा</span>
-					</div>				
+						<a href="#"><span class="icon fa-share"></span> विकास: संस्कृतं च</a><br />
+						<span class="article_details">प. नन्दकुमार: &nbsp;|&nbsp; लेखनम्</span>
+					</div>
 				</div>
 			    <div  class="read_more">
-					<div><a href="#">...coming soon</a></div>
+					<div><a href="#">इतोऽधिकम् अचिरादेव...</a></div>
 					<div class="rule">&nbsp;</div>
 				</div>
 			</div>
