@@ -74,13 +74,14 @@
 		<div class="current_issue">
 			<div class="cur_image">
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
+				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
 				<span class="cur_month">अधिकनिजाषाढौ</span><br />
-				<span class="cur_month">जून्  - २०१५</span>
+				<span class="cur_month">जुलै  - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
-					<span>अस्यां सञ्चिकायाम्</span>
+					<span>अस्यां सञ्चिकायाम् (In this Issue)</span>
 					<div class="rule">&nbsp;</div>
 				</div>
 				<div class="inthis_left">
@@ -102,7 +103,7 @@
 					</div>
 				</div>
 			    <div  class="read_more">
-					<div><a href="#">इतोऽधिकम् अचिरादेव...</a></div>
+					<div><a href="#">इतोऽधिकम् अचिरादेव (coming soon)...</a></div>
 					<div class="rule">&nbsp;</div>
 				</div>
 			</div>
