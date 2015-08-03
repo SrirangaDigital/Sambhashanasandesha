@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
-				<span class="cur_month">अधिकनिजाषाढौ</span><br />
-				<span class="cur_month">जुलै  - २०१५</span>
+				<span class="cur_month">निजाषाढ श्रावणौ</span><br />
+				<span class="cur_month">अगस्ट्   - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> दुर्गमपथे संस्कृतम्</a><br />
-						<span class="article_details">चमूकृष्णशास्त्री &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अस्ति किञ्चित् चिन्त्यम् </a><br />
+						<span class="article_details"> चमूकृष्णशास्त्री &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> बेङ्काक्-नगरे विश्वसंस्कृतसम्मेलनम्</a><br />
-						<span class="article_details">वार्ताहर: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> लसतु संस्कृतं चिरं गृहे गृहे च पुनरपि </a><br />
+						<span class="article_details"> प. नन्दकुमारः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> दक्षिणायनं परमश्रेष्ठम् </a><br />
-						<span class="article_details">(सं.) लोकनारायण: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> संस्कृतस्य विकासाय…  </a><br />
+						<span class="article_details"> सुषमा स्वराज &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विकास: संस्कृतं च</a><br />
-						<span class="article_details">प. नन्दकुमार: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अरविन्दमहर्षॆः सन्देशः </a><br />
+						<span class="article_details"> सावित्री प्रताप &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 				</div>
 			    <div  class="read_more">
