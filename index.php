@@ -70,13 +70,13 @@
 	</header>
 	<!-- Banner -->
 	<section id="banner">
-		<p class="webtitle">सम्भाषण सन्देश:</p>
+		<p class="webtitle">सम्भाषणसन्देश:</p>
 		<div class="current_issue">
 			<div class="cur_image">
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - February 2015" /><br />
-				<span class="cur_month">निजाषाढ श्रावणौ</span><br />
+				<span class="cur_month">निजाषाढश्रावणौ</span><br />
 				<span class="cur_month">अगस्ट्   - २०१५</span>
 			</div>
 			<div class="cur_text">
