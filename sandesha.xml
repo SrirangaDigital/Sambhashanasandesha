@@ -76185,6 +76185,206 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="09" month="06" year="2015">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>साहाय्यदाने वर्धते भारतस्य शक्तिः</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वराहमिहिरोक्तः भूकम्पलक्षणविचारः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0009</page>
+				<allauthors>
+					<author type="1" sal="">शुभा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २४८</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रत्यहं षोडशी काचित् पत्रपुष्पकरा......  - चाटुचणकः २०१</title>
+				<feature>चाटुचणकः</feature>
+				<page>0010-0010</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-६</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0014</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`अन्तर'शब्दः - भाषापाकः - २२१</title>
+				<feature>भाषापाकः</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वास्तविकतामूढविश्वासौ पृथक्करणीयौ</title>
+				<feature>लेखनम्</feature>
+				<page>0015-0017</page>
+				<allauthors>
+					<author type="1" sal="">रोद्दंनरसिंहः</author>
+					<author type="2" sal="">सुरेशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सम्भाषणसन्देशस्य जालपुटे विवरणान्वेषणं करतलामलकम्</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="1" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मञ्जरी-जयलक्ष्मीः के.</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="">विजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वसुधैव कुटुम्बकम्-डा।। प्रवेशसक्सेना</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="">विजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५०</title>
+				<feature>निकषोपलः</feature>
+				<page>0021-0022</page>
+				<allauthors>
+					<author type="1" sal="">गुण्डमि गणपय्य होळ्ळः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>समेहि नवयुगसमरमुखम्</title>
+				<feature>गीतम्</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">रणजित्, को.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ९४</title>
+				<feature>सुयोगः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वर्धते संस्कृताध्ययनासक्तिः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0022-0022</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>आत्महत्या</title>
+				<feature>कथा</feature>
+				<page>0023-0026</page>
+				<allauthors>
+					<author type="1" sal="">गुप्तचन्द्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sri Venkateswara Vedic University</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0026-0026</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अपूर्वा वरदक्षिणा</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="3" sal="">गङ्गाधरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शोधकार्ये आस्था</title>
+				<feature>बालमोदिनी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="3" sal="">यादवेशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सर्वः सर्वमपि कर्तुं सज्जः स्यात्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="3" sal="">माधवाचार्यः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ९४</title>
+				<feature>कुतुककुटी</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>हिमशिलासु संलग्नः मनितः - ३</title>
+				<feature>चित्रकथा</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0031-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Poornaprajna Samshodhana Mandiram</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>गृहं गृहं प्रति संस्कृतम्</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - Samskrita Bharati - प्रथमकक्ष्यातः सप्तमर्पन्तम् अध्यापनाय नूतनः पाठ्यक्रमः</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 		<issue inum="10" month="special" year="2014">
 			<entry>
 				<title>Directorate of Sports and Youth Affairs Campal, Panaji-Goa</title>
