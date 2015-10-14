@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">श्रावणभाद्रपदौ</span><br />
-				<span class="cur_month">सप्टम्बर्  - २०१५</span>
+				<span class="cur_month">भाद्रपदाश्वयुजौ</span><br />
+				<span class="cur_month">अक्टोबर् - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> कालकवलित: कलाम </a><br />
-						<span class="article_details"> रामशरण &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अधृतवल्कलः ऋषिः कश्चन </a><br />
+						<span class="article_details"> डा. विश्वासः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> कोणार्के सूर्यकिरणस्पर्श </a><br />
-						<span class="article_details"> के.राघवेन्द्रराव &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> एकस्मिन् हस्ते अण्वस्त्रम्, अपरस्मिन् गीता च </a><br />
+						<span class="article_details"> अनु. वीणा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अथ `स्वाइन् फ्लु’ज्वरकथा  </a><br />
-						<span class="article_details"> मुक्तिमुनिचन्द्रसूरी &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> जलबिन्दुनिपातेन…  </a><br />
+						<span class="article_details"> प. नन्दकुमारः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वयं किं खादाम: ? </a><br />
-						<span class="article_details"> डा.वि.सुब्रह्मण्यम् &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अज्ञातः </a><br />
+						<span class="article_details"> अनु. विजयाभट् &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
