@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">भाद्रपदाश्वयुजौ</span><br />
-				<span class="cur_month">अक्टोबर् - २०१५</span>
+				<span class="cur_month">कार्त्तिकमास:</span><br />
+				<span class="cur_month">नवम्बर् - २०१५</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अधृतवल्कलः ऋषिः कश्चन </a><br />
-						<span class="article_details"> डा. विश्वासः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> प्राचीनवैज्ञानिकशास्त्राणां प्रायोगिकं फलम् </a><br />
+						<span class="article_details"> अनु - शुभा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> एकस्मिन् हस्ते अण्वस्त्रम्, अपरस्मिन् गीता च </a><br />
-						<span class="article_details"> अनु. वीणा &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> राष्ट्रचरित्रनिर्माणे शिक्षकाणां भूमिका </a><br />
+						<span class="article_details"> सम्पदानन्द मिश्र: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> जलबिन्दुनिपातेन…  </a><br />
-						<span class="article_details"> प. नन्दकुमारः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> संस्कृतचित्ता: स्याम वयम्  </a><br />
+						<span class="article_details"> डा.रञ्जीतकुमारझा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अज्ञातः </a><br />
-						<span class="article_details"> अनु. विजयाभट् &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> दुश्चेष्टितम् </a><br />
+						<span class="article_details"> अनु - सौ. अलका रानडे &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
