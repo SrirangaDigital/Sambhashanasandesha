@@ -76711,7 +76711,7 @@
 			<entry>
 				<title>संस्कृतस्य विकासाय</title>
 				<feature>लेखनम्</feature>
-				<page>0018-0019, 0028-0028</page>
+				<page>0018-0019;0028-0028</page>
 				<allauthors>
 					<author type="3" sal="">सुषमा स्वराज</author>
 				</allauthors>
@@ -76860,6 +76860,235 @@
 			</entry>
 			<entry>
 				<title>एकादशी शलाकापरीक्षा</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="12" month="09" year="2015">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>आचारः अनुष्ठानविषयतां गच्छेत्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>कालकवलितः कलामः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="">रामशरणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कलामवर्यः वदति....</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0007-0007</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>`सत्यनारायण' कथा !</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">लक्ष्मीनारायणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राष्ट्रपतिपुरस्काराय संस्कृतविदुषां नामानि उद्घोषितानि</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0009-0009</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २५१</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>केशाः कृष्णीकृताः वर्णैः रागैः......  - चाटुचणकः २०४</title>
+				<feature>चाटुचणकः</feature>
+				<page>0010-0010</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५३</title>
+				<feature>निकषोपलः</feature>
+				<page>0011-0012</page>
+				<allauthors>
+					<author type="1" sal="">गुण्डमि गणपय्य होळ्ळः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>धन्यं जीवनमस्माकम्</title>
+				<feature>गीतम्</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ९७</title>
+				<feature>सुयोगः</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>योगाभ्यासः रोचते रश्यादेशस्य राष्ट्रपतये</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="3" sal="">गजाननः, अ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>बालानां विवेकानन्दाः-प्रा. श्रीमती सुमन महादेवकर, श्री अनन्तराय कुलकर्णिः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राजयोगः-स्वामी विवेकानन्दः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सदाचरणमेव जीवनम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="3" sal="">ईश्वरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>उचितं न कृतं त्वया</title>
+				<feature>बालमोदिनी</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="3" sal="">शान्तकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रजासु अविद्यमानासु क्व राजत्वम् ?</title>
+				<feature>बालमोदिनी</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="3" sal="">मञ्जुनाथः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ९७</title>
+				<feature>कुतुककुटी</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>होलिकोत्सवः - ३</title>
+				<feature>चित्रकथा</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कोणार्के सूर्यकिरणस्पर्शः</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="1" sal="">राघवेन्द्ररावः, के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अथ `स्वाइन फ्लु' ज्वरकथा</title>
+				<feature>लेखनम्</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">मुक्तिमुनिचन्द्रसूरी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-९</title>
+				<feature>धारावाहिनी</feature>
+				<page>0020-0023;0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`समस्करोत्, पर्यष्करोत् इत्यादयः  - भाषापाकः - २२४</title>
+				<feature>भाषापाकः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गोमिनी</title>
+				<feature>कथा</feature>
+				<page>0024-0026</page>
+				<allauthors>
+					<author type="1" sal="">अन्नपूर्णा, एच्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अभिनन्दनीयः उत्साहः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0026-0026</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वयं किं खादामः ?</title>
+				<feature>लेखनम्</feature>
+				<page>0027-0030</page>
+				<allauthors>
+					<author type="1" sal="डा।।">सुब्रह्मण्यम्, वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0031-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrit Promotion Foundation</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अक्षरम् - प्रकाशयिष्यते अक्टोबर् मासे विजयदशमी विशेषाङ्कः - २०१५</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Sansthan, New Delhi</title>
 				<feature>विज्ञापिकाः</feature>
 				<page>0036-0036</page>
 				<allauthors />
