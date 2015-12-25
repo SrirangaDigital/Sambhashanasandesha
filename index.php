@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">कार्त्तिकमार्गशीर्षौ</span><br />
-				<span class="cur_month">डिसेम्बर् - २०१५</span>
+				<span class="cur_month">पुष्यमास:</span><br />
+				<span class="cur_month">जनवरी - २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> संस्कृतसाक्षात्कारः सकारषट्केन </a><br />
-						<span class="article_details"> प्रेमकुमारः, एडिसन्, अमेरिका &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अनन्यनिधि: अभिनवगुप्त: </a><br />
+						<span class="article_details"> डा. विश्वास: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> स्वार्थ-निस्स्वार्थदर्शनम् </a><br />
-						<span class="article_details"> पद्मकुमारः, संस्कृतभारती, अमेरिका &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> हन्त ! उपशान्त: वरुणकोप: </a><br />
+						<span class="article_details"> मोहन:, चेन्नै &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अमेरिकादेशे जनाः किमर्थं संस्कृतं पठन्ति ? </a><br />
-						<span class="article_details"> प्रेमकुमारः, अमेरिका &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सामान्यस्य असाधारण: प्रयास: </a><br />
+						<span class="article_details"> विन्ध्येश्वर: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> जनाधिकारः </a><br />
-						<span class="article_details"> बालाजिः, अमेरिका &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> थाइलेण्डदेशे भारतीयसंस्कार:  </a><br />
+						<span class="article_details"> सुब्रह्मण्यचिदम्बरशर्मा, मुम्बई &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
