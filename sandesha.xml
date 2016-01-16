@@ -78062,5 +78062,240 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="02" month="11" year="2015">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सांस्कृतिकबौद्धिकपरम्परायाः स्वाम्यस्य अन्याधीनीकरणम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्राचीनवैज्ञानिकशास्त्राणां प्रायोगिकं फलम्</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="">प्रभुः, सि. एस्. आर्.</author>
+					<author type="2" sal="">शुभा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राष्ट्रचरित्रनिर्माणे शिक्षकाणां भूमिका</title>
+				<feature>लेखनम्</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">सम्पदानन्दमिश्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतचित्ताः स्याम वयम्</title>
+				<feature>लेखनम्</feature>
+				<page>0009-0010</page>
+				<allauthors>
+					<author type="1" sal="डॉ।।">रञ्जीतकुमारझा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sahitya Akademi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-११</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0014</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`अमुक'शब्दस्य साधुता  - भाषापाकः - २२६</title>
+				<feature>भाषापाकः</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शतरुद्रीये मानसिकसामाजिक विश्लेषणम्</title>
+				<feature>लेखनम्</feature>
+				<page>0015-0017</page>
+				<allauthors>
+					<author type="1" sal="">काशीभोट्‌ल सत्यनारायणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अर्ज्यतां गुणोत्कर्षः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="3" sal="">कुलशेखरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अन्तरङ्गसंस्कारः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="3" sal="">दातारामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>तत्त्वस्य आचरणम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="3" sal="">कल्याणसुन्दरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ९९</title>
+				<feature>कुतुककुटी</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>होलिकोत्सवः - ५</title>
+				<feature>चित्रकथा</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुचेष्टितम्</title>
+				<feature>अनूदितकथा</feature>
+				<page>0022-0023;0029-0029</page>
+				<allauthors>
+					<author type="1" sal="श्री">रत्नाकरमतकरी</author>
+					<author type="2" sal="सौ">अलकारानडे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अक्षरश्लोकसुधा</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>केरलीयसंस्कृताध्यापनविधयः-डा।। के. आर्. हरिनारायणन्</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>त्रिसूत्रीसंस्कारविमर्शः-डा।। रा. सुब्रह्मण्यभिडे</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५५</title>
+				<feature>निकषोपलः</feature>
+				<page>0025-0026</page>
+				<allauthors>
+					<author type="1" sal="">गुण्डमि गणपय्य होळ्ळः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतगङ्गा</title>
+				<feature>गीतम्</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="श्री">नरसिंहभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ९९</title>
+				<feature>सुयोगः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अपूर्वा स्मरणशक्तिः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">श्रीधरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २५३</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुम्भकर्णप्रबोधाय कृतः किल महान् ध्वनिः ।......  - चाटुचणकः २०६</title>
+				<feature>चाटुचणकः</feature>
+				<page>0027-0027</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>कौटिल्यपूर्वग्रन्थः चाक्षुषीयम्</title>
+				<feature>लेखनम्</feature>
+				<page>0028-0029</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हेमलता, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अपत्यानां विषये नीतिः</title>
+				<feature>लेखनम्</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">जगदीशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0031-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>एकादशी शलाकापरीक्षा</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - संवादशाला देहल्यां काश्यां च</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - विजयदशमीविशेषाङ्कः - २०१५</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
