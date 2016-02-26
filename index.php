@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">माघमास:</span><br />
-				<span class="cur_month">फेब्रवरी - २०१६</span>
+				<span class="cur_month">फाल्गुनमास:</span><br />
+				<span class="cur_month">मार्च् - २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  नान्य: पन्था: विद्यतेऽयनाय </a><br />
-						<span class="article_details"> डा. विश्वबन्धु: / म.प्र &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  संस्कृतस्य विकासाय दशवर्षावधिकं चिन्तनम् </a><br />
+						<span class="article_details"> चमू कृष्णशास्त्री  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> भगवद्गीतायां राजयोग: </a><br />
-						<span class="article_details"> डा. सावित्री प्रताप: / पञ्जाब &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> वहति भुवनश्रेणीं शेष: </a><br />
+						<span class="article_details"> डा.राणीसदाशिवमूर्ति:, तिरुपति: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अनामिकतया कार्यकरणम् </a><br />
-						<span class="article_details"> डा.पद्मकुमार: / अमेरिका &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> श्रीगणेशस्य परब्रह्मत्वम् </a><br />
+						<span class="article_details"> प्रा.स्वानन्दगजाननपुण्ड:, महाराष्ट्रम् &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> पिता पुत्रश्च – मूलम्  </a><br />
-						<span class="article_details"> कल्की कृष्णमूर्ति: अनु – सौम्याजानि: &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> त्रय: वादा:  </a><br />
+						<span class="article_details"> स्वमी गीतेशानन्द:, शिमला &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
