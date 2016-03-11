@@ -78516,5 +78516,243 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="04" month="01" year="2016">
+			<entry>
+				<title>Span Print</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अवश्यमेव संस्मर्येरन् अभिनवगुप्तादयः</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अनन्यनिधिः अभिनवगुप्तः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="डा।।">विश्वासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सामान्यस्य असाधारणः प्रयासः</title>
+				<feature>लेखनम्</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">विन्ध्येश्वरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>क्व सौन्दर्यलहरी ? क्व ब्यूटीपार्लर् ?</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">श्यामला</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>एवम् अस्ति युवसमुदायः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हेमलता, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>थाइलेण्डदेशे भारतीयसंस्कारः</title>
+				<feature>लेखनम्</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">सुब्रह्मण्यचिदम्बरशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गर्वभङ्गः शनिदेवस्य</title>
+				<feature>बालमोदिनी</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="3" sal="">देवनन्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कर्तव्यबोधः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="3" sal="">कुसुमाकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ईर्ष्यादयः खलु भाराय</title>
+				<feature>बालमोदिनी</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="3" sal="">गुरुप्रसादः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १०१</title>
+				<feature>कुतुककुटी</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>होलिकोत्सवः - ७</title>
+				<feature>चित्रकथा</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५७</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सम्मेलनगीतम्</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">नरेन्द्रकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - १०१</title>
+				<feature>सुयोगः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पद्यरूपेण गीतानुवादः इण्डिया बुक आफ् रेकार्डस् संस्थया मानितः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतविद्यार्थिन्या प्राप्तं प्रधानमन्त्रिणः अभिनन्दनपत्रम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्रीमद्रामायणम्-प्रा. एम्. के. सूर्यनारायणरावः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गन्धावली-एस्. जगन्नाथः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सेतुबन्धः (त्रैमासिकी)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>हन्त ! उपशान्तः वरुणकोपः</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="1" sal="">मोहनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतविकासचिन्तनाय समितिः घटिता</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0019-0019</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>काबुलीयः</title>
+				<feature>अनूदितकथा</feature>
+				<page>0020-0024</page>
+				<allauthors>
+					<author type="1" sal="">रवीन्द्रनाथठक्कुरः</author>
+					<author type="2" sal="">शान्तारामभास्करभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0024-0024</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-१३</title>
+				<feature>धारावाहिनी</feature>
+				<page>0025-0028</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सान्तरेफान्तयोः उपसर्गयोः पार्थक्यम्  - भाषापाकः - २२८</title>
+				<feature>भाषापाकः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २५५</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नियोगी कर्मविरतो योगी कर्ता च कर्मणाम् ।......  - चाटुचणकः २०८</title>
+				<feature>चाटुचणकः</feature>
+				<page>0029-0029</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0030-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Sanathana</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Globaledge</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
