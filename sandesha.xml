@@ -78754,5 +78754,245 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="05" month="02" year="2016">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>जालपुटोपयोगस्वातन्त्र्यस्य अपहरणाय.....</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नान्यः पन्थाः विद्यतेऽयनाय</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="डॉ">विश्वबन्धुः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २५६</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सान्दृष्टिकं यत्र भवेन्न कार्ये तत्र प्रवृत्तिं कुरुते न लोकः ।......  - चाटुचणकः २०९</title>
+				<feature>चाटुचणकः</feature>
+				<page>0009-0009</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>न कापि समस्या अस्माकम्.....</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="जैनमुनिः">निर्मोहसुन्दरविजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अहो ! औदार्यम् अकिञ्चनस्य</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="प्रा.">रामस्वामी व्यासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-१४</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0014</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`नन्दिनी'पदस्य का व्युत्पत्तिः ?  - भाषापाकः - २२९</title>
+				<feature>भाषापाकः</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>एवं हि स्यात् भारतस्य युवा.....</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="3" sal="प्रा.">काळे, एम्. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५८</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राष्ट्रमिदम्मे भारतवर्षम्</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा प्रमोदः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - १०२</title>
+				<feature>सुयोगः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>साहित्याकाडमीप्रशस्तिः रामशङ्करावस्थिवर्याय</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>`नेल्को'संस्थया प्रदास्यते `कालिदास'प्रशस्तिः प्रतिवर्षम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पिता पुत्रश्च</title>
+				<feature>अनूदितकथा</feature>
+				<page>0017-0020</page>
+				<allauthors>
+					<author type="1" sal="">कल्की कृष्णमूर्तिः</author>
+					<author type="2" sal="">सौम्याजानिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अनामिकतया कार्यकरणम्</title>
+				<feature>लेखनम्</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="डा।।">पद्मकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>हनूमदयनमहाकाव्यम्-प्रा. विष्णुराजआत्रेयः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृत-उर्दूनेपालीहिन्दी-अङ्ग्रेजीतद्भवशब्दकोषः (आर्याविलासटीकासमन्वितः)-प्रा. विष्णुराजआत्रेयः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतदिनदर्शिका - २०१६</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवद्गीतायां राजयोगः</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="1" sal="">सावित्री प्रतापः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अध्ययनं ज्ञानसङ्ग्रहाय</title>
+				<feature>बालमोदिनी</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="3" sal="">नवीनशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>महासाहसी विधिचन्दः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">इन्दुशेखरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अप्रतिमशूरः सुहेलरायः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अनुजकुमारशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १०२</title>
+				<feature>कुतुककुटी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>डाल्फिनमीनस्य दुःखम् - १</title>
+				<feature>चित्रकथा</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>घण्टानादस्य एतिह्यम्</title>
+				<feature>लेखनम्</feature>
+				<page>0028-0029</page>
+				<allauthors>
+					<author type="1" sal="डॉ">सूर्यनारायणगौतमः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0030-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0031-0031</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतभारती - सद्यः एव प्रकाशितानि सन्ति एतानि पुस्तकानि !!</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतभारती - संवादशाला देहल्यां काश्यां च</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
