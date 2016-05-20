@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">वैशाखमासः</span><br />
-				<span class="cur_month">मे – २०१६</span>
+				<span class="cur_month">ज्येष्ठमासः</span><br />
+				<span class="cur_month">जून् – २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  दुर्मुखः एव, न तु दुर्मुखी </a><br />
-						<span class="article_details"> डा. रामकृष्णपेजत्ताय  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  कवर्गस्य स्थानं कण्ठो न </a><br />
+						<span class="article_details"> विद्वान् श्रीरमणशर्मा, करूर  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> लाकृति‍: </a><br />
-						<span class="article_details"> आचार्य: श्यामसुन्दरझा  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सिङ्गपुरे ‘तैपूष’महोत्सव: </a><br />
+						<span class="article_details"> सुब्रमणियन् चिदम्बरम्  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> शिवपराः उपनिषदः </a><br />
-						<span class="article_details"> डा.एस्. हेमलता &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> स्थावरा: सेन्द्रिया: </a><br />
+						<span class="article_details"> जे.ध्वनि:, चेन्नै &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सत्यम् अप्रियम्  </a><br />
-						<span class="article_details"> मूलम् – प्रा.जि.एच्. हन्नेरडुमठः, अनु – डा. गो.म. कट्टिः &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> निमाया: निमा  </a><br />
+						<span class="article_details"> मूलम् - रत्नाकरमतकरी  अनु – अलकारानडे &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
