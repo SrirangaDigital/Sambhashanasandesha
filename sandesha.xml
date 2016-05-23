@@ -78994,5 +78994,225 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="06" month="03" year="2016">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>कणे कणे स्यात् देशाभिमानः</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>त्रयः वादाः</title>
+				<feature>कथा</feature>
+				<page>0006-0008;0013-0013</page>
+				<allauthors>
+					<author type="1" sal="स्वामी">गीतेशानन्दः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतस्य विकासाय दशवर्षावधिकं चिन्तनम्</title>
+				<feature>लेखनम्</feature>
+				<page>0009-0010</page>
+				<allauthors>
+					<author type="1" sal="">कृष्णशास्त्री, च. मू.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वहति भुवनश्रेणिं शेषः......</title>
+				<feature>लेखनम्</feature>
+				<page>0011-0013</page>
+				<allauthors>
+					<author type="1" sal="डा।।">राणिसदाशिवमूर्तिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>लक्ष्यं न तत्.... - भागः-१५</title>
+				<feature>धारावाहिनी</feature>
+				<page>0014-0017</page>
+				<allauthors>
+					<author type="1" sal="">नागेश्वररावः, जि.</author>
+					<author type="2" sal="">नागराजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>``उदयति' इत्यस्य साधुता  - भाषापाकः - २३०</title>
+				<feature>भाषापाकः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>श्रीगणेशस्य परब्रह्मत्वम्</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="1" sal="प्रा.">स्वानन्दगजाननपुण्डः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`Samskrit' इत्यत्र `एम्'युक्तमेव लिखेम</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">सम्मता</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सर्वादौ नमस्क्रियेत माता एव</title>
+				<feature>बालमोदिनी</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="">लक्ष्मीकृष्णराव्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>न सह्येत मातुः पीडा</title>
+				<feature>बालमोदिनी</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="3" sal="">भुवनेन्द्रशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अल्पोऽपि उपकारः भवेत् महते फलाय</title>
+				<feature>बालमोदिनी</feature>
+				<page>0022-0022</page>
+				<allauthors>
+					<author type="3" sal="">राजगोपालः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १०३</title>
+				<feature>कुतुककुटी</feature>
+				<page>0023-0023</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>डाल्फिनमीनस्य दुःखम् - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0023-0023</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रसङ्गपुष्पाञ्जलिः-मुनिः अक्षयरत्नविजयः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अध्यात्मोपनिषत्प्रकरणम् सवृत्ति-मुनिश्री कैलोक्यमण्डनविजयः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गीताप्रवचनानि-एम्. रामसुन्दररावः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २५९</title>
+				<feature>निकषोपलः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतभाषा जनभाषा स्यात्</title>
+				<feature>गीतम्</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">सुकुमारः, आर्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - १०३</title>
+				<feature>सुयोगः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सामाजिकविषयकं संस्कृतचलनचित्रम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0026-0026</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २५७</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतं पञ्चमो वेदः सुपुत्रः सप्तमो रसः ।......  - चाटुचणकः २१०</title>
+				<feature>चाटुचणकः</feature>
+				<page>0027-0027</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>यो यच्छ्र्ध्दः स एव सः</title>
+				<feature>लेखनम्</feature>
+				<page>0028-0029</page>
+				<allauthors>
+					<author type="1" sal="">नन्दकुमारः, प.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सम्बन्धः (हिन्दीमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="1" sal="श्री">सच्चिदानन्दहीरानन्दवात्स्यायन, `अज्ञेयः'</author>
+					<author type="2" sal="डा।।">प्रवेशसक्सेना</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0030-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतभारती - संवादशाला देहल्यां काश्यां च</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतभारती - सद्यः एव प्रकाशितानि सन्ति एतानि पुस्तकानि !!</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
