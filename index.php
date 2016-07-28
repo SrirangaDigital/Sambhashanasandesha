@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">आषाढमासः</span><br />
-				<span class="cur_month">जुलै – २०१६</span>
+				<span class="cur_month">श्रावणमासः</span><br />
+				<span class="cur_month">अगस्ट् – २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  माहेश्वरसूत्रेषु रामकथा </a><br />
-						<span class="article_details"> प्रज्ञाचक्षुः जगद्गुरुः  रामभद्राचार्यः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  अष्टादशी </a><br />
+						<span class="article_details"> डा.गणेश पण्डितः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वृष्टिप्रमाणं ज्ञापयति दॆवालयः </a><br />
-						<span class="article_details"> नरेशः  &nbsp;|&nbsp; स्तम्भलेखः</span>
+						<a href="#"><span class="icon fa-share"></span> विपत्काले संस्कृतिदर्शनम् </a><br />
+						<span class="article_details"> भेडसगाँवकर-शिरीषः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विज्ञानं किं देवसत्ताम् अभ्युपगच्छति ? </a><br />
-						<span class="article_details"> (सं) गुणशेखरः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अजन्ता-एल्लोरयोः शिल्पविस्मयः </a><br />
+						<span class="article_details"> श्री सुब्रह्मण्यचिदम्बरशर्मा, मुम्बई &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अहिभगिन्याः बान्धवाः  </a><br />
-						<span class="article_details"> वङ्गीयकथा - लीलामजुमदारः  अनु – प्रणववरः &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> पितृभगिनी  </a><br />
+						<span class="article_details"> हिन्दीमूलम् – रामेश्वर हाटिया, अनु – म.वि.कोल्हटकर &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
