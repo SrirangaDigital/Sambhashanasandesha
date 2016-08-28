@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">श्रावणमासः</span><br />
-				<span class="cur_month">अगस्ट् – २०१६</span>
+				<span class="cur_month">भाद्रपदमासः</span><br />
+				<span class="cur_month">सप्टम्बर – २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  अष्टादशी </a><br />
-						<span class="article_details"> डा.गणेश पण्डितः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  श्लोकखण्डस्य अष्टलक्ष्यम् अर्थाः </a><br />
+						<span class="article_details"> जनार्दनः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विपत्काले संस्कृतिदर्शनम् </a><br />
-						<span class="article_details"> भेडसगाँवकर-शिरीषः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सूर्यरश्मयः तासां स्वरूपं च </a><br />
+						<span class="article_details"> ब्र. विश्वम्बरः, हरियाणा  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अजन्ता-एल्लोरयोः शिल्पविस्मयः </a><br />
-						<span class="article_details"> श्री सुब्रह्मण्यचिदम्बरशर्मा, मुम्बई &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अहो, छायाकलानैपुण्यं बालस्य </a><br />
+						<span class="article_details"> अनन्तेश्वरः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> पितृभगिनी  </a><br />
-						<span class="article_details"> हिन्दीमूलम् – रामेश्वर हाटिया, अनु – म.वि.कोल्हटकर &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> गुरुदक्षिणा  </a><br />
+						<span class="article_details"> मूलम् – सरस्वती भ्ट्, अनु – विजया भट् &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
