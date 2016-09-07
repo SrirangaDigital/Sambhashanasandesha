@@ -28,7 +28,7 @@
 						Name of the account - <strong>Sambhashana Sandesha</strong><br /> 
 						Bank details – Corporation Bank, Girinagar, Bangalore<br />
 						Account Type - <strong>CLSB</strong><br />
-						A/c No. – <strong>074600301120001</strong><br />
+						A/c No. – <strong>520141000016922</strong><br />
 						MICR No. – 560017055<br />
 						IFSC – CORP0000746</p>
 						<p>[Note: Account type CLSB need not be mentioned while mentioning the account number. If there is a column, asking for the account type, ONLY then, this should be mentioned. Otherwise please don’t.]</p>
