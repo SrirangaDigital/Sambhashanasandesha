@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2015" /><br />
-				<span class="cur_month">भाद्रपदमासः</span><br />
-				<span class="cur_month">सप्टम्बर – २०१६</span>
+				<span class="cur_month">आश्वयुजमासः</span><br />
+				<span class="cur_month">अक्टोबर् – २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  श्लोकखण्डस्य अष्टलक्ष्यम् अर्थाः </a><br />
-						<span class="article_details"> जनार्दनः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  भवेम कर्मयोगस्य आनन्दयात्रिणः  </a><br />
+						<span class="article_details"> चारु भावे  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सूर्यरश्मयः तासां स्वरूपं च </a><br />
-						<span class="article_details"> ब्र. विश्वम्बरः, हरियाणा  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> नाट्यलोलः गणेशः कार्-याने </a><br />
+						<span class="article_details"> (सं) स्कन्दमूर्तिः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अहो, छायाकलानैपुण्यं बालस्य </a><br />
-						<span class="article_details"> अनन्तेश्वरः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> रामायणमहाभारतयोः अनुवादकर्ता </a><br />
+						<span class="article_details"> नृसिंहनाथः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> गुरुदक्षिणा  </a><br />
-						<span class="article_details"> मूलम् – सरस्वती भ्ट्, अनु – विजया भट् &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> मृत्परीक्षणात् वृष्टिसम्भावनाज्ञानम्  </a><br />
+						<span class="article_details"> (सं) देवानन्द शर्मा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 				</div>
 			    <div  class="read_more">
