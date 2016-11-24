@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2016" /><br />
-				<span class="cur_month">कार्त्तिकमासः</span><br />
-				<span class="cur_month">नवम्बर् – २०१६</span>
+				<span class="cur_month">मार्गशीर्षमासः</span><br />
+				<span class="cur_month">डिसेम्बर् – २०१६</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,16 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  नैटीयसमस्यायाः परिहारः भारते आसीत् बहोः कालात् पूर्वमेव  </a><br />
+						<a href="#"><span class="icon fa-share"></span>  अङ्कात्मकम् अपूर्वं काव्यं सिरिभूवलयः  </a><br />
 						<span class="article_details"> जनार्दनः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> चर्चायाः चर्चा </a><br />
-						<span class="article_details"> वि.मुरलीधरशर्मा, तिरुपतिः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> को वा योगः ? </a><br />
+						<span class="article_details"> इन्दुशेखरशास्त्री माडुगुल, सुधा ईमानि च  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> कमलिनी कर्षति भ्रमरम् </a><br />
-						<span class="article_details"> एन्.एस्.लीला &nbsp;|&nbsp; लेखनम्</span>
-					</div>
-					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अस्ति काचित् विलक्षणा </a><br />
-						<span class="article_details"> रमेश नम्बीशन् &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> एकस्मै उद्योगाय (उत्तरार्धम्) </a><br />
+						<span class="article_details"> मूलम् – अप्पशय्या नवीनः, अनु – तङ्गेड जनार्दनरावः &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
