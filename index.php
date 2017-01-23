@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2016" /><br />
-				<span class="cur_month">पुष्यमासः</span><br />
-				<span class="cur_month">जनवरी – २०१७</span>
+				<span class="cur_month">माघमासः</span><br />
+				<span class="cur_month">फेब्रवरी – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  विचित्रमिदं जगत्  </a><br />
-						<span class="article_details"> विजयमुक्ति-मुनिचन्द्रसूरी, सुरत  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  त्रिमूर्तिरूपः कृ.सूर्यनारायणरावः  </a><br />
+						<span class="article_details"> चमू कृष्ण शास्त्री  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सङ्घर्षगाथा </a><br />
-						<span class="article_details"> शङ्करनारायणपाणिग्राही, (ऐ.ए.एस्.) नवदेहली  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> संस्कृतभारत्याः अखिलभारतीयम् अधिवेशनम् </a><br />
+						<span class="article_details"> सचिनः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> मयूरपिच्छस्य वर्णसंरचनाया: रहस्यम् </a><br />
-						<span class="article_details"> डा.एन्.एस्.लीला &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> कर्णाटकसङ्गीते संस्कृतसाहित्यम् </a><br />
+						<span class="article_details"> इन्दुशेखर शास्त्री माडुगुल, सुधा ईमानि च &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विलक्षणो मनुष्य: </a><br />
-						<span class="article_details"> एस्. महालिङ्गम्, चैन्ने (त.ना) &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> पञ्चपत्रम् </a><br />
+						<span class="article_details"> डा.सुनीलकुमार प्रधानः &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
