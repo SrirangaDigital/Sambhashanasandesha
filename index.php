@@ -75,9 +75,9 @@
 			<div class="cur_image">
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
-				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2016" /><br />
-				<span class="cur_month">माघमासः</span><br />
-				<span class="cur_month">मार्च् – २०१७</span>
+				<img src="php/images/current_issue.jpg" alt="Current Issue - April 2017" /><br />
+				<span class="cur_month">चैत्रमासः</span><br />
+				<span class="cur_month">एप्रिल् – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  नास्तिकाय किमर्थं हिन्दुधर्मः रोचते ?  </a><br />
-						<span class="article_details"> मूलम् – सुमितपौल्, अनु – अ.गजाननः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  हेमलम्बो विलम्बश्च  </a><br />
+						<span class="article_details"> डा.रामकृष्णपेजत्ताय  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> शिवशिल्पे स्वर्णानुपातः </a><br />
-						<span class="article_details"> सदानन्दशर्मा  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सप्तर्षयः विभिन्ननक्षत्राणि उपसर्पन्ति </a><br />
+						<span class="article_details"> एस्.सि.एन्  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> स्वर्गभूमिः हवायीराज्यम् </a><br />
-						<span class="article_details"> विजया भट्  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> वैज्ञानिकः स्वामी विवेकानन्द: </a><br />
+						<span class="article_details"> सचिनः शुभा च  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> हिमशैलः मम शैलः </a><br />
-						<span class="article_details"> तमिलुमूलम् – कल्की कृष्णमूर्तिः, अनु – सौम्याजानि: &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> सहचारिणी </a><br />
+						<span class="article_details"> वासन्ती डफळापूरकर &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
