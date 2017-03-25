@@ -82021,5 +82021,455 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="03" month="12" year="2016">
+			<entry>
+				<title>The Hutti Gold Mining Company Ltd.,</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>व्याधिनिग्रहाय कठोरः उपक्रमः</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अङ्कात्मकम् अपूर्वं काव्यं `सिरिभूवलयः'</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0009</page>
+				<allauthors>
+					<author type="1" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २६६</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निद्राप्रियो यः खलु कुम्भकर्णो हतः समीके स रघूत्तमेन ।......  - चाटुचणकः २१९</title>
+				<feature>चाटुचणकः</feature>
+				<page>0010-0010</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २६८</title>
+				<feature>निकषोपलः</feature>
+				<page>0011-0012</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मङ्गलं भवतु जीवनं गृहे गृहे</title>
+				<feature>गीतम्</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा `प्रमोदः'</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ११२</title>
+				<feature>सुयोगः</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतेन जन्मदिनाभि-नन्दनसन्देशः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0012-0012</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chinmaya Vishwavidyapeeth</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0013-0013</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>एकस्मै उद्योगाय (उत्तरार्धम्) - (तेलुगुमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0014-0018</page>
+				<allauthors>
+					<author type="1" sal="">अम्पशय्या नवीनः</author>
+					<author type="2" sal="">तङ्गेड जनार्दनरावः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>को वा योगः?</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="1" sal="">इन्दुशेखरशास्त्री माडुगुल</author>
+					<author type="1" sal="">सुधा ईमनि</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-७</title>
+				<feature>धारावाहिनी</feature>
+				<page>0020-0024</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कैकेयी, केकयी, कैकयी, केकेयी च - भाषापाकः - २३९</title>
+				<feature>भाषापाकः</feature>
+				<page>0022-0022</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>BESCOM</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0025-0025</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पं. दीनदयाल उपाध्यायचरितम्-पं. मिथिलेशमिश्रः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कबीरवचनामृतम् (साखीनां पद्यानुवादः)-डा।। रामसुमेरयादवः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृत भाषा क्रीडा एव (ज्ञानरचनावादाधारिता लेखनव्याकरणात्मिका)-सौ. मृणालिनी कुलकर्णी</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>किं व्यर्थप्रशंसया?</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="3" sal="">भुवनकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>स्वरूपम् आख्याति हस्तः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="3" sal="">जगदीशन्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अनिमिषतायाः कारणम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="3" sal="">नितीशशाहः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ११२</title>
+				<feature>कुतुककुटी</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वृषभस्य मूल्यम् - ५</title>
+				<feature>चित्रकथा</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0031-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>P. N. Fine Chemicals</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0031-0031</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<text></text>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Andhra Pradesh Pollution Control Board, Amaravathi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<text></text>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="04" month="01" year="2017">
+			<entry>
+				<title>TARA Cultural Trust - Chinmaya Mission-Vedanta Course 2017-2019</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>भ्रष्टता अपगच्छेत्, पारदर्शकता च वर्धेत</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>विचित्रमिदं जगत्</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0006</page>
+				<allauthors>
+					<author type="1" sal="">विजयमुक्ति-मुनिचन्द्रसूरी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २६७</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0007-0007</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>येषां प्राणिवदः क्रीडा नर्म मर्मच्छिदो गिरः ।......  - चाटुचणकः २२०</title>
+				<feature>चाटुचणकः</feature>
+				<page>0007-0007</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>घोरारण्ये मध्यरात्रे.....</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">रामस्वामी व्यासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>श्लोकमुखात् स्मारितः विषयः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">लक्ष्मीकृष्णरावः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शनैः शनैः (बालगीतावलिः)-सम्पदानन्दमिश्रः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सप्तवर्णचित्रपतङ्गः-सम्पदानन्दमिश्रः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कथासाहित्यमाला-१७ (श्लोकानाम् अकाराद्यनुक्रमः)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>P. N. Fine Chemicals</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Uttaranchal Sanskrit Academy, Haridwar</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>विलक्षणो मनुष्यः</title>
+				<feature>कथा</feature>
+				<page>0011-0016</page>
+				<allauthors>
+					<author type="1" sal="">महालिङ्गम्, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रणामाः पञ्चविधाः । ते च -</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सङ्घर्षगाथा</title>
+				<feature>लेखनम्</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">शङ्करनारायणपाणिग्राही</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मयूरपिच्छस्य वर्णसंरचनायाः रहस्यम्</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0019</page>
+				<allauthors>
+					<author type="1" sal="">लीला, एन्. एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-८</title>
+				<feature>धारावाहिनी</feature>
+				<page>0020-0024</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`आरभ्य' योगे...... - भाषापाकः - २४०</title>
+				<feature>भाषापाकः</feature>
+				<page>0022-0022</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>निकषोपलः - २६९</title>
+				<feature>निकषोपलः</feature>
+				<page>0025-0026</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अयि शारदे ! अयि शारदे !</title>
+				<feature>गीतम्</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">कौशलतिवारी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विरक्तिः नाम.....</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">सर्वेश्वरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विवेकानन्दस्य चातुर्यम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">विजयराजन्, के.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जितेन्द्रियता</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="3" sal="">जयरामकृष्णः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>उदारम् आचरणम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="3" sal="">सुकुमारसेनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शूरा रत्नावली</title>
+				<feature>बालमोदिनी</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="3" sal="">रमणकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ११३</title>
+				<feature>कुतुककुटी</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गर्वोपेतः अश्वः - १</title>
+				<feature>चित्रकथा</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आत्मविश्वासवर्धकानि एतानि</title>
+				<feature>लेखनम्</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">मधुकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0032-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<text></text>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Andhra Pradesh Pollution Control Board, Amaravathi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<text></text>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
