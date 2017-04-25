@@ -82471,5 +82471,231 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="05" month="02" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नवोद्यमानाम् आविष्कारस्य प्रयोजनं सामान्यजनजीवने</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>त्रिमूर्तिरूपः कृ. सूर्यनारायणरावः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="">कृष्णशास्त्री, च. मू.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पञ्चपत्रम्</title>
+				<feature>कथा</feature>
+				<page>0008-0010</page>
+				<allauthors>
+					<author type="1" sal="डा।।">सुनीलकुमारप्रधानः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Delhi Sanskrit Academy, New Delhi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-९</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0015</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`दक्षिणेन' इत्यस्य योगे...... - भाषापाकः - २४१</title>
+				<feature>भाषापाकः</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>निकषोपलः - २७०</title>
+				<feature>निकषोपलः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतं पुरो याति</title>
+				<feature>गीतम्</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">गङ्गा, को.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुयोगः - ११३</title>
+				<feature>सुयोगः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">कोक्कड वेङ्कटरमण भट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>काम्बोडिया देशस्य प्रथमा संस्कृत विदुषी</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0017-0017</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृत भारत्याः अखिलभारतीयम् अधिवेशनम्</title>
+				<feature>लेखनम्</feature>
+				<page>0018-0020</page>
+				<allauthors>
+					<author type="1" sal="">सचिनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>धीरः रघुपतिसिंहः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0021-0022</page>
+				<allauthors>
+					<author type="3" sal="">रेवती कुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अप्रतिमशूरः बघेलसिंहः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="3" sal="">बलरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दैनन्दिनी</title>
+				<feature>बालमोदिनी</feature>
+				<page>0023-0023</page>
+				<allauthors>
+					<author type="3" sal="">चारुचरणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ११४</title>
+				<feature>कुतुककुटी</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गर्वोपेतः अश्वः - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0024-0024</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आपदि चतुरबुद्धिः प्राणान् रक्षति</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">वेदान्तः, सी. एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अहो लब्धमहो लब्धम् !!</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">सुनीला माविनकुर्वे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>व्यासश्रीः (षाण्मासिकी पत्रिका)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राष्ट्रं रक्षति रक्षितम् (नाटकम्)-सुशान्तकुमारराजः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चारुवसन्तीयम्-डा।। हेच्. वि. नागराजरावः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">अभिरामः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कर्णाटक सङ्गीते संस्कृत साहित्यम्</title>
+				<feature>लेखनम्</feature>
+				<page>0027-0030</page>
+				<allauthors>
+					<author type="1" sal="">इन्दुशेखरशास्त्री माडुगुल</author>
+					<author type="1" sal="">सुधा ईमानि</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २६८</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अम्बेति गौरीमहमाह्वयामि पत्न्यः पितुर्मातर एव सर्वाः ।......  - चाटुचणकः २२१</title>
+				<feature>चाटुचणकः</feature>
+				<page>0031-0031</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0032-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Sansthan, New Delhi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<text></text>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Container Corporation of India Ltd., New Delhi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<text></text>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
