@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - April 2017" /><br />
-				<span class="cur_month">वैशाखमासः</span><br />
-				<span class="cur_month">मे – २०१७</span>
+				<span class="cur_month">ज्येष्ठमासः</span><br />
+				<span class="cur_month">जून् – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,19 +86,19 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  कार्बोहैड्रे़ट् इत्यस्य मापनम्  </a><br />
-						<span class="article_details"> अनु – सचिनः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  गङ्गा यमुना च सजीवे  </a><br />
+						<span class="article_details"> शन्तनु्शर्मा  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> ब्राह्ममुहूर्तः व्यायामश्च </a><br />
-						<span class="article_details"> वि.अ.काशीकरः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> मृतः वृक्षः पुनरुज्जीवितः </a><br />
+						<span class="article_details"> वेङ्कटाचलपतिः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सुखावप्तये पञ्चसूत्री </a><br />
-						<span class="article_details"> सुदामकुमारः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> यमाताराजभान…गणितम् </a><br />
+						<span class="article_details"> डा.अविनाशवर्णः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> शिथिलं दुर्गम् (उत्तरार्धम्) </a><br />
+						<a href="#"><span class="icon fa-share"></span> शिथिलम् दुर्गम् (उत्तरार्धम्) </a><br />
 						<span class="article_details"> मूलम् – कल्की कृष्णमूर्तिः, अनु – सौम्याजानिः &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
