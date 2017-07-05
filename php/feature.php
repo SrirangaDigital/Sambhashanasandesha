@@ -12,16 +12,16 @@
 			
 <?php
 	include("connect.php");
-	$query1 = "select * from feature where featid != '' order by featurename";
-	$result1 = $db->query($query1);
-	$num_rows1 = $result1 ? $result1->num_rows : 0;
+	$query = "select * from feature where featid != '' order by featurename";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-	if($num_rows1 > 0)
+	if($num_rows > 0)
 	{
-		while($row1 = $result1->fetch_assoc())
+		while($row = $result->fetch_assoc())
 		{
-			$featurename = $row1['featurename'];
-			$featid = $row1['featid'];
+			$featurename = $row['featurename'];
+			$featid = $row['featid'];
 			
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
