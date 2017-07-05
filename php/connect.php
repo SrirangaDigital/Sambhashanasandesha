@@ -1,6 +1,6 @@
 <?php
 $user='root';
-$password='Sriranga@#$!';
+$password='mysql';
 $database='sandesha';
 $server = 'localhost';
 $year = "2015";
