@@ -20,25 +20,18 @@
 <?php 
 
 	include("connect.php");
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-
-	$result = mysql_query($query);
-	$num_rows = mysql_num_rows($result);
-	
-	if($num_rows)
+	if($num_rows > 0)
 	{
-
 		echo ($num_rows > 1) ? '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखः</p>';
 		echo '		</header>
 				<section class="wrapper style4 container">
 					<div class="content">';
 
-		for($a=1;$a<=$num_rows;$a++)
+		while($row = $result->fetch_assoc())
 		{
-			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
 			$sumne = preg_split("/;/",$row['authorname']);
 			if(count($sumne)>1)
@@ -59,8 +52,8 @@
 			$titleid = $row['titleid'];
 				
 			$query1 = "select * from feature where featid = '$featureid'";
-			$result1 = mysql_query($query1);
-			$row1=mysql_fetch_assoc($result1);
+			$result1 = $db->query($query1);
+			$row1 = $result1->fetch_assoc();
 			$featurename = preg_replace("/ /","%20",$row1['featurename']);
 			$featureid = $row1['featid'];
 					
@@ -82,7 +75,8 @@
 		echo "<span class=\"empty topic\">There are no articles by this author&nbsp;&nbsp;</span>";
 
 	}
-	mysql_close($db);
+	if($result){$result->free();}
+	$db->close();
 ?>
 			</div>
 	</section>

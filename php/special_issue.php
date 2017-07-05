@@ -16,31 +16,25 @@
 			<div class="volumes">
 <?php
 	include("connect.php");
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
 
 	$query = "select distinct month, year from article order by year desc";
-	$result = mysql_query($query);
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-	$num_rows = mysql_num_rows($result);
-
-	if($num_rows)
+	if($num_rows > 0)
 	{
-		for($i=1;$i<=$num_rows;$i++)
+		while($row = $result->fetch_assoc())
 		{
-			$row=mysql_fetch_assoc($result);
-			
 			$month=$row['month'];
 			$year=$row['year'];
-			
+
 			$query2 = "select * from article where month = '$month' and year = '$year' order by year desc";
-			$result2 = mysql_query($query2);
-			$num_rows2 = mysql_num_rows($result2);
-			if($num_rows2)
+			$result2 = $db->query($query2);
+			$num_rows2 = $result2 ? $result2->num_rows : 0;
+			if($num_rows2 > 0)
 			{
-				$row2=mysql_fetch_assoc($result2);
-				
+				$row2 = $result2->fetch_assoc();
+
 				$volume=$row2['volume'];
 				$issue=$row2['issue'];
 				
@@ -54,7 +48,8 @@
 		}
 	}
 	echo '</div>';
-	$db=mysql_close($db);
+	if($result){$result->free();}
+	$db->close();
 ?>         
 			
 			</div>

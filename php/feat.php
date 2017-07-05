@@ -29,24 +29,17 @@
 			}
 			include("connect.php");
 
-			$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-			$rs = mysql_select_db($database,$db) or die("No Database");
-			mysql_query("set names utf8");
-			
-			$result = mysql_query($query);
-			$num_rows = mysql_num_rows($result);
-			
-			if($num_rows)
+			$result = $db->query($query);
+			$num_rows = $result ? $result->num_rows : 0;
+
+			if($num_rows > 0)
 			{
-
-
 				echo ($num_rows > 1) ? '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखाः</p>' : '<p class="sanskrit">' . convert_devanagari($num_rows) . ' लेखः</p>';
 				echo '		</header>
 							<section class="wrapper style4 container">';
 
-				for($a=1;$a<=$num_rows;$a++)
+				while($row = $result->fetch_assoc())
 				{
-					$row=mysql_fetch_assoc($result);
 					$authorid = $row['authid'];
 					$volume = $row['volume'];
 					$inum = $row['issue'];
@@ -65,8 +58,8 @@
 					for($k = 0; $k < count($sumne); $k++)
 					{
 						$query1 = "select * from author where authid = '$sumne[$k]'";
-						$result1 = mysql_query($query1); 
-						$row1 = mysql_fetch_assoc($result1);
+						$result1 = $db->query($query1);
+						$row1 = $result1->fetch_assoc();
 						echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan sanskrit\">".$row1["authorname"]."</span></a>";
 						if(count($sumne) > 1 && $k < count($sumne)-1)
 						{
@@ -74,7 +67,7 @@
 						}
 					}
 					//~ Link To Download Pdf 
-					//~ if($row['authid'] != ""){echo "<br/>";}
+					//~ if($row1['authid'] != ""){echo "<br/>";}
 					//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 					echo	"</div>";
 					echo"</div>";
@@ -89,7 +82,8 @@
 				echo "<span class=\"empty topic\">Error encountered!</span>";
 
 			}
-			mysql_close($db);
+			if($result){$result->free();}
+			$db->close();
 		?>
 	</section>
 </article>

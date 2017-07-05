@@ -5,13 +5,10 @@
 	{
 		$titleid = $_GET['titleid'];
 		include("connect.php");
-		$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-		$rs = mysql_select_db($database,$db) or die("No Database");
-		mysql_query("set names utf8");
-			
+
 		$query = "select * from article where titleid =  $titleid";
-		$result = mysql_query($query);
-		$row = mysql_fetch_assoc($result);
+		$result = $db->query($query);
+		$row = $result->fetch_assoc();
 		$year = $row['year'];
 		$month = $row['month'];
 		$pdfList = "";
@@ -26,13 +23,13 @@
 		
 		$str = preg_replace("/ or cur_page between $/", "" ,$str);
 		$query1 = "select * from testocr where year='$year' and month='$month' and (cur_page between $str)";
-		$result1 = mysql_query($query1) or die(mysql_error());
-		$numOfRows1 = mysql_num_rows($result1);
+		$result1 = $db->query($query1);
+		$numOfRows1 = $result1 ? $result1->num_rows : 0;
 		$pdfList='';
-		
+
 		for($j = 0; $j < $numOfRows1; $j++)
 		{
-			$row1 = mysql_fetch_assoc($result1);
+			$row1 = $result1->fetch_assoc();
 			$pdfList .=  "../Volumes/pdf/".$row['year']."/".$row['month']."/".$row1["cur_page"].".pdf ";
 		}
 	}
