@@ -112,7 +112,7 @@ sub insert_article()
 	$authid =~ s/^;//;
 	
 
-	$sth1=$dbh->prepare("insert into article values('$vnum','$inum','$month','$year','$title','$fid','$page','$authname','$authid','')");
+	$sth1=$dbh->prepare("insert into article values('$vnum','$inum','$month','$year','$title','$fid','$page','$authname','$authid',0)");
 	$sth1->execute();
 	
 	$sth1->finish();

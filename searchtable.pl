@@ -22,10 +22,10 @@ $sth11=$dbh->prepare("CREATE TABLE searchtable(title varchar(500),
 authid varchar(200),
 authorname varchar(1000),
 featid varchar(10),
-text varchar(5000),
+text text,
 page varchar(50),
 cur_page varchar(10),
-volume varchar(3),
+volume varchar(5),
 issue varchar(10),
 year varchar(10),
 month varchar(10),
@@ -51,7 +51,7 @@ while($ref=$sth1->fetchrow_hashref())
 	$str = '';
 	$title =~ s/'/\\'/g;
 	$authorname =~ s/'/\\'/g;
-	print $year."\n";
+	# print $year."\n";
 	
 	@pageRangeList = split(';',$page);
 	

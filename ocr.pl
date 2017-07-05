@@ -21,7 +21,7 @@ $sth11->finish();
 $sth11=$dbh->prepare("CREATE TABLE testocr(year varchar(5),
 month varchar(10),
 cur_page varchar(10),
-text varchar(5000)) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
+text text) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 $sth11->execute();
 $sth11->finish(); 
 @year = `ls Text`;
