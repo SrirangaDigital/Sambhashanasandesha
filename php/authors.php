@@ -58,28 +58,20 @@
 	{
 		$letter = 'अ';
 	}
-
-	$query1 = "select * from author where authorname like '$letter%' order by authorname";
-
 	include("connect.php");
 
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
-	
-	$result1 = mysql_query($query1);
-	$num_rows1 = mysql_num_rows($result1);
+	$query = "select * from author where authorname like '$letter%' order by authorname";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-	if($num_rows1)
+	if($num_rows > 0)
 	{
-	
-		for($a=1;$a<=$num_rows1;$a++)
+		while($row = $result->fetch_assoc())
 		{
-			$row1=mysql_fetch_assoc($result1);
-			$authorname = $row1['authorname'];
+			$authorname = $row['authorname'];
 			$authorname1 = preg_replace("/ /","%20",$authorname);
-			$sal = $row1['sal'];
-			$authorid = $row1['authid'];
+			$sal = $row['sal'];
+			$authorid = $row['authid'];
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
 			echo		"<a href=\"showAuthorArticles.php?authid=$authorid&amp;authorname=$authorname1\"><span class=\"authorspan sanskrit\">".$authorname."</span></a>";
@@ -87,6 +79,8 @@
 			echo "</div>";
 		}
 	}
+	if($result){$result->free();}
+	$db->close();
 ?>	
 		</div>
 	</section>

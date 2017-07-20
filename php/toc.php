@@ -56,22 +56,17 @@ $advtID = '1001';
 	
 	<section class="wrapper style4 container">
 <?php 
-
-
 	include("connect.php");
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
 
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-	$result = mysql_query($query);
-	$num_rows = mysql_num_rows($result);
 	$vnum = intval($volume);
-	if($num_rows)
+
+	if($num_rows > 0)
 	{
-		for($a=1;$a<=$num_rows;$a++)
+		while($row = $result->fetch_assoc())
 		{
-			$row=mysql_fetch_assoc($result);
 			$authorid = $row['authid'];
 			$titleid = $row['titleid'];
 			$sumne = preg_split("/;/",$row['authorname']);
@@ -86,8 +81,8 @@ $advtID = '1001';
 			/*$type = $row['type'];*/
 		
 			$query1 = "select * from feature where featid = '$featureid'";
-			$result1 = mysql_query($query1);
-			$row1=mysql_fetch_assoc($result1);
+			$result1 = $db->query($query1);
+			$row1 = $result1->fetch_assoc();
 			$featurename = preg_replace("/ /","%20",$row1['featurename']);
 			
 			$featureid = $row1['featid'];
@@ -99,17 +94,17 @@ $advtID = '1001';
 			$sumne = preg_split("/;/",$authorid);
 			for($k = 0; $k < count($sumne); $k++)
 			{
-				$query1 = "select * from author where authid = '$sumne[$k]'";
-				$result1 = mysql_query($query1); 
-				$row1 = mysql_fetch_assoc($result1);
-				echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan sanskrit\">".$row1["authorname"]."</span></a>";
+				$query2 = "select * from author where authid = '$sumne[$k]'";
+				$result2 = $db->query($query2);
+				$row2 = $result2->fetch_assoc();
+				echo	"<a href=\"showAuthorArticles.php?authid=".$row2["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row2["authorname"])."\"><span class=\"authorspan sanskrit\">".$row2["authorname"]."</span></a>";
 				if(count($sumne) > 1 && $k < count($sumne)-1)
 				{
 					echo "&nbsp;|&nbsp;";
 				}
 			}
 			//~ Link for downloading pdf 
-			//~ if($row['authid'] != ""){echo "<br/>";}
+			//~ if($row2['authid'] != ""){echo "<br/>";}
 			//~ echo	"<a href=\"bookReader.php?volume=$volume&amp;month=$month&amp;year=$year&amp;page=$page[0]\" target=\"_blank\"><span class=\"downloadspan\">Read Online | </span></a><a target=\"_blank\" href=\"downloadPdf.php?titleid=$titleid\"><span class=\"downloadspan\">Download Article</span></a>";
 			echo	"</div>";
 			echo"</div>";
@@ -120,7 +115,8 @@ $advtID = '1001';
 		echo "<span class=\"empty topic\">Error encountered!</span>";
 
 	}
-	mysql_close($db);
+	if($result){$result->free();}
+	$db->close();
 ?>
 	</section>
 </article>

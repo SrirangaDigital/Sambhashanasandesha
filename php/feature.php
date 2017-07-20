@@ -12,23 +12,16 @@
 			
 <?php
 	include("connect.php");
-	$query1 = "select * from feature where featid != '' order by featurename";
-	
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
-	
-	$result1 = mysql_query($query1);
-	$num_rows1 = mysql_num_rows($result1);
+	$query = "select * from feature where featid != '' order by featurename";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
-	if($num_rows1)
+	if($num_rows > 0)
 	{
-	
-		for($a=1;$a<=$num_rows1;$a++)
+		while($row = $result->fetch_assoc())
 		{
-			$row1=mysql_fetch_assoc($result1);
-			$featurename = $row1['featurename'];
-			$featid = $row1['featid'];
+			$featurename = $row['featurename'];
+			$featid = $row['featid'];
 			
 			echo "<div class=\"box\">";
 			echo	"<div class=\"inside\">";
@@ -37,6 +30,8 @@
 			echo"</div>";
 		}
 	}
+	if($result){$result->free();}
+	$db->close();
 ?>	
 		</div>
 	</section>

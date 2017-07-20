@@ -24,18 +24,14 @@
 							<option value="" selected="selected">&nbsp;&nbsp;प्रधानविभागः</option>
 								<?php
 									include("connect.php");
-									$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-									$rs = mysql_select_db($database,$db) or die("No Database");
-									mysql_query("set names utf8");
 								
 									$query = "select distinct featid,featurename from feature order by featurename";
-									$result = mysql_query($query);
-									$num_rows = $result ? mysql_num_rows($result) : 0;
+									$result = $db->query($query);
+									$num_rows = $result ? $result->num_rows : 0;
 									if($num_rows > 0)
 									{
-										for($i=1;$i<=$num_rows;$i++)
+										while($row = $result->fetch_assoc())
 										{
-											$row = mysql_fetch_assoc($result);
 											$featurename=$row['featurename'];
 											$featid=$row['featid'];
 											echo '<option value="' . $featid . '">&nbsp;&nbsp;' . $featurename . '</option>';
@@ -53,13 +49,12 @@
 							<option value="">&nbsp;</option>
 								<?php
 									$query = "select distinct year from article order by year";
-									$result = mysql_query($query);
-									$num_rows = $result ? mysql_num_rows($result) : 0;
+									$result = $db->query($query);
+									$num_rows = $result ? $result->num_rows : 0;
 									if($num_rows > 0)
 									{
-										for($i=1;$i<=$num_rows;$i++)
+										while($row = $result->fetch_assoc())
 										{
-											$row = mysql_fetch_assoc($result);
 											$year=$row['year'];
 											echo '<option value="' . $year . '">' . convert_devanagari($year) . '</option>';
 										}
@@ -70,13 +65,12 @@
 						<select name="year2" style="cursor:context-menu;">
 							<option value="">&nbsp;</option>
 								<?php
-									$result = mysql_query($query);
-									$num_rows = $result ? mysql_num_rows($result) : 0;
+									$result = $db->query($query);
+									$num_rows = $result ? $result->num_rows : 0;
 									if($num_rows > 0)
 									{
-										for($i=1;$i<=$num_rows;$i++)
+										while($row = $result->fetch_assoc())
 										{
-											$row = mysql_fetch_assoc($result);
 											$year=$row['year'];
 											echo '<option value="' . $year . '">' . convert_devanagari($year) . '</option>';
 										}

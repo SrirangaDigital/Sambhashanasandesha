@@ -16,36 +16,30 @@
 			<div class="volumes">
 <?php
 	include("connect.php");
-	$db = mysql_connect($server,$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
-	mysql_query("set names utf8");
-	
-	$row_count = 4;
-	$query = "select distinct year from article order by year desc";
-	$result = mysql_query($query);
 
-	$num_rows = mysql_num_rows($result);
+	$query = "select distinct year from article order by year desc";
+	$result = $db->query($query);
+	$num_rows = $result ? $result->num_rows : 0;
 
 	$count = 0;
 	$col = 1;
-	if($num_rows)
+	$row_count = 4;
+
+	if($num_rows > 0)
 	{
-		for($i=1;$i<=$num_rows;$i++)
+		while($row = $result->fetch_assoc())
 		{
-			$row=mysql_fetch_assoc($result);
 			$year=$row['year'];
 
 			$query1 = "select distinct volume from article where year='$year'";
-			$result1 = mysql_query($query1);
-			$num_rows1 = mysql_num_rows($result1);
-			if($num_rows1)
+			$result1 = $db->query($query1);
+			$num_rows1 = $result1 ? $result1->num_rows : 0;
+
+			if($num_rows1 > 0)
 			{
-
 				$volume = '';
-				for($i1=1;$i1<=$num_rows1;$i1++)
+				while($row1 = $result1->fetch_assoc())
 				{
-					$row1=mysql_fetch_assoc($result1);
-
 					$volume = $volume . '-' . intval($row1['volume']);
 				}
 				$volume = preg_replace('/^\-/', '', $volume);
@@ -65,7 +59,8 @@
 		}
 	}
 	echo '</div>';
-	$db=mysql_close($db);
+	if($result){$result->free();}
+	$db->close();
 ?>         
 			
 			</div>

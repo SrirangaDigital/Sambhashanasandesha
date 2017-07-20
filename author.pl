@@ -55,7 +55,7 @@ sub insert_author()
 	$sth->execute();
 	if($sth->rows() == 0)
 	{
-		$sth1=$dbh->prepare("insert into author values('$authorname','$type','$sal','')");
+		$sth1=$dbh->prepare("insert into author values('$authorname','$type','$sal', 0)");
 		$sth1->execute();
 		$sth1->finish();
 	}

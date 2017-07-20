@@ -13,19 +13,7 @@
 			<article id="main">
 					<?php
 							include("connect.php");
-							$db = @new mysqli('localhost', "$user", "$password", "$database");
-							$db->set_charset("utf8");
-							
-							if($db->connect_errno > 0)
-							{
-								echo '<span class="aFeature clr2">Not connected to the Database</span>';
-								echo '</div> <!-- cd-container -->';
-								echo '</div> <!-- cd-scrolling-bg -->';
-								echo '</main> <!-- cd-main-content -->';
-								//~ include("include_footer.php");
-								exit(1);
-							}
-							
+
 							if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 							if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
 							if(isset($_GET['title'])){$title = $_GET['title'];}else{$title = '';}
@@ -265,9 +253,6 @@
 	{
 		
 		include("connect.php");
-		
-		$db = @new mysqli("$server", "$user", "$password", "$database");
-		$db->set_charset("utf8");
 		$text = preg_replace("/\*/","",$text);
 		$queryW = "select * from word where word regexp '".$text."' and pagenum = ".$cur_page." and year = ".$year." and month = '".$month."'";
 		echo $queryW;

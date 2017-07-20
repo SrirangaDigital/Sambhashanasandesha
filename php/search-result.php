@@ -13,10 +13,7 @@
     		<article id="main">
 					<?php
 							include("connect.php");
-							$db=mysql_connect('localhost', "$user", "$password") or die("Not Connected to databases");
-							mysql_select_db("$database",$db);
-							mysql_query("set names utf8");
-							
+
 							if(isset($_GET['author'])){$author = $_GET['author'];}else{$author = '';}
 							if(isset($_GET['text'])){$text = $_GET['text'];}else{$text = '';}
 							if(isset($_GET['title'])){$title = $_GET['title'];}else{$title = '';}
@@ -124,9 +121,9 @@
 											WHERE featid REGEXP '$featid') AS tb4
 										WHERE year between $year1 and $year2 ORDER BY year, month, cur_page";
 							}
-							
-							$result = mysql_query($query) or die("query failed".mysql_error()); 
-							$num_rows = $result ? mysql_num_rows($result) : 0;
+
+							$result = $db->query($query);
+							$num_rows = $result ? $result->num_rows : 0;
 							
 							echo '<header class="special container">';
 							echo '<span class="icon fa-search"></span>';
@@ -148,10 +145,8 @@
 									
 									if($num_rows > 0)
 									{
-										for($a=1;$a<=$num_rows;$a++)
+										while($row = $result->fetch_assoc())
 										{
-											$row=mysql_fetch_assoc($result);
-											
 											if($a != 1 && (strcmp($id, $row['titleid'])) != 0)
 											{
 												$titleid = $row['titleid'];
@@ -178,8 +173,8 @@
 												}
 												
 												$query1 = "select * from feature where featid = '$featureid'";
-												$result1 = mysql_query($query1); 
-												$row1=mysql_fetch_assoc($result1);
+												$result1 = $db->query($query1);
+												$row1 = $result1->fetch_assoc();
 												$fname = $row1['featurename'];
 												$featurename = preg_replace("/ /","%20",$row1['featurename']);
 												
@@ -193,10 +188,10 @@
 													$sumne = preg_split("/;/",$authorid);
 													for($k = 0; $k < count($sumne); $k++)
 													{
-														$query1 = "select * from author where authid = '$sumne[$k]'";
-														$result1 = mysql_query($query1); 
-														$row1=mysql_fetch_assoc($result1);
-														echo	"<a href=\"showAuthorArticles.php?authid=".$row1["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row1["authorname"])."\"><span class=\"authorspan sanskrit\">".$row1["authorname"]."</span></a>";
+														$query2 = "select * from author where authid = '$sumne[$k]'";
+														$result2 = $db->query($query2);
+														$row2 = $result2->fetch_assoc();
+														echo	"<a href=\"showAuthorArticles.php?authid=".$row2["authid"]."&amp;authorname=".preg_replace("/ /","%20",$row2["authorname"])."\"><span class=\"authorspan sanskrit\">".$row2["authorname"]."</span></a>";
 														if(count($sumne) > 1 && $k < count($sumne)-1)
 														{
 															echo "&nbsp;|&nbsp;";
@@ -236,8 +231,8 @@
 										echo "<span class=\"empty topic sanskrit\">परिणामः नास्ति</span>";
 
 									}
-									mysql_close();
-
+									if($result){$result->free();}
+									$db->close();
 							?>
 						</div>
 					</section>	
