@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - April 2017" /><br />
-				<span class="cur_month">आषाढमासः</span><br />
-				<span class="cur_month">जुलै – २०१७</span>
+				<span class="cur_month">श्रावणमासः</span><br />
+				<span class="cur_month">अगस्ट् – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  दूरतः पर्वतो यस्य  </a><br />
-						<span class="article_details"> डा.&nbsp;गणेशपण्डितः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  भारतस्य केरलीया गणितपरम्परा  </a><br />
+						<span class="article_details"> डा.&nbsp;महेशः, मुम्बै  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्राणरक्षकः मोतीशाहः </a><br />
-						<span class="article_details"> मुनिः मुक्तितिलकविजयः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> चमत्काराय नमो नमः </a><br />
+						<span class="article_details"> प्रा.कमलेशकुमारचोकसी &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> किं गङ्गा मानवनिर्मिता ? </a><br />
-						<span class="article_details"> अमृतपुत्रः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> विघ्नराज अरीन् जहि </a><br />
+						<span class="article_details"> सिद्धिविनायकः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विंशतिसहस्रं रूप्यकाणि </a><br />
-						<span class="article_details"> डा.&nbsp;प्रशस्यमित्रशास्त्री &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> अपत्यशत्रुः </a><br />
+						<span class="article_details"> मूलम् – रत्नाकरमतकरी, अनु – अलका रानडे &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
