@@ -40,31 +40,31 @@
 		<h1><a href="index.php">&nbsp;&nbsp;</a></h1>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.php">Home | <span class="sanskrit">उपक्रमः:</span></a></li>
-				<li><a href="php/about.php">About | <span class="sanskrit">परिचयः</span></a>
+				<li><a href="index.php"><span class="sanskrit">उपक्रमः:</span> | Home</a></li>
+				<li><a href="php/about.php"><span class="sanskrit">परिचयः</span> | About</a>
 					<ul>
 						<li><a href="php/about.php">Sambhshana Sandesha</a></li>
 						<li><a href="php/about_sb.php">Samskrita Bharati</a></li>
 					</ul>
 				</li>
-				<li><a href="php/subscribe.php">Subscribe | <span class="sanskrit">ग्राहकता</span></a>
+				<li><a href="php/subscribe.php"><span class="sanskrit">ग्राहकता</span> | Subscribe</a>
 					<ul>
 						<li><a href="php/subscribe.php">India</a></li>
 						<li><a href="php/subscribe_us.php">US &amp; Canada</a></li>
 						<li><a href="php/subscribe_ot.php">Other Nations</a></li>
 					</ul>
 				</li>
-				<li><a href="javascript:void(0);">Archives | <span class="sanskrit">सङ्ग्रहः</span></a>
+				<li><a href="javascript:void(0);"><span class="sanskrit">सङ्ग्रहः</span> | Archives</a>
 					<ul>
-						<li><a href="php/volumes.php">Volumes | <span class="sanskrit">सम्पुटाः</span></a></li>
-						<li><a href="php/feature.php">Features | <span class="sanskrit">प्रधानविभागाः</span></a></li>
-						<li><a href="php/articles.php?letter=अ">Articles | <span class="sanskrit">लेखाः</span></a></li>
-						<li><a href="php/authors.php?letter=अ">Authors | <span class="sanskrit">लेखकाः</span></a></li>
-						<li><a href="php/special_issue.php">Special Issues | <span class="sanskrit">विशेषाङ्कः</span></a></li>
-						<li><a href="php/search.php">Search | <span class="sanskrit">अन्वेषणम्</span></a></li>
+						<li><a href="php/volumes.php"><span class="sanskrit">सम्पुटाः</span> | Volumes</a></li>
+						<li><a href="php/feature.php"><span class="sanskrit">प्रधानविभागाः</span> | Features</a></li>
+						<li><a href="php/articles.php?letter=अ"><span class="sanskrit">लेखाः</span> | Articles</a></li>
+						<li><a href="php/authors.php?letter=अ"><span class="sanskrit">लेखकाः</span> | Authors</a></li>
+						<li><a href="php/special_issue.php"><span class="sanskrit">विशेषाङ्कः</span> | Special Issues</a></li>
+						<li><a href="php/search.php"><span class="sanskrit">अन्वेषणम्</span> | Search</a></li>
 					</ul>
 				</li>
-				<li><a href="php/feedback.php">FEEDBACK | <span class="sanskrit">प्रतिपुष्टिः</span></a></li>
+				<li><a href="php/feedback.php"><span class="sanskrit">प्रतिपुष्टिः</span> | FEEDBACK</a></li>
 			</ul>
 		</nav>
 	</header>
