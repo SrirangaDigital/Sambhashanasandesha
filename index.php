@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - April 2017" /><br />
-				<span class="cur_month">श्रावणमासः</span><br />
-				<span class="cur_month">अगस्ट् – २०१७</span>
+				<span class="cur_month">भाद्रपदमासः</span><br />
+				<span class="cur_month">सप्टम्बर् – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  भारतस्य केरलीया गणितपरम्परा  </a><br />
-						<span class="article_details"> डा.&nbsp;महेशः, मुम्बै  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  जीवभूतानां नदीनां पुनरुज्जीवनाय राष्ट्रस्तरीयं नद्यभियानम् </a><br />
+						<span class="article_details"> पङ्कजा शुभा च &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> चमत्काराय नमो नमः </a><br />
-						<span class="article_details"> प्रा.कमलेशकुमारचोकसी &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> नैटीयसमस्यायाः परिहारॊपायः रुद्रटेनापि </a><br />
+						<span class="article_details"> जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विघ्नराज अरीन् जहि </a><br />
-						<span class="article_details"> सिद्धिविनायकः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सम्बन्धः सुमधुरः स्यात् </a><br />
+						<span class="article_details"> कुसुमाकरः  &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अपत्यशत्रुः </a><br />
-						<span class="article_details"> मूलम् – रत्नाकरमतकरी, अनु – अलका रानडे &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> कण्ठाभरणम् </a><br />
+						<span class="article_details"> आङ्ग्लमूलम् – गै.डि.मौपस्सण्ट, अनु – विजया भट् &nbsp;|&nbsp; कथा</span>
 					</div>
 				</div>
 			    <div  class="read_more">
