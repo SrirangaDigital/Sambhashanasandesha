@@ -75,7 +75,7 @@
 			<div class="cur_image">
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
-				<img src="php/images/current_issue.jpg" alt="Current Issue - April 2017" /><br />
+				<img src="php/images/current_issue.jpg" alt="Current Issue - September 2017" /><br />
 				<span class="cur_month">भाद्रपदमासः</span><br />
 				<span class="cur_month">सप्टम्बर् – २०१७</span>
 			</div>
