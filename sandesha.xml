@@ -83552,5 +83552,216 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="10" month="07" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>शिक्षणक्षेत्रे दौर्बल्यम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>दूरतः पर्वतो रम्यः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="डा।।">गणेशपण्डितः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७३</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्राणरक्षकः मोतीशाहः</title>
+				<feature>लेखनम्</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="मुनिः">मुक्तितिलकविजयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २७५</title>
+				<feature>निकषोपलः</feature>
+				<page>0011-0012</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भज भारतभूमिपदं सुखदम्</title>
+				<feature>गीतम्</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="प्रा.">रामसुमेरयादवः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गतिं विच्छिन्दि गन्त्र्या भो महिला पतिता ततः ।......  - चाटुचणकः २२५</title>
+				<feature>चाटुचणकः</feature>
+				<page>0011-0011</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>अग्रजस्य कुचेष्टा</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="1" sal="">जयश्री राय्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भोज्यं दरिद्रनारायणाय.....</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="1" sal="">कोल्हटकरः, म. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`मनोरमा' इत्यत्र. . . . . - भाषापाकः - २४६</title>
+				<feature>भाषापाकः</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>विंशतिसहस्रं रूप्यकाणि</title>
+				<feature>कथा</feature>
+				<page>0015-0021</page>
+				<allauthors>
+					<author type="1" sal="डा।।">प्रशस्यमित्रशास्त्री</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>P. N. Fine Chemicals</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>किं गङ्गा मानवनिर्मिता?</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="3" sal="">अमृतपुत्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जीवनयात्रासूत्रम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">सुबोधशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>त्रीणि आभरणानि</title>
+				<feature>बालमोदिनी</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">वेदभूषणः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विघ्नानां मध्ये एव जीवनीयम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="3" sal="">सुमतितनयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - ११९</title>
+				<feature>कुतुककुटी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>न वक्तव्यानि रूक्षवचनानि - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-१४</title>
+				<feature>धारावाहिनी</feature>
+				<page>0029-0033</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>A Collection from Sankara's Commentaries on the Prasthana Traya-स्वामी कृतार्थानन्दः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सिध्दहैमसंस्कृतप्रारम्भिका, भाग-१-हरेशभाई लवजीभाई कुबडिया</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>कथं सोमवासरः रविवासरम् अनुवर्तते?</title>
+				<feature>लेखनम्</feature>
+				<page>0035-0036</page>
+				<allauthors>
+					<author type="3" sal="">मिलिन्दजोशी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0037-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0038-0038</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrit Promotion Foundation</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0042-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Andhra Pradesh Pollution Control Board, Amaravathi</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
