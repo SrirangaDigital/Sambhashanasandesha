@@ -83763,5 +83763,235 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="11" month="08" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अनुष्ठेया जलादरणसंस्कृतिः</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>भारतस्य केरलीया गणितपरम्परा</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="डा।।">महेशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अनेकविधाः व्युत्पत्तयः `जनार्दन'पदस्य - भाषापाकः - २४७</title>
+				<feature>भाषापाकः</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७४</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अपत्य शत्रुः ((मराठीमूलम्))</title>
+				<feature>अनूदितकथा</feature>
+				<page>0011-0015</page>
+				<allauthors>
+					<author type="1" sal="श्री">रत्नाकरमतकरी</author>
+					<author type="2" sal="">अलका रानडे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतमातुः सेवायै.....</title>
+				<feature>बालमोदिनी</feature>
+				<page>0016-0017</page>
+				<allauthors>
+					<author type="3" sal="">नरेशकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कर्तव्यनिष्ठा</title>
+				<feature>बालमोदिनी</feature>
+				<page>0017-0018</page>
+				<allauthors>
+					<author type="1" sal="">मञ्जुनाथ, ए. एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२०</title>
+				<feature>कुतुककुटी</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>न वक्तव्यानि रूक्षवचनानि - ३</title>
+				<feature>चित्रकथा</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चमत्काराय नमो नमः</title>
+				<feature>लेखनम्</feature>
+				<page>0020-0021</page>
+				<allauthors>
+					<author type="1" sal="प्रा.">कमलेशकुमारचोकसी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Aksharam - प्रकाशयिष्यते सप्टम्बर्‌मासे विजयदशमी विशेषाङ्कः - २०१७</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>विघ्नराज अरीन् जहि</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="1" sal="">सिद्धिविनायकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कथागौरवम्-डा।। के. वि. मेनोन्</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>गोदावरीगाथाः-फणिकुमारः, डा।। वरलक्ष्मीः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0024-0024</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-१५</title>
+				<feature>धारावाहिनी</feature>
+				<page>0025-0029</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वेतनस्य न्यूनीकरणम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="1" sal="">रहातेकर, स. त्र्यं.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>यदि सर्वे छात्राः एवं स्युः......</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हेमलता, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वैद्यो नारायणो हरिः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">रामस्वामिव्यासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गीतम् आनय</title>
+				<feature>रूपकम्</feature>
+				<page>0031-0034</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा `प्रमोदः'</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>P. N. Fine Chemicals</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २७६</title>
+				<feature>निकषोपलः</feature>
+				<page>0035-0036</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जगज्जयेम विजित्वराः</title>
+				<feature>गीतम्</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="डा।।">रामकृष्णपेजत्तायः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चोरैर्मुषितवित्तं मां श्रुत्वायाता भटाः मुहुः ।......  - चाटुचणकः २२६</title>
+				<feature>चाटुचणकः</feature>
+				<page>0035-0035</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>यादृशी भावना यस्य सिद्धिर्भवति तादृशी.....</title>
+				<feature>लेखनम्</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">अनुराधा शिवकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भवेत् पार्थक्यं संस्कृतस्य</title>
+				<feature>लेखनम्</feature>
+				<page>0038-0039</page>
+				<allauthors>
+					<author type="1" sal="डा।।">नन्दकुमारः, प.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवति विश्वासः भवतु</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0039-0039</page>
+				<allauthors>
+					<author type="1" sal="">रमेशः, के. एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0040-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chemtrols Industries Pvt. Limited</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
