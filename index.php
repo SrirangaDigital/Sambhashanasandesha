@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">आश्वयुजकार्तिकौ</span><br />
-				<span class="cur_month">नवम्बर् – २०१७</span>
+				<span class="cur_month">मार्गशीर्षपुष्यौ</span><br />
+				<span class="cur_month">डिसेम्बर् – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,16 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  को नाम सोमः ? </a><br />
-						<span class="article_details"> डा.सचिन कठाळे &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  वैदिकगणितशास्त्रम् </a><br />
+						<span class="article_details"> डा.नरेशः कुन्तूरु, मेरिलाण्ड् &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अधिगता अन्तरिक्षगता ’सरस्वती’ </a><br />
-						<span class="article_details"> अमृतपुत्र: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> जीवने कष्टादीनामपि स्थानं स्यात् </a><br />
+						<span class="article_details"> नीलकण्ठः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> आशा </a><br />
-						<span class="article_details"> गुप्तचन्द्रः  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> हृदयस्वास्थ्याय ’विट्ठलः’ वैद्यकीयं परीक्षणम् </a><br />
+						<span class="article_details"> चन्द्रनाथः  &nbsp;|&nbsp; लेखनम्</span>
+					</div>
+					<div class="toc_entry">
+						<a href="#"><span class="icon fa-share"></span> मुख्यन्यायालयः </a><br />
+						<span class="article_details"> गुर्जरमूलम् – गिरीशगणात्रा, अनु - देवार्यः  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
