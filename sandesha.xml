@@ -83993,5 +83993,241 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="12" month="09" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>तमस्य वर्षस्य समाप्तिः.....</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>जीवभूतानां नदीनां पुनरुज्जीवनाय राष्ट्रस्तरीयं नद्यभियानम्</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="">पङ्कजा शुभा च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नदीरक्षणाय अभियानम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0007-0007</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नदीस्तुतिः काचित्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0008-0008</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नैटीयसमस्यायाः परिहारोपायः रुद्रटेनापि</title>
+				<feature>लेखनम्</feature>
+				<page>0009-0010</page>
+				<allauthors>
+					<author type="1" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Uttaranchal Sanskrit Academy, Haridwar - अखिलभारतीया शलाकापरीक्षा - (२०१७-२०१८)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-१६</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0016</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>महाराजः इत्येव.......</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">वार्ताहरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २७७</title>
+				<feature>निकषोपलः</feature>
+				<page>0017-0018</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सङ्गणक रे सङ्गणक!</title>
+				<feature>गीतम्</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="डा।।">विश्वासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गीर्वाणवाणीषु विशिष्टबुद्धिः तथापि भाषाण्तरलोलुपोऽहम् ।......  - चाटुचणकः २२७</title>
+				<feature>चाटुचणकः</feature>
+				<page>0017-0017</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>भगवत्पादप्रयोगवैशिष्ट्यम्-विद्वान् जि. महाबलेश्वरभट्टः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0019-0019</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मामकीनं गृहम्-डा।। प्रशस्यमित्रः शास्त्री</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0019-0019</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>विस्मृतोऽसि - भाषापाकः - २४८</title>
+				<feature>भाषापाकः</feature>
+				<page>0020-0020</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>विचित्रा देव लीला</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="मेजर्">रामनाथशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>क्षणमात्रं सत्ययुगम्</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">कोल्हटकरः, म. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सम्बन्धः सुमधुरः स्यात्</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="1" sal="">कुसुमाकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>उपहारत्रयम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">वसन्ताश्यामलम्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शुद्धहृदयैः निर्मिताः कासाराः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">मणिशेखरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>धनं देशसेवायै</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">वेणुगोपालः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२१</title>
+				<feature>कुतुककुटी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>न वक्तव्यानि रूक्षवचनानि - ४</title>
+				<feature>चित्रकथा</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कण्ठाभरणम् ((आङ्ग्लमूलम्))</title>
+				<feature>अनूदितकथा</feature>
+				<page>0029-0034</page>
+				<allauthors>
+					<author type="1" sal="">मौपस्सण्टः गै. डि.</author>
+					<author type="2" sal="">विजया भट्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Uttaranchal Sanskrit Academy, Haridwar - अखिलभारतीयसंस्कृत-लघुनाटक-लघुकथा-समस्यापूर्ति-लेखनप्रतियोगिताः - २०१७-२०१८</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७५</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भविष्यति त्रयोदशी शलाकापरीक्षा (`मनोरमा' पुरस्कारः)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0037-0041</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Delhi Sanskrit Academy, Delhi Government - अखिल भारतीय मौलिक संस्कृत लघु कथा एवं लघु नाटक लेखन प्रतियोगिता (वर्ष-२०१७-१८)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0040-0040</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - प्रकाशयिष्यते सप्टम्बर् मासान्ते विजयदशमीविशेषाङ्कः-२०१७</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0042-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - संवादशाला देहल्यां काश्यां च</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
