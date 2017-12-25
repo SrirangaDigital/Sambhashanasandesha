@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  वैदिकगणितशास्त्रम् </a><br />
-						<span class="article_details"> डा.नरेशः कुन्तूरु, मेरिलाण्ड् &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  साञ्चीस्तूपा: </a><br />
+						<span class="article_details"> विश्वम्भर: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> जीवने कष्टादीनामपि स्थानं स्यात् </a><br />
-						<span class="article_details"> नीलकण्ठः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> आधुनिकशब्दनिर्माणाय प्रयास: कश्चन </a><br />
+						<span class="article_details"> जनार्दन: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> हृदयस्वास्थ्याय ’विट्ठलः’ वैद्यकीयं परीक्षणम् </a><br />
-						<span class="article_details"> चन्द्रनाथः  &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> प्राणायामस्य वैज्ञानिकत्वम् </a><br />
+						<span class="article_details"> विजयमुक्ति-मुनिचन्द्रसूरी &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> मुख्यन्यायालयः </a><br />
-						<span class="article_details"> गुर्जरमूलम् – गिरीशगणात्रा, अनु - देवार्यः  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> रुदती प्रतिमा </a><br />
+						<span class="article_details"> आङ्ग्लमूलम् – शोभा गाङ्गुली, मराठीअनु – बा.व्य.कुलकर्णी, अनु - रमाधव:  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
