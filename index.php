@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">मार्गशीर्षपुष्यौ</span><br />
-				<span class="cur_month">डिसेम्बर् – २०१७</span>
+				<span class="cur_month">माघफाल्गुनौ</span><br />
+				<span class="cur_month">फेब्रवरी – २०१७</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  साञ्चीस्तूपा: </a><br />
-						<span class="article_details"> विश्वम्भर: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  पश्वायुर्वेदः </a><br />
+						<span class="article_details"> मधुप्रियः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> आधुनिकशब्दनिर्माणाय प्रयास: कश्चन </a><br />
-						<span class="article_details"> जनार्दन: &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> ’किमर्थं संस्कृतं पठनीयम् ?’ इत्यस्य उत्तरम् </a><br />
+						<span class="article_details"> अजयसिंहः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्राणायामस्य वैज्ञानिकत्वम् </a><br />
-						<span class="article_details"> विजयमुक्ति-मुनिचन्द्रसूरी &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> मया दृष्टः अन्दमानद्वीपः</a><br />
+						<span class="article_details"> योगिताछत्रे &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> रुदती प्रतिमा </a><br />
-						<span class="article_details"> आङ्ग्लमूलम् – शोभा गाङ्गुली, मराठीअनु – बा.व्य.कुलकर्णी, अनु - रमाधव:  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> प्रिया बन्धवी </a><br />
+						<span class="article_details"> तेलुगुमूलम् – ईरङ्की प्रमीलाराणी, अनु -  सुजाता रमेशः  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
