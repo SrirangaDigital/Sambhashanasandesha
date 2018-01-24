@@ -84442,5 +84442,186 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="02" month="11" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>लोकाय अर्पिताः रामायणचित्रयुक्ताः मूल्याङ्काः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अवधानं क्यात् संवहनसाधनानां विषये अपि</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>को नाम सोमः?</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0010</page>
+				<allauthors>
+					<author type="1" sal="डा।।">सचिन कठाळे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आशा</title>
+				<feature>कथा</feature>
+				<page>0011-0017</page>
+				<allauthors>
+					<author type="1" sal="">गुप्तचन्द्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`कतिपय'शब्दः विशेषणत्वेनापि - भाषापाकः - २५०</title>
+				<feature>भाषापाकः</feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>निकषोपलः - २७९</title>
+				<feature>निकषोपलः</feature>
+				<page>0019-0020</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मानव! स्वार्थं त्यज त्यज!</title>
+				<feature>गीतम्</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="डा।।">रामेश्वरप्रसादगुप्तः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>उपाधिस्तु महाव्याधिः पक्षता प्राणघातिनी ।......  - चाटुचणकः २२९</title>
+				<feature>चाटुचणकः</feature>
+				<page>0019-0019</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>श्रीभागवतधर्मशास्त्रम् (श्रीकृष्णप्रेमिमहाप्रभुपादसङ्गृहीतम्)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चन्द्रिका (कवितासङ्कलनम्)</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अधिगता अन्तरिक्षगता `सरस्वती'</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="1" sal="">अमृतपुत्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-१८</title>
+				<feature>धारावाहिनी</feature>
+				<page>0025-0030</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भक्तश्रेष्ठः पुण्डलीकः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">आराधना आनन्दः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>किं भगवन्निन्दया?</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="1" sal="">वसन्ताश्यामलम्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आत्मनः परिष्काराय प्रयासः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="3" sal="">मञ्जुनाथेश्वरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२३</title>
+				<feature>कुतुककुटी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कलहस्य फलम् - १</title>
+				<feature>चित्रकथा</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७७</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अयि महिषि! तारय माम्</title>
+				<feature>कथा</feature>
+				<page>0036-0038</page>
+				<allauthors>
+					<author type="1" sal="">काञ्चनीयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Aksharam - प्रकाशितः विजयदशमीविशेषाङ्कः - २०१७</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0038-0038</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0039-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - भविष्यति व्युत्पत्तिवर्गः</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
