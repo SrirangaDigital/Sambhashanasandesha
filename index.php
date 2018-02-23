@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">माघफाल्गुनौ</span><br />
-				<span class="cur_month">फेब्रवरी – २०१७</span>
+				<span class="cur_month">चैत्रमासः</span><br />
+				<span class="cur_month">मार्च् – २०१८</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  पश्वायुर्वेदः </a><br />
-						<span class="article_details"> मधुप्रियः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  नैसर्गिकसौन्दर्यस्य खनिः खृगिस्थानम् </a><br />
+						<span class="article_details"> कृष्णन् वेङ्कटरामन् &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> ’किमर्थं संस्कृतं पठनीयम् ?’ इत्यस्य उत्तरम् </a><br />
-						<span class="article_details"> अजयसिंहः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> भारतीयज्ञानपरम्परायाः दर्पणौ </a><br />
+						<span class="article_details"> भरतेशः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> मया दृष्टः अन्दमानद्वीपः</a><br />
-						<span class="article_details"> योगिताछत्रे &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अष्टोत्तरशतम् उपनिषदः</a><br />
+						<span class="article_details"> आरुणिः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्रिया बन्धवी </a><br />
-						<span class="article_details"> तेलुगुमूलम् – ईरङ्की प्रमीलाराणी, अनु -  सुजाता रमेशः  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> सङ्गणकचालकः </a><br />
+						<span class="article_details"> मूलम् – डा.नलिनी मूर्तिः, अनुवादः – मञ्जुनाथ ए.एन्  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
