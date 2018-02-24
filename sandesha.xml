@@ -84623,5 +84623,223 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="03" month="12" year="2017">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>परिसरमालिन्यराक्षसस्य आलिङ्गनम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वैदिकं गणितशास्त्रम्</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="डा।।">नरेशः कुन्तूरु</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कथनं भवतु एवम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0007-0007</page>
+				<allauthors>
+					<author type="1" sal="">मधुपः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जीवने कष्टादीनामपि स्थानं स्यात्</title>
+				<feature>लेखनम्</feature>
+				<page>0008-0010</page>
+				<allauthors>
+					<author type="1" sal="">नीलकण्ठशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मुख्य न्यायालयः (गुर्जरमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0011-0013;0029-0029</page>
+				<allauthors>
+					<author type="1" sal="">गिरीशगणात्रा</author>
+					<author type="2" sal="">देवार्यः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>बुधशतकम्</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0014-0014</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्रीरमणमहर्षिचरितम्-रामकृष्णवारियर्, के.</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0014-0014</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८०</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0016</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नववर्षेऽस्मिन्</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा प्रमोदः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>यदीच्छति युवा स्वीये जीविते सुयशो महत् ।......  - चाटुचणकः २३०</title>
+				<feature>चाटुचणकः</feature>
+				<page>0015-0015</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>हृदयस्वास्थ्याय `विट्ठलः' - वैद्यकीयं परीक्षणम्</title>
+				<feature>लेखनम्</feature>
+				<page>0017-0019</page>
+				<allauthors>
+					<author type="3" sal="">चन्द्रनाथः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विशिष्टः चित्रपतङ्गः</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">पुट्टराजुः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कथानिकाद्वयम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0020-0021</page>
+				<allauthors>
+					<author type="1" sal="">चक्रपाणिः श्रीनिवासन्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शून्यस्य प्रथमः लिखितोल्लेखः वक्षालीमातृकायाम्</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="1" sal="">पुण्डलीकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-१९</title>
+				<feature>धारावाहिनी</feature>
+				<page>0024-0029</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`जयन्ती'पदस्य साधुता - भाषापाकः - २५१</title>
+				<feature>भाषापाकः</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>अप्रतिमशूरः भण्डारीरामः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">नरेशकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मयि ते, तेषु चाप्यहम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="1" sal="">कोल्हटकरः, म. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सज्जनतायाः फलम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="1" sal="">विजया भट्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२४</title>
+				<feature>कुतुककुटी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कलहस्य फलम् - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७८</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>स च निरतिशयानन्दक्षणः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0036-0036</page>
+				<allauthors>
+					<author type="1" sal="">शैलजाहोम्बाळि</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुखमरणाय अपि सन्नाहः....</title>
+				<feature>लेखनम्</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">राजकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - भविष्यति व्युत्पत्तिवर्गः</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
