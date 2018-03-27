@@ -84841,5 +84841,182 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="04" month="01" year="2018">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नवत्वं परिरक्षणीयं सदा</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>साञ्चीस्तूपाः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0010</page>
+				<allauthors>
+					<author type="1" sal="">विश्वम्भरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कर्मसु कौशलम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="3" sal="">अमृतपुत्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रसन्नतायाः कारणम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="3" sal="">आनन्दनन्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>धैर्यवती महिला</title>
+				<feature>बालमोदिनी</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="3" sal="">सुधीरगुप्तः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२५</title>
+				<feature>कुतुककुटी</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - १</title>
+				<feature>चित्रकथा</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आधुनिकशब्दनिर्माणाय - प्रयासः कश्चन</title>
+				<feature>लेखनम्</feature>
+				<page>0015-0020</page>
+				<allauthors>
+					<author type="1" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`परम्परा' शब्दस्य व्युत्पत्तिः - भाषापाकः - २५२</title>
+				<feature>भाषापाकः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>रुदती प्रतिमा (आङ्ग्लमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0022-0025</page>
+				<allauthors>
+					<author type="1" sal="">शोभा गाङ्गुली</author>
+					<author type="2" sal="">कुळकर्णी, बा. व्य.</author>
+					<author type="2" sal="">रमाधवः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सूर्यः स्थिरः, न ग्रासः सूर्यस्य</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0025-0025</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्राणायामस्य वैज्ञानिकत्वम्</title>
+				<feature>लेखनम्</feature>
+				<page>0026-0028</page>
+				<allauthors>
+					<author type="1" sal="">विजयमुक्ति-मुनिचन्द्रसूरी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-२०</title>
+				<feature>धारावाहिनी</feature>
+				<page>0029-0033</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>तद् दूरे तदु अन्तिके-पं कल्याणकीर्तिविजयगणी</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>स्नेहसौरभम् (कवितासङ्ग्रहः)-रविपुरोहितः, इला पारीक, मीनाक्षीगर्ग</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८१</title>
+				<feature>निकषोपलः</feature>
+				<page>0035-0036</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतं हि संस्कृतिः</title>
+				<feature>गीतम्</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">श्रीहरिजाळूकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>रिक्ता कर्मणि पटवस्तृप्तास्त्वलसा भवन्ति ये भृत्याः ।......  - चाटुचणकः २३१</title>
+				<feature>चाटुचणकः</feature>
+				<page>0035-0035</page>
+                <allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २७९</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - सद्यः प्रकाशितानि चित्रकथापुस्तकानि</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 	</volume>
 </SS>
