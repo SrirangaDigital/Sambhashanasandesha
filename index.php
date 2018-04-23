@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">वैशाखमासः</span><br />
-				<span class="cur_month">एप्रिल्  – २०१८</span>
+				<span class="cur_month">वैशाखाधिकज्येष्ठमासौ</span><br />
+				<span class="cur_month">मे – २०१८</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  अप्रकाशितं किञ्चन नाटकं रसिकरञ्जनी </a><br />
-						<span class="article_details"> जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span>  एकाग्रतायाः रहस्यम् </a><br />
+						<span class="article_details"> विमलेशकुमारमिश्रः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> ऋग्वेदस्थः सृष्टिविचारः उत्कृष्टः प्रगल्भश्च </a><br />
-						<span class="article_details"> गजाननः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> त्यदादीनि तदीयानि </a><br />
+						<span class="article_details"> उमामहेश्वर: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> संस्कृतेन साधर्म्यं वहन्त्यः युरोपीयभाषाः</a><br />
-						<span class="article_details"> सचिन कठाळे &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> अग्रे शक्तिः पृष्ठे भक्तिः</a><br />
+						<span class="article_details"> कमलेशकुमारचोकसी &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> आत्महत्या अहोस्वित् ….. </a><br />
-						<span class="article_details"> तेलुगुमूलम् – अप्पशय्या नवीनः, अनु – तङ्गेड जनार्दनरावः  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> सङ्ख्या ८८८ </a><br />
+						<span class="article_details"> तमिळुमूलम् – कल्किकृष्णमूर्तिः, अनु – सौम्याजानिः  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
