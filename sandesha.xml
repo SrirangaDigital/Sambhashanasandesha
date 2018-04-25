@@ -85436,7 +85436,7 @@
 				<page>0011-0014</page>
 				<allauthors>
 					<author type="1" sal="">यशस्विनी भट्, एस्.</author>
-					<author type="2" sal="">सुजाता रमेश</author>
+					<author type="2" sal="">सुजाता रमेशः</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -86157,6 +86157,192 @@
 			</entry>
 			<entry>
 				<title>Samskrita Bharati - सद्यः प्रकाशितानि चित्रकथापुस्तकानि</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="05" month="02" year="2018">
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>स्वमानरक्षणं चिन्तनीयम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पश्वायुर्वेदः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="">मधुप्रियः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`किमर्थं संस्कृतं पठनीयम्?' इत्यस्य उत्तरम्</title>
+				<feature>लेखनम्</feature>
+				<page>0009-0010</page>
+				<allauthors>
+					<author type="1" sal="">अजयसिंहः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रिया बान्धवी (तेलुगुमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0011-0018</page>
+				<allauthors>
+					<author type="1" sal="">ईरङ्की प्रमीलाराणी</author>
+					<author type="2" sal="">सुजाता रमेशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८२</title>
+				<feature>निकषोपलः</feature>
+				<page>0019-0020</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आनन्ददृश्यम्</title>
+				<feature>गीतम्</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">श्रीकुमारः, वि. जे.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मितव्ययेनैव जनस्य सौरव्यं देशाभिवृद्धिश्च मितव्ययेन ।......  - चाटुचणकः २३२</title>
+				<feature>चाटुचणकः</feature>
+				<page>0019-0019</page>
+                <allauthors />
+			</entry>
+			<entry>
+			<title>Samskrita Bharati - लेखकानुवादकवर्गः २०१८</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मया दृष्टः अन्दमानद्वीपः</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="1" sal="">योगिता छत्रे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ग्रन्थिलम् - भागः-२१</title>
+				<feature>धारावाहिनी</feature>
+				<page>0024-0029</page>
+				<allauthors>
+					<author type="1" sal="">सरस्वतीनटराजन्</author>
+					<author type="2" sal="">जनार्दनः श्यामला च</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>द्विर्वचनस्थले चिन्तनम् - भाषापाकः - २५३</title>
+				<feature>भाषापाकः</feature>
+				<page>0030-0030</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>श्रेष्ठानि तत्त्वानि</title>
+				<feature>बालमोदिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">गुरुमूर्तिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अधिकमूल्यकं चित्रम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="3" sal="">राजारामवर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सौभाग्यवती भव</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="3" sal="">सचिनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२६</title>
+				<feature>कुतुककुटी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - २</title>
+				<feature>चित्रकथा</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Chinmaya Vishwavidyapeeth</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सुब्रह्मण्येन रक्षितोऽहम्</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0036-0036</page>
+				<allauthors>
+					<author type="1" sal="">रामस्वामिव्यासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अहो! मातृभावस्य महिमातिरेकः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0036-0036</page>
+				<allauthors>
+					<author type="1" sal="डा।।">मेनोन्, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २८०</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रवेशपरीक्षासूचना - २०१८</title>
 				<feature>विज्ञापिकाः</feature>
 				<page>0044-0044</page>
 				<allauthors />
