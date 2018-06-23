@@ -18583,7 +18583,7 @@
 				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
 				<page>0027-0027</page>
 				<allauthors>
-					<author type="1" sal="">अनन्त हेब्बार</author>
+					<author type="1" sal="">अनन्त हेब्बारः</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -86535,6 +86535,193 @@
 			</entry>
 			<entry>
 				<title>Rashtriya Sanskrit Sansthan, New Delhi - अस्थायि-शिक्षकनियुक्तिः</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="07" month="04" year="2018">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>नैतिकाधःपतनस्य पराकाष्ठा</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अप्रकाशितं किञ्चन नाटकम् रसिकरञ्जनी</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0008</page>
+				<allauthors>
+					<author type="1" sal="डा।।">मैसूरु नागराजशर्म</author>
+					<author type="3" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २८२</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ऋग्वेदस्थः सृष्टिविचारः उत्कृष्टः प्रगल्भश्च</title>
+				<feature>लेखनम्</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="3" sal="">गजाननः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८४</title>
+				<feature>निकषोपलः</feature>
+				<page>0011-0012</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जय भारतजननी</title>
+				<feature>गीतम्</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">अनन्त हेब्बारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>उत्तिष्ठ पश्य मे पुत्र झञ्झावातः प्रसर्पति ।......  - चाटुचणकः २३४</title>
+				<feature>चाटुचणकः</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="1" sal="">वागीशशास्त्री</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आत्महत्या आहोस्वित् ....? (तेलुगुमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0013-0019</page>
+				<allauthors>
+					<author type="1" sal="">अम्पशय्या नवीनः</author>
+					<author type="2" sal="">तङ्गेड जनार्दनरावः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Chinmaya Vishwavidyapeeth</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0020-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>संस्कृतेन साधर्म्यं वहन्त्यः युरोपीयभाषाः</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="1" sal="डा।।">सचिन कठाळे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्द्रमसः पर्वतः - भागः-२</title>
+				<feature>धारावाहिनी</feature>
+				<page>0025-0030</page>
+				<allauthors>
+					<author type="1" sal="">विभूतिभूषणवन्द्योपाध्यायः</author>
+					<author type="2" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गर्वराहित्यम् आदराय</title>
+				<feature>बालमोदिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">काञ्चनीयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>विशिष्टं माहात्म्यम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="3" sal="">विश्वामित्रशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>रजतदर्पणः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="3" sal="">आदर्शकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १२८</title>
+				<feature>कुतुककुटी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - ४</title>
+				<feature>चित्रकथा</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`द्वन्द्व'स्य बहवः अर्थाः - भाषापाकः - २५५</title>
+				<feature>भाषापाकः</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors> 
+			</entry>
+			<entry>
+				<title>प्रकाशमार्गः - डा. प्रकाश आमटे</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्रीरामोदन्तम् - एम्. के. रवीन्द्रन्</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सन्मित्रलक्षणमिदम्</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हेमलता, एस्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Chinmaya Vishwavidyapeeta</title>
 				<feature>विज्ञापिकाः</feature>
 				<page>0044-0044</page>
 				<allauthors />
