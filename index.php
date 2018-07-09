@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">वैशाखाधिकज्येष्ठमासौ</span><br />
-				<span class="cur_month">जून् – २०१८</span>
+				<span class="cur_month">निजज्येष्ठाषाढौ</span><br />
+				<span class="cur_month">जुलै – २०१८</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span>  ई-भारतीसम्पत् (ई-संस्कृतग्रन्थसङ्ग्रहः)</a><br />
-						<span class="article_details"> सायन्तमाहातो &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> किम् इयमेव सञ्जीवनी ?</a><br />
+						<span class="article_details"> सचिन कठाळे &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> भक्तिः सद्भक्तः च </a><br />
-						<span class="article_details"> इन्दुशेखरशस्त्री &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> गीता बुद्धतत्त्वं च </a><br />
+						<span class="article_details"> अजयसिंहः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> सार्थकजीवनाय केचन बिन्दवः</a><br />
-						<span class="article_details"> मधुकरः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> भारतवर्षं प्रति बौद्धमतस्य प्रत्यागमनम्</a><br />
+						<span class="article_details"> आर्. वैद्यनाथन् &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> चिन्मयी </a><br />
-						<span class="article_details"> कन्नडमूलम् - त्रिवेणी , अनु – विजया भट्, यू.एस्.ए.  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> जीवन्मार्गदर्शकाः </a><br />
+						<span class="article_details"> तेलुगुमूलम् - काटुकोज्वल मनोहराचारि, अनु - सुजाता रमेश:  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
