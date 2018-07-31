@@ -36,9 +36,10 @@
 
 						Sambhashana Sandesha Subscription<br />
 						Samskrita Bharati<br />
-						4204 Latimer Avenue<br />
-						San Jose, CA 95130<br />
-						USA<br /><br />
+						263 Ridgeview Drive <br />
+						Tracy<br />
+						CA - 95377<br />
+						U.S.A<br /><br />
 
 						For any other detail contact sandesha@samskritabharatiusa.org
 					</p>
