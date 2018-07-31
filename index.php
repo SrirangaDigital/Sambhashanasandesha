@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">निजज्येष्ठाषाढौ</span><br />
-				<span class="cur_month">जुलै – २०१८</span>
+				<span class="cur_month">आषाढश्रावणौ</span><br />
+				<span class="cur_month">अगस्ट् – २०१८</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> किम् इयमेव सञ्जीवनी ?</a><br />
-						<span class="article_details"> सचिन कठाळे &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> मैसूरुशैलीया चित्रकला</a><br />
+						<span class="article_details"> डा.मैसूरुनागराजशर्मा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> गीता बुद्धतत्त्वं च </a><br />
-						<span class="article_details"> अजयसिंहः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> ताम्बूलमञ्जरी </a><br />
+						<span class="article_details"> जनार्दनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> भारतवर्षं प्रति बौद्धमतस्य प्रत्यागमनम्</a><br />
-						<span class="article_details"> आर्. वैद्यनाथन् &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> कालिदासादीनां नाम लोकान्तरेऽपि</a><br />
+						<span class="article_details"> वेणुप्रियः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> जीवन्मार्गदर्शकाः </a><br />
-						<span class="article_details"> तेलुगुमूलम् - काटुकोज्वल मनोहराचारि, अनु - सुजाता रमेश:  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> प्रत्यागमनम् </a><br />
+						<span class="article_details"> कन्नडमूलम् – सरस्वती शङ्करः, अनु - विजयाभट्  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
