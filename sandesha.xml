@@ -86926,6 +86926,200 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="09" month="06" year="2018">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>व्यवहारमालिन्यम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ई-भारतीसम्पत् (ई-संस्कृतग्रन्थसङ्ग्रहः)</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="">सायन्तमाहातो</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २८४</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दुर्व्यवहारस्य निन्दनम्</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">वेदान्तं कृष्णमाचारिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दृढविश्वासः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="1" sal="">लीलावती कृष्णमूर्तिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कः धन्यः, कः मान्यः</title>
+				<feature>कथा</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="डा।।">कमलेश कुमार चोकसी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्द्रमसः पर्वतः - भागः-४</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0015</page>
+				<allauthors>
+					<author type="1" sal="">विभूतिभूषणवन्द्योपाध्यायः</author>
+					<author type="2" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>परस्परादीनां रूपाणि - भाषापाकः - २५७</title>
+				<feature>भाषापाकः</feature>
+				<page>0016-0016</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८६</title>
+				<feature>निकषोपलः</feature>
+				<page>0017-0018</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गृहे गृहे संस्कृतम्</title>
+				<feature>गीतम्</feature>
+				<page>0017-0017</page>
+				<allauthors>
+					<author type="1" sal="">नरसिंहय्यः, वे.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>आस्ते विधुः परमनिर्वृत एव मौलौ शम्भोरिति त्रिजगतीजनचित्तवृत्तिः ।......  - चाटुचणकः २३६</title>
+				<feature>चाटुचणकः</feature>
+				<page>0017-0017</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>भक्तिः सद्भक्तः च</title>
+				<feature>लेखनम्</feature>
+				<page>0019-0020</page>
+				<allauthors>
+					<author type="1" sal="">इन्दुशेखरशास्त्री</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>रामायणमहाभारतसारविवेकः-कालूरि हनुमन्तरावः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अभिनवप्रहेलिकाः-विद्वान् उमाकान्तभट्टः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0021-0021</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सार्थकजीवनयापनाय केचन बिन्दवः</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="3" sal="">मधुकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चिन्मयी (कन्नडमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0024-0029</page>
+				<allauthors>
+					<author type="1" sal="">त्रिवेणी</author>
+					<author type="2" sal="">विजयाभट्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भित्तौ आसीत् प्रमाणम्</title>
+				<feature>लेखनम्</feature>
+				<page>0030-0033</page>
+				<allauthors>
+					<author type="3" sal="">निरञ्जनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राजविरोधनिवारकाणि शस्त्राणी</title>
+				<feature>बालमोदिनी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="3" sal="">राजकुमारशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जन्मदिनस्य उपायनम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0035-0036</page>
+				<allauthors>
+					<author type="3" sal="">धीरजः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १३०</title>
+				<feature>कुतुककुटी</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - ६</title>
+				<feature>चित्रकथा</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati - Admission Notice-2018-2019</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 		<issue inum="10" month="special" year="2017">
 			<entry>
 				<title>Srinathjis</title>
