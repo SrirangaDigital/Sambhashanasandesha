@@ -87120,6 +87120,218 @@
 				<allauthors />
 			</entry>
 		</issue>
+		<issue inum="10" month="07" year="2018">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>किं भों!!</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>किम् इयमेव सञ्जीवनी?</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0009</page>
+				<allauthors>
+					<author type="3" sal="डा।।">सचिन कठाळे</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २८५</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0010-0010</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्द्रमसः पर्वतः - भागः-५</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0015</page>
+				<allauthors>
+					<author type="1" sal="">विभूतिभूषणवन्द्योपाध्यायः</author>
+					<author type="2" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वन्दनेच्छुकम् - श्रीमनफरा (कच्छ) शान्ति-जिन-आराधक मण्डलम्</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0014-0014</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Kavikulaguru Kalidasa Sanskrit University, Maharashtra - Admission Notice-2018-2019</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>गीता बुद्धतत्त्वं च</title>
+				<feature>लेखनम्</feature>
+				<page>0017-0018</page>
+				<allauthors>
+					<author type="1" sal="">अजयसिंहः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>को नाम धर्मः?</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0018-0018</page>
+				<allauthors>
+					<author type="3" sal="">कुमारसेनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८७</title>
+				<feature>निकषोपलः</feature>
+				<page>0019-0020</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चल रे पान्थ! चल</title>
+				<feature>गीतम्</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>एकस्या हि गृहे श्वश्वाः निर्वाहो दुष्करो यदा ।......  - चाटुचणकः २३७</title>
+				<feature>चाटुचणकः</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="डा।।">प्रशस्यमित्रशास्त्री</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अकारान्तस्य - भाषापाकः - २५८</title>
+				<feature>भाषापाकः</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतवर्षं प्रति बौद्धमतस्य प्रत्यागमनम्</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0023</page>
+				<allauthors>
+					<author type="1" sal="">वैद्यनाथन्, आर्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जीवन्मार्गदर्शकाः (तेलुगुमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0024-0028</page>
+				<allauthors>
+					<author type="1" sal="">काटुकोज्वल मनोहराचारि</author>
+					<author type="2" sal="">सुजाता रमेशः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati - Admission Notification-2018-2019</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0026-0026</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्रद्धाभावस्य उद्दीपनम्</title>
+				<feature>लेखनम्</feature>
+				<page>0029-0031</page>
+				<allauthors>
+					<author type="1" sal="">जनार्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अनितरसाधारणं सामर्थ्यम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="3" sal="">शिवकुमारस्वामी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>देशभक्तिः गरीयसी</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="3" sal="">मञ्जुनाथः, ए. एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नैतिकबलस्य प्रभावः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="3" sal="">अलका महेश लाटकरः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १३१</title>
+				<feature>कुतुककुटी</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - ७</title>
+				<feature>चित्रकथा</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Chinmaya Vishwavidyapeet</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चोमस्य ढक्का-कोक्कड अनन्तपद्मनाभशास्त्री</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्री शारदादशकं सनातनधर्मतत्त्वशतकं च-डा।। मङ्गेशवेङ्कटेशनाडकर्णिः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Karnataka Bank</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
 		<issue inum="10" month="special" year="2017">
 			<entry>
 				<title>Srinathjis</title>
