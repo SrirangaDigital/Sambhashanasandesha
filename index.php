@@ -76,8 +76,8 @@
 				<span class="cur_month">सद्य: प्रकाशितम्</span><br />
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
-				<span class="cur_month">आश्वयुजमास:</span><br />
-				<span class="cur_month">अक्टोबर् – २०१८</span>
+				<span class="cur_month">कार्त्तिकमासः</span><br />
+				<span class="cur_month">नवंबर् – २०१८</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> भारतरत्नम् अटलबिहारीवाजपेयी</a><br />
-						<span class="article_details"> सचिनः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> पुनारोपणतन्त्रं भारतमूलम् </a><br />
+						<span class="article_details"> काञ्चनीय: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> विद्या राजसु पूजिता, न तु धनम् </a><br />
-						<span class="article_details"> वारिजा अडिगा &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> विविक्तदेशसेवित्वम् अरतिर्जनसंसदि </a><br />
+						<span class="article_details"> म.वि.कोल्हटकर: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्लावने शिष्टा मानवता</a><br />
-						<span class="article_details"> डा.हरिकृष्णन् वि.पि &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> विरूपाक्षमन्दिरस्य प्रतिबिम्बवैचित्र्यम्</a><br />
+						<span class="article_details"> अनिकेतन: &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> अण्डम् </a><br />
-						<span class="article_details"> आङ्ग्लमूलम् – एण्डि वेर्, अनु – सीता  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> ज्वलच्छाया </a><br />
+						<span class="article_details"> आङ्ग्लमूलम् - मोनिका नन्दारपु, अनु – सीता  &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
