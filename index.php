@@ -90,12 +90,12 @@
 						<span class="article_details"> विष्वक्सेनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> संस्कृतभाषायाः शुद्धतासंरक्षणे सद्यस्त्वसम्पादने च पाणिनीयस्य आवश्यकता </a><br />
-						<span class="article_details"> डा.यशस्वी &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> प्रयागस्य प्रयागता </a><br />
+						<span class="article_details"> वेणीमाधवशर्मा &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्रयागस्य प्रयागता</a><br />
-						<span class="article_details"> वेणीमाधवशर्मा &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> कैलासयात्रा</a><br />
+						<span class="article_details">  सुनीशनम्बूतिरिः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><span class="icon fa-share"></span> वास्तविकं सुखम् </a><br />
