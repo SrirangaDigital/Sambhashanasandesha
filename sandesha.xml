@@ -78849,7 +78849,7 @@
 				<feature>गीतम्</feature>
 				<page>0015-0015</page>
 				<allauthors>
-					<author type="1" sal="">परमानन्दशर्मा प्रमोदः</author>
+					<author type="1" sal="">परमानन्दशर्मा `प्रमोदः'</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -85032,7 +85032,7 @@
 				<feature>गीतम्</feature>
 				<page>0087-0087</page>
 				<allauthors>
-					<author type="1" sal="">परमानन्दशर्मा प्रमोदः</author>
+					<author type="1" sal="">परमानन्दशर्मा `प्रमोदः'</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -85844,7 +85844,7 @@
 				<feature>गीतम्</feature>
 				<page>0015-0015</page>
 				<allauthors>
-					<author type="1" sal="">परमानन्दशर्मा प्रमोदः</author>
+					<author type="1" sal="">परमानन्दशर्मा `प्रमोदः'</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -87529,6 +87529,243 @@
 			</entry>
 			<entry>
 				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Karnataka Bank</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="12" month="09" year="2018">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>शत्रुतां जयेत् मैत्री</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>विश्वव्यापी अयं गणेशोत्सवः</title>
+				<feature>लेखनम्</feature>
+				<page>0006-0007</page>
+				<allauthors>
+					<author type="1" sal="">सचिनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २८७</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0008-0008</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मूषकेभ्यः लवणजलम्</title>
+				<feature>लेखनम्</feature>
+				<page>0009-0010</page>
+				<allauthors>
+					<author type="1" sal="">अहोरात्रं नटेशपोलेपल्लि "अहोरात्रः"</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Uttarkhanda Sanskrit Academy, Uttarkhanda - अखिलभारतीयसंस्कृत-लघुनाटक-लघुकथा-समस्यापूर्ति-लेखनप्रतियोगिताः (२०१८-२०१९)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>न किञ्चित् निरुपयोगि</title>
+				<feature>बालमोदिनी</feature>
+				<page>0011-0011</page>
+				<allauthors>
+					<author type="3" sal="">रमाधवः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुवर्णनाणकम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0012-0012</page>
+				<allauthors>
+					<author type="1" sal="">अमृतपुत्रः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राष्ट्रभक्तः बालः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0013-0013</page>
+				<allauthors>
+					<author type="3" sal="">मञ्जुनाथः, ए. एन्.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १३३</title>
+				<feature>कुतुककुटी</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भगवान् शिवः - ९</title>
+				<feature>चित्रकथा</feature>
+				<page>0014-0014</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - २८९</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0016</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>प्रवहतु जीवनधारा</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>शान्तिद्विजः प्रकुरुते बहुदीपशान्तिं तत्रत्यबालवनितामदनार्तिशान्तिम् ।......  - चाटुचणकः २३९</title>
+				<feature>चाटुचणकः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">तोलकविः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्द्रमसः पर्वतः - भागः-७</title>
+				<feature>धारावाहिनी</feature>
+				<page>0017-0021</page>
+				<allauthors>
+					<author type="1" sal="">विभूतिभूषणवन्द्योपाध्यायः</author>
+					<author type="2" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नूतनं संस्कृतचलनचित्रं पुण्यकोटिः</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0025</page>
+				<allauthors>
+					<author type="1" sal="">भगीरथशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पुराणे पुण्यकोटिकथा</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0023-0023</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>`एकैकः' इत्यस्य आन्तर्यम् - भाषापाकः - २६०</title>
+				<feature>भाषापाकः</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>जगतः मूलभूतं चिकित्साशास्त्रम् आयुर्वेदः</title>
+				<feature>लेखनम्</feature>
+				<page>0027-0028</page>
+				<allauthors>
+					<author type="1" sal="डा।।">अस्थाना, बि. के.</author>
+					<author type="2" sal="">काञ्चनीयः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Samskrita Bharati - शलाका परीक्षा - २०१८</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0029-0029</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अन्तिमं पर्णम् (आङ्ग्लमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0030-0033</page>
+				<allauthors>
+					<author type="1" sal="">हेन्रि, ओ.</author>
+					<author type="2" sal="">शारदावरदराजन्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>परिसरनीतिशतकम्-मङ्गेशवेङ्कटेशनाडकर्णिः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>गान्धितत्त्वशतकम्-मङ्गेशवेङ्कटेशनाडकर्णिः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0034-0034</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>The Campco Ltd., Mangaluru</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>रैल्‌यानेे प्रसवप्रसङ्गः</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0036-0036</page>
+				<allauthors>
+					<author type="1" sal="">गजाननः, अ.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sambhashanasandesha - राष्ट्रपतिपुरस्काराय विदुषां नामानि उद्घोषितानि</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0041</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Aksharam - प्रकाशयिष्यते विजयदशमीविशेषाङ्कः - २०१८</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0040-0040</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Uttarkhanda Sanskrit Academy, Uttarkhanda - अखिलभारतीया शलाका परीक्षा (२०१८-२०१९)</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0041-0041</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0042-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Ideal Ice Cream</title>
 				<feature>विज्ञापिकाः</feature>
 				<page>0043-0043</page>
 				<allauthors />
