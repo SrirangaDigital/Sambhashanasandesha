@@ -77,7 +77,7 @@
 				<span class="cur_month">Current Issue</span><br />
 				<img src="php/images/current_issue.jpg" alt="Current Issue - November 2017" /><br />
 				<span class="cur_month">मार्गशीर्षमासः</span><br />
-				<span class="cur_month">डिसेम्बर् – २०१८</span>
+				<span class="cur_month">जनवरी – २०१९</span>
 			</div>
 			<div class="cur_text">
 				<div class="inthisissue">			
@@ -86,20 +86,20 @@
 				</div>
 				<div class="inthis_left">
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वर्णपरिवर्तनक्षमं स्थलपद्मम् </a><br />
-						<span class="article_details"> विष्वक्सेनः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> आत्मपरिष्कारात् सर्वविधपरिवर्तनम् </a><br />
+						<span class="article_details"> मनोजदासः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> प्रयागस्य प्रयागता </a><br />
-						<span class="article_details"> वेणीमाधवशर्मा &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> चिकित्सालयभित्तौ संस्कृतश्लॊकः </a><br />
+						<span class="article_details"> जीवनः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> कैलासयात्रा</a><br />
-						<span class="article_details">  सुनीशनम्बूतिरिः &nbsp;|&nbsp; लेखनम्</span>
+						<a href="#"><span class="icon fa-share"></span> सम्प्रदायिकशास्त्रीयनृत्यं मनुकुलस्य उपायनम्</a><br />
+						<span class="article_details">  श्रीमती रूपाविजयः &nbsp;|&nbsp; लेखनम्</span>
 					</div>
 					<div class="toc_entry">
-						<a href="#"><span class="icon fa-share"></span> वास्तविकं सुखम् </a><br />
-						<span class="article_details"> एस्.महालिङ्गम्  &nbsp;|&nbsp; कथा</span>
+						<a href="#"><span class="icon fa-share"></span> वाण्याः समस्या </a><br />
+						<span class="article_details"> मूलम् – कोडागिन गौरम्म, अनु -  श्रीमती बि.टि.जि. कृष्ण &nbsp;|&nbsp; कथा</span>
 					</div>
 					<div class="toc_entry">
 						<a href="#"><br />
