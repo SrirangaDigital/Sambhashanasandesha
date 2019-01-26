@@ -54652,7 +54652,7 @@
 				<feature>बालमोदिनी</feature>
 				<page>0040-0041</page>
 				<allauthors>
-					<author type="1" sal="">श्रीरमणशर्मा</author>
+					<author type="1" sal="विद्वान्">श्रीरमणशर्मा</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -89319,6 +89319,237 @@
 			</entry>
 			<entry>
 				<title>Chaturvedi Technologies</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Karnataka Bank</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="05" month="02" year="2019">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सम्भाषणसन्देशस्य ई-पत्रिका</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0003-0003</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>अनुकरणार्हं जीवनम्</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0006-0006</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - २९२</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0007-0007</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सहस्रनामतस्तुल्यम्</title>
+				<feature>लेखनम्</feature>
+				<page>0008-0009;021-0021</page>
+				<allauthors>
+					<author type="1" sal="विद्वान्">श्रीरमणशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>राम राम राम = सहस्रनामतुल्यता</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0009-0009</page>
+				<allauthors>
+					<author type="3" sal="श्रीमती">तिल्लैराजकुमारी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>भारतीयं भौतिकशास्त्रम्</title>
+				<feature>लेखनम्</feature>
+				<page>0010-0010</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>न हिंस्यात् सर्वभूतानि</title>
+				<feature>लेखनम्</feature>
+				<page>0011-0014</page>
+				<allauthors>
+					<author type="1" sal="">विजयमुक्तिमुनिचन्द्रसूरी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>नवोदयविद्यालयेषु संस्कृतम्</title>
+				<feature>स्तम्भलेखः</feature>
+				<page>0014-0014</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>निकषोपलः - २९४</title>
+				<feature>निकषोपलः</feature>
+				<page>0015-0016</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>ननु सत्कर्म हि शरणम्</title>
+				<feature>गीतम्</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="डा।।">रामेश्वरप्रसादगुप्तः दतिया</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>खिन्नं चापि चहारसेन रमते स्वीयं मनः सर्वदा ।......  - चाटुचणकः २४४</title>
+				<feature>चाटुचणकः</feature>
+				<page>0015-0015</page>
+				<allauthors>
+					<author type="1" sal="">कोल्हापुरे, प्रा. न. ना.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पत्रम् अश्रूणि च (तमिळुमूलम्)</title>
+				<feature>अनूदितकथा</feature>
+				<page>0017-0021</page>
+				<allauthors>
+					<author type="1" sal="">कल्कि. कृष्णमूर्तिः</author>
+					<author type="2" sal="">सौम्याजानिः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दीर्घजीवनाय एवं क्रियते....</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="1" sal="">रोहितचक्रतीर्थ</author>
+					<author type="3" sal="">रोहिणीकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>`पूजितलक्ष्मीः' इत्यस्य साधुता - भाषापाकः - २६५</title>
+				<feature>भाषापाकः</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्द्रमसः पर्वतः - भागः-१२</title>
+				<feature>धारावाहिनी</feature>
+				<page>0026-0030</page>
+				<allauthors>
+					<author type="1" sal="">विभूतिभूषणवन्द्योपाध्यायः</author>
+					<author type="2" sal="">विश्वजित् प्रामाणिकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Sanskrit Ganga Channel</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0029-0029</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मन्त्रिणः चातुर्यम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0031-0031</page>
+				<allauthors>
+					<author type="3" sal="">श्यामला</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>दृष्टिशोधनम्</title>
+				<feature>बालमोदिनी</feature>
+				<page>0032-0032</page>
+				<allauthors>
+					<author type="3" sal="">सुभाषचक्रवर्ती</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निगृहीतः कः आसीत्?</title>
+				<feature>बालमोदिनी</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="3" sal="डा।।">नारायणशास्त्री काङ्करः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १३८</title>
+				<feature>कुतुककुटी</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>मेधावी राजा - ५</title>
+				<feature>चित्रकथा</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कश्चन यात्राप्रसङ्गः</title>
+				<feature>कथा</feature>
+				<page>0035-0035</page>
+				<allauthors>
+					<author type="1" sal="">कोल्हटकरः, म. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>संस्कृतभारती - अस्मत्समीपे उपलभ्यानि नूतनानि पुस्तकानि</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मौक्तिकद्वयम्-श्रीमद् विजयमुक्तिचन्द्रसूरीश्वराः श्रीमद् विजयमुनिचन्द्रसूरीश्वराः च, मुनिः मुक्तितिलकविजयः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>श्रीरामकीर्तिमहाकाव्यम् (गुजरातीयानुवादसहितम्)-डा।। सत्यव्रतशास्त्री, डा।। मधुसूदनव्यासः</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0037-0037</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0038-0041</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>चित्रवार्ता</title>
+				<feature>वार्ताः</feature>
+				<page>0042-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrita Sansthan, New Delhi - प्रवेश परीक्षा - २०१९ सूचना</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0042-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Rashtriya Sanskrit Vidyapeetha, Tirupati - प्रवेशपरीक्षासूचना - २०१९</title>
 				<feature>विज्ञापिकाः</feature>
 				<page>0043-0043</page>
 				<allauthors />
