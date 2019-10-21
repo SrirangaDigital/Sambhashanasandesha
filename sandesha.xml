@@ -79505,7 +79505,7 @@
 				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
 				<page>0017-0017</page>
 				<allauthors>
-					<author type="1" sal="">रामस्वामी व्यासः</author>
+					<author type="1" sal="प्रा.">रामस्वामी व्यासः</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -82461,7 +82461,7 @@
 				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
 				<page>0008-0008</page>
 				<allauthors>
-					<author type="1" sal="">रामस्वामी व्यासः</author>
+					<author type="1" sal="प्रा.">रामस्वामी व्यासः</author>
 				</allauthors>
 			</entry>
 			<entry>
@@ -91291,6 +91291,229 @@
 			<entry>
 				<title>चित्रवार्ताः</title>
 				<feature>वार्ताः</feature>
+				<page>0043-0043</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>Karnataka Bank Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0044-0044</page>
+				<allauthors />
+			</entry>
+		</issue>
+		<issue inum="02" month="11" year="2019">
+			<entry>
+				<title>Pitambari Products Pvt. Ltd.</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0002-0002</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>प्रतिस्पन्दः</title>
+				<feature>प्रतिस्पन्दः</feature>
+				<page>0004-0004</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>मोदाय यत्नाय च...</title>
+				<feature>सम्पादकीयम्</feature>
+				<page>0005-0005</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>A. V. Hospital, Bangalore</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0006-0006</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ममत्वभावे सति....</title>
+				<feature>लेखनम्</feature>
+				<page>0007-0010</page>
+				<allauthors>
+					<author type="1" sal="">कृष्णकुमारः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अन्तर्ज्वलनम् - भागः-५</title>
+				<feature>धारावाहिनी</feature>
+				<page>0011-0016</page>
+				<allauthors>
+					<author type="1" sal="">साई ब्रह्मानन्दं गोर्तिः</author>
+					<author type="2" sal="प्रा.">तङ्गेड जनार्दनरावः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Aksharam - प्रकाशितः अस्ति विजयदशमीविशेषाङ्कः २०१९</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0016-0016</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>काश्मीरं रक्षितं कृष्णेन</title>
+				<feature>लेखनम्</feature>
+				<page>0017-0018</page>
+				<allauthors>
+					<author type="3" sal="">श्रीरामशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>निकषोपलः - ३०३</title>
+				<feature>निकषोपलः</feature>
+				<page>0019-0020</page>
+				<allauthors>
+					<author type="1" sal="डा।।">वसुदेवः, के. वि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>चन्दिरमामा</title>
+				<feature>गीतम्</feature>
+				<page>0019-0019</page>
+				<allauthors>
+					<author type="1" sal="">परमानन्दशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>पौरेभ्यो न भयं न दण्डपतनं त्रासो न वा भूपतेः ।......  - चाटुचणकः २५३</title>
+				<feature>चाटुचणकः</feature>
+				<page>0019-0019</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ऊर्णनाभः संसारः च</title>
+				<feature>लेखनम्</feature>
+				<page>0021-0021</page>
+				<allauthors>
+					<author type="1" sal="">रुचिलोहनी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>अहो, स्वसंस्कृतिरक्षणे बद्धादरता!!</title>
+				<feature>लेखनम्</feature>
+				<page>0022-0024</page>
+				<allauthors>
+					<author type="1" sal="">मुरलिकृष्णः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सत्यनिष्ठा सुहृत्​प्रीतिः च</title>
+				<feature>बालमोदिनी</feature>
+				<page>0025-0025</page>
+				<allauthors>
+					<author type="3" sal="">चन्दनः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>असंमोहः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0026-0026</page>
+				<allauthors>
+					<author type="3" sal="">अनुपमशर्मा</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>वास्तविकः धनिकः</title>
+				<feature>बालमोदिनी</feature>
+				<page>0027-0027</page>
+				<allauthors>
+					<author type="1" sal="">देवाबुधेलिया</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>कुतुककुटी - १४७</title>
+				<feature>कुतुककुटी</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="1" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>गिफ्फः मान्त्रिकवृक्षः च - ४</title>
+				<feature>चित्रकथा</feature>
+				<page>0028-0028</page>
+				<allauthors>
+					<author type="4" sal="">वेणु वारियत्</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>‘कौरव्य’ विषये..... - भाषापाकः - २७४</title>
+				<feature>भाषापाकः</feature>
+				<page>0029-0029</page>
+				<allauthors>
+					<author type="1" sal="">माणवकः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>सुमङ्गला</title>
+				<feature>कथा</feature>
+				<page>0030-0032</page>
+				<allauthors>
+					<author type="1" sal="प्रा.">रामस्वामी व्यासः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>किं सामान्यम्, किं विशिष्टम्?</title>
+				<feature>लेखनम्</feature>
+				<page>0033-0033</page>
+				<allauthors>
+					<author type="1" sal="डा।।">कमलेश कुमार चोकसी</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>तीर्थेभ्यः तीर्थम्</title>
+				<feature>स्मारं स्मारं सुखिनः स्याम</feature>
+				<page>0034-0034</page>
+				<allauthors>
+					<author type="1" sal="डा।।">हरिकृष्णन्, वि. पि.</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Bisineer Engineering (India) Pvt. Ltd., Bangalore</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0035-0035</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>सचित्रं प्रहेलिकाशतकम्-डा. कुलदीपशर्मा</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>भारतीयं शिक्षादर्शनम्-डा. कुलदीपशर्मा</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>ज्ञानसार-महोपाध्याय</title>
+				<feature>ग्रन्थपरिचयः</feature>
+				<page>0036-0036</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>पदरञ्जिनी - ३०१</title>
+				<feature>पदरञ्जिनी</feature>
+				<page>0037-0037</page>
+				<allauthors>
+					<author type="1" sal="">पद्याणगोविन्दभट्टः</author>
+				</allauthors>
+			</entry>
+			<entry>
+				<title>Vastra, Indraprasta, Panaaji, Goa</title>
+				<feature>विज्ञापिकाः</feature>
+				<page>0038-0038</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>वार्ताः</title>
+				<feature>वार्ताः</feature>
+				<page>0039-0042</page>
+				<allauthors />
+			</entry>
+			<entry>
+				<title>With best Compliments from Span Print, Bangalore</title>
+				<feature>विज्ञापिकाः</feature>
 				<page>0043-0043</page>
 				<allauthors />
 			</entry>
